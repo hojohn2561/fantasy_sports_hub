@@ -2,15 +2,17 @@ import requests
 import os
 import json
 import pprint
+from configuration import get_sport_radar_api_key
+from api_configration import get_nfl_2019_season_url_path, get_nfl_2020_season_stats_base_path
 
 with open("api_config.json", 'r') as api_config_file:
     external_api_config_data = api_config_file.read()
 api_config = json.loads(external_api_config_data)
 
 # Get external API configurations from config file
-nfl_2019_season_url_path: str = api_config["nfl_2019_season_url_path"]
-nfl_2020_season_stats_base_path: str = api_config["nfl_2020_season_stats_base_path"]
-api_key: str = api_config["general"]["api_key"]
+nfl_2019_season_url_path: get_nfl_2019_season_url_path()
+nfl_2020_season_stats_base_path: str = get_nfl_2020_season_stats_base_path()
+api_key: str = get_sport_radar_api_key()
 nfl_team_ids = api_config["nfl_team_ids"]
 
 

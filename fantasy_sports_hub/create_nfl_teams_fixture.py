@@ -3,24 +3,13 @@ import os
 import pprint
 import json
 from teams.fixtureConfigs.nflTeamColors import getTeamColors
-
-with open("api_config.json", 'r') as api_config_file:
-    external_api_config_data = api_config_file.read()
-api_config = json.loads(external_api_config_data)
-
-# Get external API configurations from config file
-#api_access_level: str = api_config["general"]["api_access_level"]
-#nfl_api_version: str = api_config["general"]["nfl_api_version"]
-#language_code: str = api_config["general"]["language_code"]
-#api_key: str = api_config["general"]["api_key"]
-#nfl_api_base_url: str = api_config["general"]["nfl_api_base_url"]
-nfl_2019_season_url_path: str = api_config["nfl_2019_season_url_path"]
+from api_configration import get_nfl_2019_season_url_path
 
 
 # Makes HTTP request to external API to get all teams' attributes
 def getNflTeams():
     teams = {"teams": []}
-    url: str = nfl_2019_season_url_path
+    url: str = get_nfl_2019_season_url_path()
     response = requests.get(url=url)
     data = response.json()
 

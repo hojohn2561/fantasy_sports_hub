@@ -2,19 +2,21 @@ import requests
 import os
 import json
 import time
+from configuration import get_sport_radar_api_key
+from api_configration import get_nfl_2020_standings_url_path
 
 with open("api_config.json", 'r') as api_config_file:
     external_api_config_data = api_config_file.read()
 api_config = json.loads(external_api_config_data)
 
 # Get external API configurations from config file
-nfl_2020_standings_url_path: str = api_config["nfl_2020_standings_url_path"]
+nfl_2020_standings_url_path: str = get_nfl_2020_standings_url_path()
 
 
 # Make external API call to get standings
 def getNflStandings(year: int):
     url: str = "https://api.sportradar.us/nfl/official/trial/v6/en/seasons/" + \
-        str(year) + "/standings.json?api_key=2upnb4cv8kcfxya2jffekd4t"
+        str(year) + "/standings.json?api_key=" + get_sport_radar_api_key()
     # print(url)
     response = requests.get(url=url)
     # print(response)

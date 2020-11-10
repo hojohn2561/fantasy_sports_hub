@@ -3,12 +3,13 @@ import os
 import pprint
 import json
 import time
+from configuration import get_sport_radar_api_key
 from datetime import datetime
 
 
 def getNflSchedule(year: int):
     url: str = "https://api.sportradar.us/nfl/official/trial/v6/en/games/" + \
-        str(year) + "/REG/schedule.json?api_key=2upnb4cv8kcfxya2jffekd4t"
+        str(year) + "/REG/schedule.json?api_key=" + get_sport_radar_api_key()
     response = requests.get(url=url)
     print(response)
     data = response.json()

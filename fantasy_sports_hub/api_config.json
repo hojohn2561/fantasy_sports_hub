@@ -2,9 +2,7 @@
   "general": {
     "api_access_level": "trial",
     "nfl_api_version": "v6",
-    "language_code": "en",
-    "api_key": "2upnb4cv8kcfxya2jffekd4t",
-    "nfl_api_base_url": "https://api.sportradar.us/nfl/official"
+    "language_code": "en"
   },
   "nfl_team_ids": [
     {"name": "Cardinals", "id": "de760528-1dc0-416a-a978-b510d20692ff"}, 
@@ -39,8 +37,5 @@
     {"name": "Chiefs", "id": "6680d28d-d4d2-49f6-aace-5292d3ec02c2"}, 
     {"name": "Broncos", "id": "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0"},
     {"name": "Raiders", "id": "1c1cec48-6352-4556-b789-35304c1a6ae1"}
-  ],
-  "nfl_2019_season_url_path": "https://api.sportradar.us/nfl/official/trial/v6/en/seasons/2019/REG/standings/season.json?api_key=2upnb4cv8kcfxya2jffekd4t",
-  "nfl_2020_standings_url_path": "https://api.sportradar.us/nfl/official/trial/v6/en/seasons/2020/standings.json?api_key=2upnb4cv8kcfxya2jffekd4t",
-  "nfl_2020_season_stats_base_path": "https://api.sportradar.us/nfl/official/trial/v6/en/seasons/2020/REG/teams/"
+  ]
 }

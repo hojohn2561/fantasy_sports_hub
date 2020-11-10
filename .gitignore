@@ -1,5 +1,8 @@
 ee https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# configurations
+/fantasy_sports_hub/configuration.py
+
 # dependencies
 /fantasy_sports_hub/fantasy_frontend/node_modules/
 
