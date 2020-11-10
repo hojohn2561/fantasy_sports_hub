@@ -1,0 +1,5 @@
+{
+  "getNflTeamsEndpoint": "http://localhost:8000/api/teams/nfl",
+  "getNflStandingsEndpoint": "http://localhost:8000/api/standings/nfl/",
+  "getNflSchedulesEndpoint" : "http://localhost:8000/api/schedules/nfl/"
+}

@@ -1,0 +1,22 @@
+ee https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/fantasy_sports_hub/fantasy_frontend/node_modules/
+
+# testing
+/fantasy_sports_hub/fantasy_frontend/coverage/
+
+# production
+/fantasy_sports_hub/fantasy_frontend/build/
+
+# misc
+/fantasy_sports_hub/fantasy_frontend/.DS_Store
+/fantasy_sports_hub/fantasy_frontend/env.local
+/fantasy_sports_hub/fantasy_frontend/env.development.local
+/fantasy_sports_hub/fantasy_frontend/env.test.local
+/fantasy_sports_hub/fantasy_frontend/env.production.local
+
+/fantasy_sports_hub/fantasy_frontend/npm-debug.log*
+/fantasy_sports_hub/fantasy_frontend/yarn-debug.log*
+/fantasy_sports_hub/fantasy_frontend/yarn-error.log*
+

@@ -1,0 +1,23 @@
+.standingsSelectForm {
+  margin-bottom: 40px;
+}
+
+.standingsTableHeader {
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.standingsTable {
+  font-size: small;
+  text-align: center;
+}
+
+.standingsTableIcon {
+  width: 10%;
+}
+
+.standingsTableTeamName {
+  margin-left: 14px;
+  margin-top: 4px;
+  color: black;
+}

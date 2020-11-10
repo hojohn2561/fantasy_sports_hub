@@ -1,0 +1,35 @@
+.teamCard {
+  display: inline-block;
+  width: 46%;
+  height: 175px;
+  margin-top: 40px;
+  margin-right: 25px;
+}
+
+.teamCardHeader {
+  height: 60%;
+}
+
+.teamCardLogo {
+  overflow: hidden;
+  height: 100%;
+  width: 19%;
+  position: relative;
+}
+
+.teamCardTitle {
+  color: white;
+}
+
+.teamCardLogoImage {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-70%, -50%);
+  width: 70%;
+}
+
+.teamPageBanner {
+  height: 20%;
+}
