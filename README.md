@@ -26,6 +26,7 @@ This web app utilizes a [React](https://reactjs.org/) front-end and [Django-Rest
 - [Python 3.8.5](https://www.python.org/downloads/)
 - [pip](https://github.com/pypa/pip)
 - The [venv](https://docs.python.org/3/library/venv.html) Python module.
+To get sports data, you need a SportRadar API key. Paste yours into the required location in configuration.py.
 
 ## Contributors
 - [John Ho](https://github.com/hojohn2561)
