@@ -3,15 +3,17 @@ import os
 import pprint
 import json
 import time
-from configuration import get_sport_radar_api_key
 from datetime import datetime
+from configuration import get_sport_radar_api_key
+from api_configration import get_nfl_reg_schedule_url_path
+from db_configuration import get_nfl_schedules_years, nfl_schedule_django_model
 
 
+# Make external API call to get standings
 def getNflSchedule(year: int):
-    url: str = "https://api.sportradar.us/nfl/official/trial/v6/en/games/" + \
-        str(year) + "/REG/schedule.json?api_key=" + get_sport_radar_api_key()
+    url: str = get_nfl_reg_schedule_url_path(year)
     response = requests.get(url=url)
-    print(response)
+    print(year, response)
     data = response.json()
     return data
 
@@ -20,11 +22,11 @@ def getNflSchedule(year: int):
 def createNflScheduleFixture():
     scheduleFixture: list = []
     # Django model for this fixture
-    django_model: str = "schedule.Schedule"
+    django_model: str = nfl_schedule_django_model
     pk: int = 1
 
     # Years to get schedules for
-    schedule_years = [2020, 2019, 2018, 2017, 2016, 2015, 2014]
+    schedule_years = get_nfl_schedules_years()
 
     for year in schedule_years:
         schedule_data: object = getNflSchedule(year)

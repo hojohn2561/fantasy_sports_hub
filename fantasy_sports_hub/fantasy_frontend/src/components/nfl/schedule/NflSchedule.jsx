@@ -143,6 +143,16 @@ class NflSchedule extends Component {
       }
     }
 
+    // Sort games in day by time (1 PM, 4 PM, 8 PM)
+    sortedGamesInWeek.forEach((gameDay) =>
+      gameDay.sort((game1, game2) =>
+        game1["game_datetime"] > game2["game_datetime"]
+          ? 1
+          : game1["game_datetime"] < game2["game_datetime"]
+          ? -1
+          : 0
+      )
+    );
     return sortedGamesInWeek;
   };
 

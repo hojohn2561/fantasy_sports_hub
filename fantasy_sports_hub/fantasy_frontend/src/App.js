@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="shadeWhite">
       <NavBar />
       <main className="container">
         <Switch>

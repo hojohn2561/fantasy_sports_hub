@@ -3,34 +3,26 @@ import os
 import json
 import time
 from configuration import get_sport_radar_api_key
-from api_configration import get_nfl_2020_standings_url_path
-
-with open("api_config.json", 'r') as api_config_file:
-    external_api_config_data = api_config_file.read()
-api_config = json.loads(external_api_config_data)
-
-# Get external API configurations from config file
-nfl_2020_standings_url_path: str = get_nfl_2020_standings_url_path()
+from api_configration import get_nfl_standings_url_path
+from db_configuration import get_nfl_standings_years, nfl_standings_django_model
 
 
 # Make external API call to get standings
 def getNflStandings(year: int):
-    url: str = "https://api.sportradar.us/nfl/official/trial/v6/en/seasons/" + \
-        str(year) + "/standings.json?api_key=" + get_sport_radar_api_key()
-    # print(url)
+    url: str = get_nfl_standings_url_path(year)
     response = requests.get(url=url)
-    # print(response)
+    print(year, response)
     data = response.json()
     return data
 
 
 def createNflStandingsFixture():
     standingsFixture: list = []
-    django_model: str = "standings.Standing"
+    django_model: str = nfl_standings_django_model
     pk: int = 1
 
     # Years to get standings for
-    standings_years = [2020, 2019, 2018, 2017, 2016, 2015]
+    standings_years = get_nfl_standings_years()
 
     for year in standings_years:
         standings_data: object = getNflStandings(year)

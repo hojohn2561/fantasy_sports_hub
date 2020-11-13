@@ -1,2 +1,2 @@
 def get_sport_radar_api_key():
-    return ""  # your api key here for the return value
+    return "2upnb4cv8kcfxya2jffekd4t"

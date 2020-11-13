@@ -37,6 +37,26 @@
   }
 }
 
+.shadeWhite {
+  background-color: #f6f8fa;
+}
+
+.shadeGray {
+  background-color: #c3ccd3;
+}
+
+.lightNavy {
+  background-color: #8ea6b2;
+}
+
+.mediumNavy {
+  background-color: #47646f;
+}
+
+.darkNavy {
+  background-color: #1e383c;
+}
+
 .pageHeader {
   margin-bottom: 50px;
 }
@@ -46,14 +66,9 @@
   padding: 3% 3% 3% 3%;
 }
 
-.scoresCarousel {
-  background-color: #444;
-}
-
 .scoresCarouselItem {
-  background-color: rgb(228, 113, 20);
   height: 75px;
-  border-right: 1px solid #444;
+  border-right: 1px solid #f6f8fa;
 }
 
 .content {

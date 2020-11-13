@@ -36,18 +36,18 @@ class NflTicker extends Component {
           />
         }
       >
-        <div className="scoresCarouselItem">Item 1</div>
-        <div className="scoresCarouselItem">Item 2</div>
-        <div className="scoresCarouselItem">Item 3</div>
-        <div className="scoresCarouselItem">Item 4</div>
-        <div className="scoresCarouselItem">Item 5</div>
-        <div className="scoresCarouselItem">Item 6</div>
-        <div className="scoresCarouselItem">Item 7</div>
-        <div className="scoresCarouselItem">Item 8</div>
-        <div className="scoresCarouselItem">Item 9</div>
-        <div className="scoresCarouselItem">Item 10</div>
-        <div className="scoresCarouselItem">Item 11</div>
-        <div className="scoresCarouselItem">Item 12</div>
+        <div className="scoresCarouselItem shadeGray">Item 1</div>
+        <div className="scoresCarouselItem shadeGray">Item 2</div>
+        <div className="scoresCarouselItem shadeGray">Item 3</div>
+        <div className="scoresCarouselItem shadeGray">Item 4</div>
+        <div className="scoresCarouselItem shadeGray">Item 5</div>
+        <div className="scoresCarouselItem shadeGray">Item 6</div>
+        <div className="scoresCarouselItem shadeGray">Item 7</div>
+        <div className="scoresCarouselItem shadeGray">Item 8</div>
+        <div className="scoresCarouselItem shadeGray">Item 9</div>
+        <div className="scoresCarouselItem shadeGray">Item 10</div>
+        <div className="scoresCarouselItem shadeGray">Item 11</div>
+        <div className="scoresCarouselItem shadeGray">Item 12</div>
       </Carousel>
     );
   }
