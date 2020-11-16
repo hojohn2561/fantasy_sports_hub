@@ -1,20 +1,20 @@
 import React from "react";
-import invalidLeftArrow from "./invalid_left_arrow.png";
-import invalidRightArrow from "./invalid_right_arrow.png";
-import leftArrow from "./valid_left_arrow.png";
-import rightArrow from "./valid_right_arrow.png";
+import ValidLeftArrow from "./ValidLeftArrow";
+import ValidRightArrow from "./ValidRightArrow";
+import InvalidRightArrow from "./InvalidRightArrow";
+import InvalidLeftArrow from "./InvalidLeftArrow";
 
 const CustomButtonGroupAsArrows = ({ next, previous, ...rest }) => {
-  console.log(rest);
+  //console.log(rest);
   const { carouselState } = rest; // rest contains the carousel state
 
   return (
     <React.Fragment>
       <div onClick={previous}>
         {carouselState.currentSlide === 0 ? (
-          <img src={invalidLeftArrow} className="leftTickerArrow" /> // Display greyed out arrow when can't go back
+          <InvalidLeftArrow /> // Display greyed out arrow when can't go back
         ) : (
-          <img src={leftArrow} className="leftTickerArrow" />
+          <ValidLeftArrow handleClick={previous} />
         )}
       </div>
       <div onClick={next}>
@@ -25,9 +25,9 @@ const CustomButtonGroupAsArrows = ({ next, previous, ...rest }) => {
           // Difference between the two properties is the number of possible moves to right
           carouselState.currentSlide ===
           carouselState.totalItems - carouselState.slidesToShow ? (
-            <img src={invalidRightArrow} className="rightTickerArrow" />
+            <InvalidRightArrow />
           ) : (
-            <img src={rightArrow} className="rightTickerArrow" />
+            <ValidRightArrow handleClick={next} />
           )
         }
       </div>
