@@ -16,6 +16,10 @@ class NavBar extends Component {
         dropdownMenu: <NflDropdownMenu />,
       },
       { label: "NBA", to: "/nba", isDropdownOpen: false },
+      { label: "NHL", to: "/nba", isDropdownOpen: false },
+      { label: "NHL", to: "/nhl", isDropdownOpen: false },
+      { label: "MLB", to: "/mlb", isDropdownOpen: false },
+      { label: "MMA", to: "/mma", isDropdownOpen: false },
     ],
   };
 

@@ -1,0 +1,30 @@
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.ticker {
+  margin: auto;
+  width: 95%;
+}
+
+.scoresCarouselItem {
+  height: 77px;
+  border-right: 1px solid #f6f8fa;
+}
+
+.leftTickerArrow {
+  position: absolute;
+  left: 0px;
+  top: 22px;
+  height: 34px;
+  width: 2.5%;
+}
+
+.rightTickerArrow {
+  position: absolute;
+  right: 0px;
+  top: 22px;
+  height: 34px;
+  width: 2.5%;
+}

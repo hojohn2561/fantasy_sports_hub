@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 
-class Nba extends Component {
+class Mlb extends Component {
   state = {};
   render() {
     return (
       <main>
         <div className="container content">
-          <h1>NBA Page</h1>
+          <h1>MLB Page</h1>
         </div>
       </main>
     );
   }
 }
 
-export default Nba;
+export default Mlb;

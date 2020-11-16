@@ -5,7 +5,7 @@ import axios from "axios";
 import apiConfig from "../../apiConfig.json";
 import NflTicker from "./NflTicker";
 import NflHome from "./NflHome";
-import NflScores from "./NflScores";
+import NflScores from "./scores/NflScores";
 import NflStandings from "./standings/NflStandings";
 import NflSchedule from "./schedule/NflSchedule";
 import NflTeams from "./teams/NflTeams";
@@ -103,17 +103,16 @@ class Nfl extends Component {
         <ReactLoading
           type="spin"
           color="#45DEFA"
-          height={"25%"}
-          width={"25%"}
+          height={"20%"}
+          width={"20%"}
         />
       );
     }
 
     return (
-      <div>
+      <main>
         <NflTicker league="nfl" />
-
-        <div className="content">
+        <div className="container content">
           <Switch>
             <Route path="/nfl/scores" component={NflScores} />
             <Route
@@ -137,7 +136,6 @@ class Nfl extends Component {
                 />
               )}
             />
-
             <Route
               path="/nfl/teams/:teamName"
               render={(props) => (
@@ -152,7 +150,7 @@ class Nfl extends Component {
             <Route path="/nfl" component={NflHome} />
           </Switch>
         </div>
-      </div>
+      </main>
     );
   }
 }
