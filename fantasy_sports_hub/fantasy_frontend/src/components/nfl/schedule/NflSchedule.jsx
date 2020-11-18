@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import Select from "../../common/select/Select";
+import GameInfoContent from "./GameInfoContent";
+import "./schedule.css";
 
 class NflSchedule extends Component {
   state = {
     yearSelect: this.props.schedulesData[0][0]["season_year"],
     weekSelectOptions: Array.from({ length: 17 }, (_, i) => "Week " + (i + 1)), // Array with numbers 1 to 17
-    weekSelect: "Week 9",
+    weekSelect: "Week 11",
   };
 
   daysInWeek = [
@@ -62,20 +64,6 @@ class NflSchedule extends Component {
     );
   };
 
-  createWeekSelect = () => {
-    const { weekSelect, weekSelectOptions } = this.state;
-
-    return (
-      <Select
-        id="weekSelect"
-        name="weekSelect"
-        value={weekSelect} // Initially selected option
-        handleChange={this.handleSelectChange}
-        options={weekSelectOptions}
-      />
-    );
-  };
-
   handleSelectChange = (event) => {
     let elementName = event.target.name;
     let updatedValue = event.target.value;
@@ -105,8 +93,8 @@ class NflSchedule extends Component {
           (game) => game["week_num"] === parseInt(weekSelect.split(" ")[1]) // weekSelect.split(" ")[1] is the week number selected
         );
 
-        console.log(gamesInSelectedWeek);
-        console.log(new Date(gamesInSelectedWeek[0]["game_datetime"]));
+        //console.log(gamesInSelectedWeek);
+        //console.log(new Date(gamesInSelectedWeek[0]["game_datetime"]));
 
         gamesInSelectedWeek.forEach((game) => {
           let gameDate = new Date(game["game_datetime"]);
@@ -118,7 +106,7 @@ class NflSchedule extends Component {
           // If new game date, add it to the json. Otherwise, append it to the list of games on that date
           if (!(gameDateFormatted in schedule)) {
             schedule[gameDateFormatted] = [game];
-            console.log(schedule);
+            //console.log(schedule);
           } else {
             schedule[gameDateFormatted].push(game);
           }
@@ -168,18 +156,10 @@ class NflSchedule extends Component {
     );
   };
 
-  getGameDayTime = (game_datetime) => {
-    let gameDate = new Date(game_datetime);
-    return gameDate.toLocaleTimeString("en-US", {
-      hour: "numeric",
-      minute: "numeric",
-    });
-  };
-
   render() {
-    const { yearSelect } = this.state;
-
-    console.log(this.state);
+    const { yearSelect, weekSelect, weekSelectOptions } = this.state;
+    const { teamLogos } = this.props;
+    //console.log(this.state);
     console.log(this.props);
 
     // Filter out standings for selected year only
@@ -192,21 +172,25 @@ class NflSchedule extends Component {
         <h1 className="pageHeader">NFL Schedule - {yearSelect}</h1>
         <form className="form-inline standingsSelectForm">
           <div className="form-group mr-3">{this.createYearSelect()}</div>
-          <div className="form-group mr-3">{this.createWeekSelect()}</div>
+          <div className="form-group mr-3">
+            <Select
+              id="weekSelect"
+              name="weekSelect"
+              value={weekSelect}
+              handleChange={this.handleSelectChange}
+              options={weekSelectOptions}
+            />
+          </div>
         </form>
 
         {sortedGamesInWeek.map((gameDay) => (
-          <div className="card">
+          <div className="card gameDayCard">
             <div class="card-header">
               {this.getGameDayCardHeader(gameDay[0]["game_datetime"])}
             </div>
-            <div className="card-body">
+            <div className="card-body" style={{ width: "100%" }}>
               {gameDay.map((game) => (
-                <p class="card-text">
-                  {`${game["away_team_name"]} @ ${
-                    game["home_team_name"]
-                  } ${this.getGameDayTime(game["game_datetime"])}`}
-                </p>
+                <GameInfoContent game={game} teamLogos={teamLogos} />
               ))}
             </div>
           </div>

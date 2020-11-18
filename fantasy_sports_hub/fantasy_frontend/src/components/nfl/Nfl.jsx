@@ -20,6 +20,7 @@ class Nfl extends Component {
     standingsData: [],
     schedulesData: [],
     divisions: [],
+    teamLogos: {},
     isLoading: true, // If loading, display the loading  animation
   };
 
@@ -70,12 +71,19 @@ class Nfl extends Component {
         ];
 
         let divisions = [];
+        let teamLogos = {};
 
         for (let i = 0; i < teamsData.length; i++) {
           let currentTeam = teamsData[i];
           let currentDivision = `${currentTeam.conference} ${currentTeam.division}`;
           if (!divisions.includes(currentDivision))
             divisions.push(currentDivision);
+
+          let teamFullName = currentTeam["city"]
+            .concat(" ")
+            .concat(currentTeam["name"]);
+          if (!teamLogos.hasOwnProperty(teamFullName))
+            teamLogos[teamFullName] = currentTeam["logo"];
         }
 
         this.setState({
@@ -83,6 +91,7 @@ class Nfl extends Component {
           standingsData,
           schedulesData,
           divisions,
+          teamLogos,
           isLoading: false,
         });
       });
@@ -91,6 +100,7 @@ class Nfl extends Component {
   render() {
     const {
       teamsData,
+      teamLogos,
       divisions,
       standingsData,
       schedulesData,
@@ -131,6 +141,7 @@ class Nfl extends Component {
               render={(props) => (
                 <NflSchedule
                   teamsData={teamsData}
+                  teamLogos={teamLogos}
                   schedulesData={schedulesData}
                   {...props}
                 />

@@ -10,11 +10,11 @@ class NflTeams extends Component {
 
     // Goes inside the content div of the Nfl component
     return (
-      <React.Fragment>
+      <div>
         {teamsData.map((team) => (
           <NflTeamCard key={team.name} team={team} />
         ))}
-      </React.Fragment>
+      </div>
     );
   }
 }

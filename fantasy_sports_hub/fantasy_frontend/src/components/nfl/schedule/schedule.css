@@ -1,3 +1,60 @@
 .scheduleSelectForm {
   margin-bottom: 40px;
 }
+
+.scheduleTable {
+  width: 100%;
+}
+
+.gameDayCard {
+  margin-bottom: 30px;
+}
+
+.matchupCol {
+  width: 38%;
+}
+
+.timeCol {
+  width: 10%;
+}
+
+.broadcastCol {
+  width: 10%;
+}
+
+.weatherCol {
+  width: 16%;
+}
+
+.windCol {
+  width: 16%;
+}
+
+.weatherIcon {
+  height: 21px;
+  width: 21px;
+}
+
+.scheduleTeamLogoIcon {
+  width: 27px;
+}
+
+.nbcChannelIcon {
+  height: 18px;
+  width: 18px;
+}
+
+.foxChannelIcon {
+  height: 18px;
+  width: 13px;
+}
+
+.cbsChannelIcon {
+  height: 14px;
+  width: 25px;
+}
+
+.espnChannelIcon {
+  height: 12px;
+  width: 31px;
+}

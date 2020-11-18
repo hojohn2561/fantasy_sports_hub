@@ -9,4 +9,4 @@ def get_nfl_standings_years():
 
 # The years to get schedules data for NFL
 def get_nfl_schedules_years():
-    return [2020, 2019, 2018, 2017, 2016, 2015, 2014]
+    return [2020]

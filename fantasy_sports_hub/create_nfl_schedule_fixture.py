@@ -50,9 +50,26 @@ def createNflScheduleFixture():
                     attendance = game["attendance"]
 
                 # Only exists if game has been played already
+                # Sportradar API weather attributes are a bit inconsistent
                 weather = ""
                 if "weather" in game:
                     weather = game["weather"]
+                    # Capitalize every first word
+                    weather_conditions = weather.split(
+                        "Temp: ")[0].title().strip()
+                    weather_temp = weather.split(
+                        "Temp: ")[1].split(",")[0].strip()
+                    weather_wind = "N/A"
+                    try:
+                        wind_mph = weather.split("Wind:")[1].split(" ")[2]
+                        if not wind_mph.isnumeric():
+                            weather_wind = "N/A"
+                        else:
+                            weather_wind = wind_mph + " MPH"
+                    except:
+                        pass
+                    print(weather_conditions, weather_temp, weather.split(
+                        "Wind:")[1].split(" "))
 
                 city = game["venue"]["city"]
 
@@ -122,7 +139,8 @@ def createNflScheduleFixture():
                 scheduleFixture.append(
                     {"model": django_model, "pk": pk, "fields": {"season_year": season_year, "season_type": season_type, "league": league, "game_id": game_id, "status": status,
                                                                  "game_datetime": game_datetime, "week_num": week_num, "city": city, "state": state, "country": country, "zip_code": zip_code,
-                                                                 "address": address, "stadium_name": stadium_name, "capacity": capacity, "attendance": attendance, "weather": weather, "surface": surface,
+                                                                 "address": address, "stadium_name": stadium_name, "capacity": capacity, "attendance": attendance, "weather": weather,
+                                                                 "weather_conditions": weather_conditions, "weather_temp": weather_temp, "weather_wind": weather_wind, "surface": surface,
                                                                  "roof_type": roof_type, "home_team_name": home_team_name, "home_team_alias": home_team_alias, "away_team_name": away_team_name,
                                                                  "away_team_alias": away_team_alias, "broadcast_network": broadcast_network, "home_team_quarter_1_points": home_team_quarter_1_points,
                                                                  "away_team_quarter_1_points": away_team_quarter_1_points, "home_team_quarter_2_points": home_team_quarter_2_points,

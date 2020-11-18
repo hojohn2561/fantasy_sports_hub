@@ -7,6 +7,7 @@ import Nba from "./components/nba/Nba";
 import Nhl from "./components/nhl/Nhl";
 import Mlb from "./components/mlb/Mlb";
 import Ufc from "./components/ufc/Ufc";
+import Footer from "./components/common/footer/Footer";
 import "./App.css";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/mlb" component={Mlb}></Route>
         <Route path="/ufc" component={Ufc}></Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
