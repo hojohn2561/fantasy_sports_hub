@@ -1,3 +1,4 @@
+import argparse
 import requests
 import os
 import json
@@ -16,13 +17,10 @@ def getNflStandings(year: int):
     return data
 
 
-def createNflStandingsFixture():
+def createNflStandingsFixture(standings_years):
     standingsFixture: list = []
     django_model: str = nfl_standings_django_model
     pk: int = 1
-
-    # Years to get standings for
-    standings_years = get_nfl_standings_years()
 
     for year in standings_years:
         standings_data: object = getNflStandings(year)
@@ -106,7 +104,22 @@ def createNflStandingsFixture():
 
 
 if __name__ == "__main__":
-    fixture = createNflStandingsFixture()
+    # Get years passed as command-line arguments if any
+    parser = argparse.ArgumentParser(
+        description='Get NFL standings for specified years.')
+    parser.add_argument('-y', '--years', metavar='y', type=int, nargs='+',
+                        help='the year to get the schedule for')
+    args = parser.parse_args()
+
+    # If args.years == None, no years were passed. Use default (all years in config)
+    if not args.years:
+        # Years to get standings for
+        standings_years = get_nfl_standings_years()
+        fixture = createNflStandingsFixture(standings_years)
+    # Otherwise, get schedules for passed in years
+    else:
+        fixture = createNflStandingsFixture(args.years)
+
     fixture_file_name = "nfl_standings_fixture.json"
 
     # Create the fixture file
