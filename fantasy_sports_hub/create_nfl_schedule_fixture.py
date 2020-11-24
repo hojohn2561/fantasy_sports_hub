@@ -1,3 +1,4 @@
+import argparse
 import requests
 import os
 import pprint
@@ -19,14 +20,11 @@ def getNflSchedule(year: int):
 
 
 # Creates the fixture to be used to populate the NFL schedule DB
-def createNflScheduleFixture():
+def createNflScheduleFixture(schedule_years):
     scheduleFixture: list = []
     # Django model for this fixture
     django_model: str = nfl_schedule_django_model
     pk: int = 1
-
-    # Years to get schedules for
-    schedule_years = get_nfl_schedules_years()
 
     for year in schedule_years:
         schedule_data: object = getNflSchedule(year)
@@ -68,8 +66,6 @@ def createNflScheduleFixture():
                             weather_wind = wind_mph + " MPH"
                     except:
                         pass
-                    print(weather_conditions, weather_temp, weather.split(
-                        "Wind:")[1].split(" "))
 
                 city = game["venue"]["city"]
 
@@ -153,10 +149,22 @@ def createNflScheduleFixture():
 
 
 if __name__ == "__main__":
-    fixture = createNflScheduleFixture()
+    # Get years passed as command-line arguments if any
+    parser = argparse.ArgumentParser(
+        description='Get NFL schedules for specified years.')
+    parser.add_argument('-y', '--years', metavar='y', type=int, nargs='+',
+                        help='the year to get the schedule for')
+    args = parser.parse_args()
+
+    # If args.years == None, no years were passed. Use default (all years in config)
+    if not args.years:
+        schedule_years = get_nfl_schedules_years()  # Years to get schedules for
+        fixture = createNflScheduleFixture(schedule_years)
+    # Otherwise, get schedules for passed in years
+    else:
+        fixture = createNflScheduleFixture(args.years)
+
     fixture_file_name = "nfl_schedule_fixture.json"
-    # pp = pprint.PrettyPrinter(depth=4)
-    # pp.pprint(fixture)
 
     # Create the fixture file
     with open("./schedule/fixtures/" + fixture_file_name, "w") as outfile:
