@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const BroadcastCellContent = ({ broadcastNetwork }) => {
+const BroadcastCellContent = ({ gameDateTime, broadcastNetwork }) => {
   let svgSource = "";
   let broadcastClassName = "";
 
@@ -32,13 +32,25 @@ const BroadcastCellContent = ({ broadcastNetwork }) => {
 
   return (
     <span>
+      {`${getGameDayTime(gameDateTime)} on `}
       <img src={svgSource} className={broadcastClassName} />
     </span>
   );
 };
 
+// Here for now, but would prefer outside of the component. Otherwise, the function is recreated on
+// each render which can lead to performance issues and re-rendering all the down your component tree
+export const getGameDayTime = (gameDateTime) => {
+  let gameDate = new Date(gameDateTime);
+  return gameDate.toLocaleTimeString("en-US", {
+    hour: "numeric",
+    minute: "numeric",
+  });
+};
+
 BroadcastCellContent.propTypes = {
   broadcastChannel: PropTypes.string,
+  gameDateTime: PropTypes.string,
 };
 
 export default BroadcastCellContent;

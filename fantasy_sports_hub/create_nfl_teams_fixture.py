@@ -1,5 +1,6 @@
 import requests
 import os
+from os import path
 import pprint
 import json
 from teams.fixtureConfigs.nflTeamColors import getTeamColors
@@ -41,7 +42,8 @@ def getNflTeamColors(team):
 def createNflTeamsFixture():
     # Don't include /media or else Django will do /media/media
     path_to_image_dir: str = "nfl/logos/"
-    image_file_ext: str = ".png"
+    image_file_ext_primary: str = ".svg"
+    image_file_ext_secondary: str = ".png"
     teamsFixture: list = []
     pk: int = 1
 
@@ -53,6 +55,15 @@ def createNflTeamsFixture():
         primary_color: str = colors["primary_color"]
         secondary_color: str = colors["secondary_color"]
         tertiary_color: str = colors["tertiary_color"]
+        print(path_to_image_dir +
+              str(team["name"]).lower() + image_file_ext_primary)
+        if path.exists(path_to_image_dir + str(team["name"]).lower() + image_file_ext_primary):
+            logoPath = path_to_image_dir + \
+                str(team["name"]).lower() + image_file_ext_primary
+        else:
+            logoPath = path_to_image_dir + \
+                str(team["name"]).lower() + image_file_ext_secondary
+
         # Django model for this fixture
         django_model: str = "teams.Team"
         # Append the team's obj to the fixture for eventual loading into the DB
@@ -62,7 +73,7 @@ def createNflTeamsFixture():
                                         "conference": team["conference"], "division": team["division"],
                                         "league": team["league"], "primary_color": primary_color,
                                         "secondary_color": secondary_color, "tertiary_color": tertiary_color,
-                                        "logo": path_to_image_dir + str(team["name"]).lower() + image_file_ext}})
+                                        "logo": logoPath}})
         pk += 1
     return(teamsFixture)
 

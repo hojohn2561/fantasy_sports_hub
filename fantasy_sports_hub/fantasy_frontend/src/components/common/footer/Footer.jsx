@@ -3,7 +3,7 @@ import "./footer.css";
 
 class Footer extends Component {
   render() {
-    return <div className="footer">Footer</div>;
+    return <div className="footer"></div>;
   }
 }
 

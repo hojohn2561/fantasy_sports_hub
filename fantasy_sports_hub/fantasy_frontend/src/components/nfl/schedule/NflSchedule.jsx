@@ -188,7 +188,7 @@ class NflSchedule extends Component {
             <div class="card-header">
               {this.getGameDayCardHeader(gameDay[0]["game_datetime"])}
             </div>
-            <div className="card-body" style={{ width: "100%" }}>
+            <div className="card-body">
               {gameDay.map((game) => (
                 <GameInfoContent game={game} teamLogos={teamLogos} />
               ))}

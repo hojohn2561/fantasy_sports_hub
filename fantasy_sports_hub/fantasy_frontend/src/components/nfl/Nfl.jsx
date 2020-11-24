@@ -42,6 +42,7 @@ class Nfl extends Component {
       axios.get(`${apiConfig.getNflSchedulesEndpoint}${scheduleYears[3]}`),
       axios.get(`${apiConfig.getNflSchedulesEndpoint}${scheduleYears[4]}`),
       axios.get(`${apiConfig.getNflSchedulesEndpoint}${scheduleYears[5]}`),
+      axios.get(`${apiConfig.getNflSchedulesEndpoint}${scheduleYears[6]}`),
     ])
       .then(function (responses) {
         return Promise.all(
@@ -68,6 +69,7 @@ class Nfl extends Component {
           response[10].data,
           response[11].data,
           response[12].data,
+          response[13].data,
         ];
 
         let divisions = [];
