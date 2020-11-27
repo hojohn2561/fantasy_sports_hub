@@ -1,6 +1,5 @@
 from django.db import models
 from django.core.validators import MaxValueValidator
-from teams.models import Team
 
 
 class Standing(models.Model):

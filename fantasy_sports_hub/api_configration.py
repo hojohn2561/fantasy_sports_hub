@@ -1,8 +1,8 @@
 from configuration import get_sport_radar_api_key
 
 nfl_api_base_url = "https://api.sportradar.us/nfl/official"
-api_version = "v6"
 access_level = "trial"
+api_version = "v6"
 english_lang_code = "en"
 
 
@@ -20,3 +20,7 @@ def get_nfl_standings_url_path(year: int):
 
 def get_nfl_reg_schedule_url_path(year: int):
     return nfl_api_base_url + "/" + access_level + "/" + api_version + "/" + english_lang_code + "/games/" + str(year) + "/REG/schedule.json?api_key=" + get_sport_radar_api_key()
+
+
+def get_nfl_game_statistics(game_id: str):
+    return nfl_api_base_url + "/" + access_level + "/" + api_version + "/" + english_lang_code + "/games/" + game_id + "/statistics.json?api_key=" + get_sport_radar_api_key()

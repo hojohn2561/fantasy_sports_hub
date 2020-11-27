@@ -7,6 +7,7 @@ import Nba from "./components/nba/Nba";
 import Nhl from "./components/nhl/Nhl";
 import Mlb from "./components/mlb/Mlb";
 import Ufc from "./components/ufc/Ufc";
+import NotFound from "./components/not_found/NotFound";
 import Footer from "./components/common/footer/Footer";
 import "./App.css";
 
@@ -24,6 +25,9 @@ function App() {
         <Route path="/nhl" component={Nhl}></Route>
         <Route path="/mlb" component={Mlb}></Route>
         <Route path="/ufc" component={Ufc}></Route>
+        {/* Not working because Django pages, instead of React components, are served when URLs are entered manually.
+        Root cause seems to be the same as not initially starting on the / page on first use */}
+        <Route path="" component={NotFound}></Route>
       </Switch>
       <Footer />
     </div>
