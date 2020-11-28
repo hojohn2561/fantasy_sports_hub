@@ -23,3 +23,10 @@ def nflTeams(request):
     teams = Team.objects.all()
     serializer = TeamSerializer(teams, many=True)  # Serializes the data
     return Response(serializer.data)
+
+
+@api_view(['GET'])
+def nflTeamById(request, team_id):
+    team = Team.objects.filter(id=team_id)
+    serializer = TeamSerializer(team, many=True)
+    return Response(serializer.data)
