@@ -17,4 +17,4 @@ class Team(models.Model):
     logo = models.ImageField(upload_to='nfl/logos')
 
     def __str__(self):
-        return self.name
+        return "%s %s" % (self.city, self.name)

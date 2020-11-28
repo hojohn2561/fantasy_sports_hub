@@ -7,7 +7,7 @@ import time
 from datetime import datetime
 from configuration import get_sport_radar_api_key
 from api_configration import get_nfl_reg_schedule_url_path
-from db_configuration import get_nfl_schedules_years, nfl_schedule_django_model
+from db_configuration import get_nfl_schedules_years, nfl_schedule_django_model, get_db_team_id_by_api_team_id
 
 
 # Make external API call to get standings
@@ -90,10 +90,14 @@ def createNflScheduleFixture(schedule_years):
                 roof_type = venue_obj["roof_type"]
 
                 home_obj = game["home"]
+                home_team_id = get_db_team_id_by_api_team_id(home_obj["id"])[
+                    "id"]
                 home_team_name = home_obj["name"]
                 home_team_alias = home_obj["alias"]
 
                 away_obj = game["away"]
+                away_team_id = get_db_team_id_by_api_team_id(away_obj["id"])[
+                    "id"]
                 away_team_name = away_obj["name"]
                 away_team_alias = away_obj["alias"]
 
@@ -137,8 +141,9 @@ def createNflScheduleFixture(schedule_years):
                                                                  "game_datetime": game_datetime, "week_num": week_num, "city": city, "state": state, "country": country, "zip_code": zip_code,
                                                                  "address": address, "stadium_name": stadium_name, "capacity": capacity, "attendance": attendance, "weather": weather,
                                                                  "weather_conditions": weather_conditions, "weather_temp": weather_temp, "weather_wind": weather_wind, "surface": surface,
-                                                                 "roof_type": roof_type, "home_team_name": home_team_name, "home_team_alias": home_team_alias, "away_team_name": away_team_name,
-                                                                 "away_team_alias": away_team_alias, "broadcast_network": broadcast_network, "home_team_quarter_1_points": home_team_quarter_1_points,
+                                                                 "roof_type": roof_type, "home_team_id": home_team_id, "home_team_name": home_team_name, "home_team_alias": home_team_alias,
+                                                                 "away_team_id": away_team_id, "away_team_name": away_team_name, "away_team_alias": away_team_alias,
+                                                                 "broadcast_network": broadcast_network, "home_team_quarter_1_points": home_team_quarter_1_points,
                                                                  "away_team_quarter_1_points": away_team_quarter_1_points, "home_team_quarter_2_points": home_team_quarter_2_points,
                                                                  "away_team_quarter_2_points": away_team_quarter_2_points, "home_team_quarter_3_points": home_team_quarter_3_points,
                                                                  "away_team_quarter_3_points": away_team_quarter_3_points, "home_team_quarter_4_points": home_team_quarter_4_points,

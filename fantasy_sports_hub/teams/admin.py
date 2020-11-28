@@ -3,7 +3,7 @@ from .models import Team
 
 
 class TeamAdmin(admin.ModelAdmin):
-    list_display = ('name', 'city', 'id', 'abr',
+    list_display = ('id', 'name', 'city', 'abr',
                     'conference', 'division', 'league')
 
 

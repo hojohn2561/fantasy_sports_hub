@@ -4,13 +4,13 @@ from os import path
 import pprint
 import json
 from teams.fixtureConfigs.nflTeamColors import getTeamColors
-from api_configration import get_nfl_2019_season_url_path
+from api_configration import get_nfl_2020_season_url_path
 
 
 # Makes HTTP request to external API to get all teams' attributes
 def getNflTeams():
     teams = {"teams": []}
-    url: str = get_nfl_2019_season_url_path()
+    url: str = get_nfl_2020_season_url_path()
     response = requests.get(url=url)
     data = response.json()
 

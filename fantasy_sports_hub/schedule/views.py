@@ -4,7 +4,9 @@ from django.http import JsonResponse
 from rest_framework.decorators import api_view
 from rest_framework.response import Response  # Django REST framework response
 from .models import Schedule
+from teams.serializers import Team
 from .serializers import ScheduleSerializer
+from teams.serializers import TeamSerializer
 
 
 # Create your views here.
