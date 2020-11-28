@@ -24,7 +24,8 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html')),
     path('api/teams/', include('teams.urls')),
     path('api/standings/', include('standings.urls')),
-    path('api/schedules/', include('schedule.urls'))
+    path('api/schedules/', include('schedule.urls')),
+    path('api/stats/', include('stats.urls')),
     #path('api/players/', include('players.urls'))
 ]
 

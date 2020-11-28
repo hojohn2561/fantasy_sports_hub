@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'standings.apps.StandingsConfig',
     'players.apps.PlayersConfig',
     'schedule.apps.ScheduleConfig',
+    'stats.apps.StatsConfig',
 ]
 
 MIDDLEWARE = [

@@ -5,20 +5,14 @@ from teams.models import Team
 # Create your models here.
 
 
-class NflTeamRecords(models.Model):
+class NflTeamRegularSeasonRecord(models.Model):
     season_year = models.PositiveIntegerField()
     season_type = models.CharField(max_length=50)
     team_id = models.ForeignKey(
         Team, on_delete=models.CASCADE, related_name="team_id", blank=True, null=True)
-    record_2020_win_count = models.PositiveSmallIntegerField(default=0)
-    record_2020_loss_count = models.PositiveSmallIntegerField(default=0)
-    record_2020_tie_count = models.PositiveSmallIntegerField(default=0)
-    record_2019_win_count = models.PositiveSmallIntegerField(default=0)
-    record_2019_loss_count = models.PositiveSmallIntegerField(default=0)
-    record_2019_tie_count = models.PositiveSmallIntegerField(default=0)
-    record_2018_win_count = models.PositiveSmallIntegerField(default=0)
-    record_2018_loss_count = models.PositiveSmallIntegerField(default=0)
-    record_2018_tie_count = models.PositiveSmallIntegerField(default=0)
+    win_count = models.PositiveSmallIntegerField(default=0)
+    loss_count = models.PositiveSmallIntegerField(default=0)
+    tie_count = models.PositiveSmallIntegerField(default=0)
 
 
 # class NflGameStats(models.Model):

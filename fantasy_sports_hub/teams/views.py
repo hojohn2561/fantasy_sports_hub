@@ -12,8 +12,9 @@ from .serializers import TeamSerializer
 @api_view(['GET'])
 def apiOverview(request):
     api_urls = {
-        'NFL teams': '/teams/nfl',
-        'NBA teams': '/teams/nba',
+        'NFL teams': '/api/teams/nfl/',
+        'NFL team by team ID': '/api/teams/nfl/<team_id>',
+        'NBA teams': '/api/teams/nba/',
     }
     return Response(api_urls)
 
