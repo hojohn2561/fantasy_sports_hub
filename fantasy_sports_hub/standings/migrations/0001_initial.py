@@ -17,8 +17,10 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Standing',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('season_year', models.PositiveIntegerField(verbose_name=django.core.validators.MaxValueValidator(2400))),
+                ('id', models.AutoField(auto_created=True,
+                                        primary_key=True, serialize=False, verbose_name='ID')),
+                ('season_year', models.PositiveIntegerField(
+                    verbose_name=django.core.validators.MaxValueValidator(2400))),
                 ('league', models.CharField(max_length=50)),
                 ('conference', models.CharField(max_length=50)),
                 ('division', models.CharField(max_length=50)),
@@ -48,7 +50,8 @@ class Migration(migrations.Migration):
                 ('home_losses', models.PositiveIntegerField()),
                 ('road_wins', models.PositiveIntegerField()),
                 ('road_losses', models.PositiveIntegerField()),
-                ('team', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='teams.team')),
+                ('team', models.ForeignKey(
+                    on_delete=django.db.models.deletion.CASCADE, to='teams.nflteam')),
             ],
         ),
     ]

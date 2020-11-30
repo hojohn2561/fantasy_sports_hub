@@ -3,8 +3,8 @@ from django.http import JsonResponse
 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response  # Django REST framework response
-from .models import Team
-from .serializers import TeamSerializer
+from .models import NflTeam
+from .serializers import NflTeamSerializer
 
 # Create your views here.
 
@@ -21,13 +21,13 @@ def apiOverview(request):
 
 @api_view(['GET'])
 def nflTeams(request):
-    teams = Team.objects.all()
-    serializer = TeamSerializer(teams, many=True)  # Serializes the data
+    teams = NflTeam.objects.all()
+    serializer = NflTeamSerializer(teams, many=True)  # Serializes the data
     return Response(serializer.data)
 
 
 @api_view(['GET'])
 def nflTeamById(request, team_id):
-    team = Team.objects.filter(id=team_id)
-    serializer = TeamSerializer(team, many=True)
+    team = NflTeam.objects.filter(id=team_id)
+    serializer = NflTeamSerializer(team, many=True)
     return Response(serializer.data)

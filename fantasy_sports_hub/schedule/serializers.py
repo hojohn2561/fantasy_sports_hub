@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import Schedule
+from .models import NflGame
 
 
-class ScheduleSerializer(serializers.ModelSerializer):
+class NflGameSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Schedule
+        model = NflGame
         fields = '__all__'

@@ -12,7 +12,7 @@
             "secondary_color": "#FF3C00",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 1
     },
     {
@@ -28,7 +28,7 @@
             "secondary_color": "#000000",
             "tertiary_color": "#9E7C0C"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 2
     },
     {
@@ -44,7 +44,7 @@
             "secondary_color": "#101820",
             "tertiary_color": "#003087"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 3
     },
     {
@@ -60,7 +60,7 @@
             "secondary_color": "#000000",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 4
     },
     {
@@ -76,7 +76,7 @@
             "secondary_color": "#FFB81C",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 5
     },
     {
@@ -92,7 +92,7 @@
             "secondary_color": "#A5ACAF",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 6
     },
     {
@@ -108,7 +108,7 @@
             "secondary_color": "#FFC20E",
             "tertiary_color": "#0080C6"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 7
     },
     {
@@ -124,7 +124,7 @@
             "secondary_color": "#002244",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 8
     },
     {
@@ -140,7 +140,7 @@
             "secondary_color": "#4B92DB",
             "tertiary_color": "#C8102E"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 9
     },
     {
@@ -156,7 +156,7 @@
             "secondary_color": "#A2AAAD",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 10
     },
     {
@@ -172,7 +172,7 @@
             "secondary_color": "#D7A22A",
             "tertiary_color": "#006778"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 11
     },
     {
@@ -188,7 +188,7 @@
             "secondary_color": "#A71930",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 12
     },
     {
@@ -204,7 +204,7 @@
             "secondary_color": "#C60C30",
             "tertiary_color": "#B0B7BC"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 13
     },
     {
@@ -220,7 +220,7 @@
             "secondary_color": "#000000",
             "tertiary_color": "#FFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 14
     },
     {
@@ -236,7 +236,7 @@
             "secondary_color": "#FC4C02",
             "tertiary_color": "#005778"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 15
     },
     {
@@ -252,7 +252,7 @@
             "secondary_color": "#C60C30",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 16
     },
     {
@@ -268,7 +268,7 @@
             "secondary_color": "#A71930",
             "tertiary_color": "#A5ACAF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 17
     },
     {
@@ -284,7 +284,7 @@
             "secondary_color": "#041E42",
             "tertiary_color": "#869397"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 18
     },
     {
@@ -300,7 +300,7 @@
             "secondary_color": "#FFB612",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 19
     },
     {
@@ -316,7 +316,7 @@
             "secondary_color": "#A5ACAF",
             "tertiary_color": "#ACC0C6"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 20
     },
     {
@@ -332,7 +332,7 @@
             "secondary_color": "#B3995D",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 21
     },
     {
@@ -348,7 +348,7 @@
             "secondary_color": "#FFA300",
             "tertiary_color": "#FF8200"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 22
     },
     {
@@ -364,7 +364,7 @@
             "secondary_color": "#69BE28",
             "tertiary_color": "#A5ACAF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 23
     },
     {
@@ -380,7 +380,7 @@
             "secondary_color": "#000000",
             "tertiary_color": "#FFB612"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 24
     },
     {
@@ -396,7 +396,7 @@
             "secondary_color": "#FFC62F",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 25
     },
     {
@@ -412,7 +412,7 @@
             "secondary_color": "#FFB612",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 26
     },
     {
@@ -428,7 +428,7 @@
             "secondary_color": "#C83803",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 27
     },
     {
@@ -444,7 +444,7 @@
             "secondary_color": "#B0B7BC",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 28
     },
     {
@@ -460,7 +460,7 @@
             "secondary_color": "#FF7900",
             "tertiary_color": "#0A0A08"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 29
     },
     {
@@ -476,7 +476,7 @@
             "secondary_color": "#000000",
             "tertiary_color": "#A5ACAF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 30
     },
     {
@@ -492,7 +492,7 @@
             "secondary_color": "#101820",
             "tertiary_color": "#FFFFFF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 31
     },
     {
@@ -508,7 +508,7 @@
             "secondary_color": "#101820",
             "tertiary_color": "#BFC0BF"
         },
-        "model": "teams.Team",
+        "model": "teams.NflTeam",
         "pk": 32
     }
 ]

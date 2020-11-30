@@ -15,6 +15,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='schedule',
             name='home_team',
-            field=models.OneToOneField(default=models.CharField(default='', max_length=100), on_delete=django.db.models.deletion.CASCADE, related_name='home_team', to='teams.team'),
+            field=models.OneToOneField(default=models.CharField(
+                default='', max_length=100), on_delete=django.db.models.deletion.CASCADE, related_name='home_team', to='teams.nflteam'),
         ),
     ]

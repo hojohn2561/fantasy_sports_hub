@@ -1,6 +1,6 @@
 from django.db import models
 from django.core.validators import MaxValueValidator
-from teams.models import Team
+from teams.models import NflTeam
 
 # Create your models here.
 
@@ -9,7 +9,7 @@ class NflTeamRegularSeasonRecord(models.Model):
     season_year = models.PositiveIntegerField()
     season_type = models.CharField(max_length=50)
     team_id = models.ForeignKey(
-        Team, on_delete=models.CASCADE, related_name="team_id", blank=True, null=True)
+        NflTeam, on_delete=models.CASCADE, related_name="team_id", blank=True, null=True)
     win_count = models.PositiveSmallIntegerField(default=0)
     loss_count = models.PositiveSmallIntegerField(default=0)
     tie_count = models.PositiveSmallIntegerField(default=0)

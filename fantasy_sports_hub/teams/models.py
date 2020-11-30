@@ -4,7 +4,7 @@ from colorfield.fields import ColorField
 # Create your models here.
 
 
-class Team(models.Model):
+class NflTeam(models.Model):
     name = models.CharField(max_length=50)
     city = models.CharField(max_length=50)
     abr = models.CharField(max_length=10)

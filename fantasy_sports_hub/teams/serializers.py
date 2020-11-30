@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import Team
+from .models import NflTeam
 
 
-class TeamSerializer(serializers.ModelSerializer):
+class NflTeamSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Team
+        model = NflTeam
         fields = '__all__'

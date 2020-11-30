@@ -21,7 +21,7 @@ def getNflSchedule(year: int):
 
 # Creates the fixture to be used to populate the NFL schedule DB
 def createNflScheduleFixture(schedule_years):
-    scheduleFixture: list = []
+    schedule_fixture: list = []
     # Django model for this fixture
     django_model: str = nfl_schedule_django_model
     pk: int = 1
@@ -136,7 +136,7 @@ def createNflScheduleFixture(schedule_years):
                             home_team_quarter_4_points = period["home_points"]
                             away_team_quarter_4_points = period["away_points"]
 
-                scheduleFixture.append(
+                schedule_fixture.append(
                     {"model": django_model, "pk": pk, "fields": {"season_year": season_year, "season_type": season_type, "league": league, "game_id": game_id, "status": status,
                                                                  "game_datetime": game_datetime, "week_num": week_num, "city": city, "state": state, "country": country, "zip_code": zip_code,
                                                                  "address": address, "stadium_name": stadium_name, "capacity": capacity, "attendance": attendance, "weather": weather,
@@ -150,7 +150,7 @@ def createNflScheduleFixture(schedule_years):
                                                                  "away_team_quarter_4_points": away_team_quarter_4_points, "home_team_points": home_team_points, "away_team_points": away_team_points}})
                 pk += 1
 
-    return scheduleFixture
+    return schedule_fixture
 
 
 if __name__ == "__main__":

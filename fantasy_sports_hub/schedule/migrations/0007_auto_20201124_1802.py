@@ -14,11 +14,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='schedule',
             name='away_team',
-            field=models.ManyToManyField(related_name='away_team', to='teams.Team'),
+            field=models.ManyToManyField(
+                related_name='away_team', to='teams.nflteam'),
         ),
         migrations.AddField(
             model_name='schedule',
             name='home_team',
-            field=models.ManyToManyField(related_name='home_team', to='teams.Team'),
+            field=models.ManyToManyField(
+                related_name='home_team', to='teams.nflteam'),
         ),
     ]

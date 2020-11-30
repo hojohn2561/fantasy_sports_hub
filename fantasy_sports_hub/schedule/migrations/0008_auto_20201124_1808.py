@@ -19,7 +19,8 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='schedule',
             name='away_team',
-            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='away_team', to='teams.team'),
+            field=models.OneToOneField(
+                blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='away_team', to='teams.nflteam'),
         ),
         migrations.RemoveField(
             model_name='schedule',
@@ -28,6 +29,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='schedule',
             name='home_team',
-            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='home_team', to='teams.team'),
+            field=models.OneToOneField(
+                blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='home_team', to='teams.nflteam'),
         ),
     ]

@@ -1,10 +1,10 @@
 from django.contrib import admin
-from .models import Team
+from .models import NflTeam
 
 
-class TeamAdmin(admin.ModelAdmin):
+class NflTeamAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'city', 'abr',
                     'conference', 'division', 'league')
 
 
-admin.site.register(Team, TeamAdmin)
+admin.site.register(NflTeam, NflTeamAdmin)

@@ -65,7 +65,7 @@ def createNflTeamsFixture():
                 str(team["name"]).lower() + image_file_ext_secondary
 
         # Django model for this fixture
-        django_model: str = "teams.Team"
+        django_model: str = "teams.NflTeam"
         # Append the team's obj to the fixture for eventual loading into the DB
         teamsFixture.append({"model": django_model,
                              "pk": pk,
