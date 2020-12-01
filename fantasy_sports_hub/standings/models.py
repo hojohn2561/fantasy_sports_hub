@@ -2,7 +2,7 @@ from django.db import models
 from django.core.validators import MaxValueValidator
 
 
-class Standing(models.Model):
+class NflStanding(models.Model):
     season_year = models.PositiveIntegerField()
     league = models.CharField(max_length=50)
     city = models.CharField(max_length=50, default="")

@@ -1,10 +1,10 @@
 from django.contrib import admin
-from .models import Standing
+from .models import NflStanding
 
 
-class StandingAdmin(admin.ModelAdmin):
+class NflStandingAdmin(admin.ModelAdmin):
     list_display = ('id', 'name', 'season_year', 'league', 'conference', 'division',
                     'division_rank', 'conference_rank', 'win_count', 'loss_count', 'tie_count')
 
 
-admin.site.register(Standing, StandingAdmin)
+admin.site.register(NflStanding, NflStandingAdmin)

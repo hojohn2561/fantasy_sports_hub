@@ -4,9 +4,9 @@
             "city": "Buffalo",
             "conference": "AFC",
             "conference_loss_count": 2,
-            "conference_rank": 3,
+            "conference_rank": 4,
             "conference_tie_count": 0,
-            "conference_win_count": 5,
+            "conference_win_count": 6,
             "division": "AFC East",
             "division_loss_count": 0,
             "division_rank": 1,
@@ -14,7 +14,7 @@
             "division_win_count": 4,
             "home_loss_count": 1,
             "home_tie_count": 0,
-            "home_win_count": 4,
+            "home_win_count": 5,
             "league": "NFL",
             "loss_count": 3,
             "name": "Bills",
@@ -23,21 +23,21 @@
             "non_conference_win_count": 2,
             "non_division_loss_count": 3,
             "non_division_tie_count": 0,
-            "non_division_win_count": 3,
-            "points_against": 265,
-            "points_differential": 7,
-            "points_for": 272,
+            "non_division_win_count": 4,
+            "points_against": 282,
+            "points_differential": 17,
+            "points_for": 299,
             "road_loss_count": 2,
             "road_tie_count": 0,
             "road_win_count": 3,
             "season_year": 2020,
             "streak_length": 1,
-            "streak_type": "L",
+            "streak_type": "W",
             "tie_count": 0,
-            "win_count": 7,
-            "win_percentage": 0.7
+            "win_count": 8,
+            "win_percentage": 0.727
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 1
     },
     {
@@ -45,14 +45,14 @@
             "city": "Miami",
             "conference": "AFC",
             "conference_loss_count": 3,
-            "conference_rank": 9,
+            "conference_rank": 6,
             "conference_tie_count": 0,
-            "conference_win_count": 3,
+            "conference_win_count": 4,
             "division": "AFC East",
             "division_loss_count": 2,
             "division_rank": 2,
             "division_tie_count": 0,
-            "division_win_count": 1,
+            "division_win_count": 2,
             "home_loss_count": 2,
             "home_tie_count": 0,
             "home_win_count": 3,
@@ -65,20 +65,20 @@
             "non_division_loss_count": 2,
             "non_division_tie_count": 0,
             "non_division_win_count": 5,
-            "points_against": 202,
-            "points_differential": 62,
-            "points_for": 264,
+            "points_against": 205,
+            "points_differential": 79,
+            "points_for": 284,
             "road_loss_count": 2,
             "road_tie_count": 0,
-            "road_win_count": 3,
+            "road_win_count": 4,
             "season_year": 2020,
             "streak_length": 1,
-            "streak_type": "L",
+            "streak_type": "W",
             "tie_count": 0,
-            "win_count": 6,
-            "win_percentage": 0.6
+            "win_count": 7,
+            "win_percentage": 0.636
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 2
     },
     {
@@ -86,7 +86,7 @@
             "city": "New England",
             "conference": "AFC",
             "conference_loss_count": 4,
-            "conference_rank": 11,
+            "conference_rank": 10,
             "conference_tie_count": 0,
             "conference_win_count": 4,
             "division": "AFC East",
@@ -96,50 +96,50 @@
             "division_win_count": 2,
             "home_loss_count": 2,
             "home_tie_count": 0,
-            "home_win_count": 3,
+            "home_win_count": 4,
             "league": "NFL",
             "loss_count": 6,
             "name": "Patriots",
             "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
-            "non_conference_win_count": 0,
+            "non_conference_win_count": 1,
             "non_division_loss_count": 5,
             "non_division_tie_count": 0,
-            "non_division_win_count": 2,
-            "points_against": 238,
-            "points_differential": -29,
-            "points_for": 209,
+            "non_division_win_count": 3,
+            "points_against": 255,
+            "points_differential": -26,
+            "points_for": 229,
             "road_loss_count": 4,
             "road_tie_count": 0,
             "road_win_count": 1,
             "season_year": 2020,
             "streak_length": 1,
-            "streak_type": "L",
+            "streak_type": "W",
             "tie_count": 0,
-            "win_count": 4,
-            "win_percentage": 0.4
+            "win_count": 5,
+            "win_percentage": 0.455
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 3
     },
     {
         "fields": {
             "city": "New York",
             "conference": "AFC",
-            "conference_loss_count": 8,
+            "conference_loss_count": 9,
             "conference_rank": 16,
             "conference_tie_count": 0,
             "conference_win_count": 0,
             "division": "AFC East",
-            "division_loss_count": 4,
+            "division_loss_count": 5,
             "division_rank": 4,
             "division_tie_count": 0,
             "division_win_count": 0,
-            "home_loss_count": 5,
+            "home_loss_count": 6,
             "home_tie_count": 0,
             "home_win_count": 0,
             "league": "NFL",
-            "loss_count": 10,
+            "loss_count": 11,
             "name": "Jets",
             "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
@@ -147,20 +147,20 @@
             "non_division_loss_count": 6,
             "non_division_tie_count": 0,
             "non_division_win_count": 0,
-            "points_against": 302,
-            "points_differential": -153,
-            "points_for": 149,
+            "points_against": 322,
+            "points_differential": -170,
+            "points_for": 152,
             "road_loss_count": 5,
             "road_tie_count": 0,
             "road_win_count": 0,
             "season_year": 2020,
-            "streak_length": 10,
+            "streak_length": 11,
             "streak_type": "L",
             "tie_count": 0,
             "win_count": 0,
             "win_percentage": 0.0
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 4
     },
     {
@@ -201,7 +201,7 @@
             "win_count": 10,
             "win_percentage": 1.0
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 5
     },
     {
@@ -209,9 +209,9 @@
             "city": "Cleveland",
             "conference": "AFC",
             "conference_loss_count": 3,
-            "conference_rank": 6,
+            "conference_rank": 5,
             "conference_tie_count": 0,
-            "conference_win_count": 4,
+            "conference_win_count": 5,
             "division": "AFC North",
             "division_loss_count": 2,
             "division_rank": 2,
@@ -228,21 +228,21 @@
             "non_conference_win_count": 3,
             "non_division_loss_count": 1,
             "non_division_tie_count": 0,
-            "non_division_win_count": 5,
-            "points_against": 261,
-            "points_differential": -23,
-            "points_for": 238,
+            "non_division_win_count": 6,
+            "points_against": 286,
+            "points_differential": -21,
+            "points_for": 265,
             "road_loss_count": 2,
             "road_tie_count": 0,
-            "road_win_count": 2,
+            "road_win_count": 3,
             "season_year": 2020,
-            "streak_length": 2,
+            "streak_length": 3,
             "streak_type": "W",
             "tie_count": 0,
-            "win_count": 7,
-            "win_percentage": 0.7
+            "win_count": 8,
+            "win_percentage": 0.727
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 6
     },
     {
@@ -283,7 +283,7 @@
             "win_count": 6,
             "win_percentage": 0.6
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 7
     },
     {
@@ -299,88 +299,47 @@
             "division_rank": 4,
             "division_tie_count": 0,
             "division_win_count": 0,
-            "home_loss_count": 2,
+            "home_loss_count": 3,
             "home_tie_count": 0,
             "home_win_count": 2,
             "league": "NFL",
-            "loss_count": 7,
+            "loss_count": 8,
             "name": "Bengals",
-            "non_conference_loss_count": 1,
+            "non_conference_loss_count": 2,
             "non_conference_tie_count": 1,
             "non_conference_win_count": 0,
-            "non_division_loss_count": 3,
+            "non_division_loss_count": 4,
             "non_division_tie_count": 1,
             "non_division_win_count": 2,
-            "points_against": 270,
-            "points_differential": -57,
-            "points_for": 213,
+            "points_against": 289,
+            "points_differential": -59,
+            "points_for": 230,
             "road_loss_count": 5,
             "road_tie_count": 1,
             "road_win_count": 0,
             "season_year": 2020,
-            "streak_length": 2,
+            "streak_length": 3,
             "streak_type": "L",
             "tie_count": 1,
             "win_count": 2,
-            "win_percentage": 0.25
+            "win_percentage": 0.227
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 8
-    },
-    {
-        "fields": {
-            "city": "Indianapolis",
-            "conference": "AFC",
-            "conference_loss_count": 3,
-            "conference_rank": 4,
-            "conference_tie_count": 0,
-            "conference_win_count": 3,
-            "division": "AFC South",
-            "division_loss_count": 1,
-            "division_rank": 1,
-            "division_tie_count": 0,
-            "division_win_count": 1,
-            "home_loss_count": 1,
-            "home_tie_count": 0,
-            "home_win_count": 4,
-            "league": "NFL",
-            "loss_count": 3,
-            "name": "Colts",
-            "non_conference_loss_count": 0,
-            "non_conference_tie_count": 0,
-            "non_conference_win_count": 4,
-            "non_division_loss_count": 2,
-            "non_division_tie_count": 0,
-            "non_division_win_count": 6,
-            "points_against": 208,
-            "points_differential": 68,
-            "points_for": 276,
-            "road_loss_count": 2,
-            "road_tie_count": 0,
-            "road_win_count": 3,
-            "season_year": 2020,
-            "streak_length": 2,
-            "streak_type": "W",
-            "tie_count": 0,
-            "win_count": 7,
-            "win_percentage": 0.7
-        },
-        "model": "standings.Standing",
-        "pk": 9
     },
     {
         "fields": {
             "city": "Tennessee",
             "conference": "AFC",
             "conference_loss_count": 3,
-            "conference_rank": 5,
+            "conference_rank": 3,
             "conference_tie_count": 0,
-            "conference_win_count": 5,
+            "conference_win_count": 6,
             "division": "AFC South",
             "division_loss_count": 1,
-            "division_rank": 2,
+            "division_rank": 1,
             "division_tie_count": 0,
-            "division_win_count": 2,
+            "division_win_count": 3,
             "home_loss_count": 2,
             "home_tie_count": 0,
             "home_win_count": 4,
@@ -393,20 +352,61 @@
             "non_division_loss_count": 2,
             "non_division_tie_count": 0,
             "non_division_win_count": 5,
-            "points_against": 259,
-            "points_differential": 20,
-            "points_for": 279,
+            "points_against": 285,
+            "points_differential": 39,
+            "points_for": 324,
             "road_loss_count": 1,
+            "road_tie_count": 0,
+            "road_win_count": 4,
+            "season_year": 2020,
+            "streak_length": 2,
+            "streak_type": "W",
+            "tie_count": 0,
+            "win_count": 8,
+            "win_percentage": 0.727
+        },
+        "model": "standings.NflStanding",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "city": "Indianapolis",
+            "conference": "AFC",
+            "conference_loss_count": 4,
+            "conference_rank": 7,
+            "conference_tie_count": 0,
+            "conference_win_count": 3,
+            "division": "AFC South",
+            "division_loss_count": 2,
+            "division_rank": 2,
+            "division_tie_count": 0,
+            "division_win_count": 1,
+            "home_loss_count": 2,
+            "home_tie_count": 0,
+            "home_win_count": 4,
+            "league": "NFL",
+            "loss_count": 4,
+            "name": "Colts",
+            "non_conference_loss_count": 0,
+            "non_conference_tie_count": 0,
+            "non_conference_win_count": 4,
+            "non_division_loss_count": 2,
+            "non_division_tie_count": 0,
+            "non_division_win_count": 6,
+            "points_against": 253,
+            "points_differential": 49,
+            "points_for": 302,
+            "road_loss_count": 2,
             "road_tie_count": 0,
             "road_win_count": 3,
             "season_year": 2020,
             "streak_length": 1,
-            "streak_type": "W",
+            "streak_type": "L",
             "tie_count": 0,
             "win_count": 7,
-            "win_percentage": 0.7
+            "win_percentage": 0.636
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 10
     },
     {
@@ -414,7 +414,7 @@
             "city": "Houston",
             "conference": "AFC",
             "conference_loss_count": 5,
-            "conference_rank": 13,
+            "conference_rank": 12,
             "conference_tie_count": 0,
             "conference_win_count": 3,
             "division": "AFC South",
@@ -430,31 +430,31 @@
             "name": "Texans",
             "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
-            "non_conference_win_count": 0,
+            "non_conference_win_count": 1,
             "non_division_loss_count": 6,
             "non_division_tie_count": 0,
-            "non_division_win_count": 1,
-            "points_against": 272,
-            "points_differential": -45,
-            "points_for": 227,
+            "non_division_win_count": 2,
+            "points_against": 297,
+            "points_differential": -29,
+            "points_for": 268,
             "road_loss_count": 4,
             "road_tie_count": 0,
-            "road_win_count": 1,
+            "road_win_count": 2,
             "season_year": 2020,
-            "streak_length": 1,
+            "streak_length": 2,
             "streak_type": "W",
             "tie_count": 0,
-            "win_count": 3,
-            "win_percentage": 0.3
+            "win_count": 4,
+            "win_percentage": 0.364
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 11
     },
     {
         "fields": {
             "city": "Jacksonville",
             "conference": "AFC",
-            "conference_loss_count": 7,
+            "conference_loss_count": 8,
             "conference_rank": 15,
             "conference_tie_count": 0,
             "conference_win_count": 1,
@@ -463,32 +463,32 @@
             "division_rank": 4,
             "division_tie_count": 0,
             "division_win_count": 1,
-            "home_loss_count": 4,
+            "home_loss_count": 5,
             "home_tie_count": 0,
             "home_win_count": 1,
             "league": "NFL",
-            "loss_count": 9,
+            "loss_count": 10,
             "name": "Jaguars",
             "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
             "non_conference_win_count": 0,
-            "non_division_loss_count": 6,
+            "non_division_loss_count": 7,
             "non_division_tie_count": 0,
             "non_division_win_count": 0,
-            "points_against": 298,
-            "points_differential": -96,
-            "points_for": 202,
+            "points_against": 325,
+            "points_differential": -98,
+            "points_for": 227,
             "road_loss_count": 5,
             "road_tie_count": 0,
             "road_win_count": 0,
             "season_year": 2020,
-            "streak_length": 9,
+            "streak_length": 10,
             "streak_type": "L",
             "tie_count": 0,
             "win_count": 1,
-            "win_percentage": 0.1
+            "win_percentage": 0.091
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 12
     },
     {
@@ -512,24 +512,24 @@
             "name": "Chiefs",
             "non_conference_loss_count": 0,
             "non_conference_tie_count": 0,
-            "non_conference_win_count": 1,
+            "non_conference_win_count": 2,
             "non_division_loss_count": 0,
             "non_division_tie_count": 0,
-            "non_division_win_count": 6,
-            "points_against": 214,
-            "points_differential": 107,
-            "points_for": 321,
+            "non_division_win_count": 7,
+            "points_against": 238,
+            "points_differential": 110,
+            "points_for": 348,
             "road_loss_count": 0,
             "road_tie_count": 0,
-            "road_win_count": 5,
+            "road_win_count": 6,
             "season_year": 2020,
-            "streak_length": 5,
+            "streak_length": 6,
             "streak_type": "W",
             "tie_count": 0,
-            "win_count": 9,
-            "win_percentage": 0.9
+            "win_count": 10,
+            "win_percentage": 0.909
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 13
     },
     {
@@ -537,7 +537,7 @@
             "city": "Las Vegas",
             "conference": "AFC",
             "conference_loss_count": 3,
-            "conference_rank": 7,
+            "conference_rank": 9,
             "conference_tie_count": 0,
             "conference_win_count": 4,
             "division": "AFC West",
@@ -549,28 +549,28 @@
             "home_tie_count": 0,
             "home_win_count": 2,
             "league": "NFL",
-            "loss_count": 4,
+            "loss_count": 5,
             "name": "Raiders",
-            "non_conference_loss_count": 1,
+            "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
             "non_conference_win_count": 2,
-            "non_division_loss_count": 3,
+            "non_division_loss_count": 4,
             "non_division_tie_count": 0,
             "non_division_win_count": 3,
-            "points_against": 276,
-            "points_differential": 10,
-            "points_for": 286,
-            "road_loss_count": 1,
+            "points_against": 319,
+            "points_differential": -27,
+            "points_for": 292,
+            "road_loss_count": 2,
             "road_tie_count": 0,
             "road_win_count": 4,
             "season_year": 2020,
-            "streak_length": 1,
+            "streak_length": 2,
             "streak_type": "L",
             "tie_count": 0,
             "win_count": 6,
-            "win_percentage": 0.6
+            "win_percentage": 0.545
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 14
     },
     {
@@ -578,7 +578,7 @@
             "city": "Denver",
             "conference": "AFC",
             "conference_loss_count": 4,
-            "conference_rank": 10,
+            "conference_rank": 11,
             "conference_tie_count": 0,
             "conference_win_count": 4,
             "division": "AFC West",
@@ -586,40 +586,40 @@
             "division_rank": 3,
             "division_tie_count": 0,
             "division_win_count": 1,
-            "home_loss_count": 3,
+            "home_loss_count": 4,
             "home_tie_count": 0,
             "home_win_count": 2,
             "league": "NFL",
-            "loss_count": 6,
+            "loss_count": 7,
             "name": "Broncos",
-            "non_conference_loss_count": 2,
+            "non_conference_loss_count": 3,
             "non_conference_tie_count": 0,
             "non_conference_win_count": 0,
-            "non_division_loss_count": 4,
+            "non_division_loss_count": 5,
             "non_division_tie_count": 0,
             "non_division_win_count": 3,
-            "points_against": 267,
-            "points_differential": -61,
-            "points_for": 206,
+            "points_against": 298,
+            "points_differential": -89,
+            "points_for": 209,
             "road_loss_count": 3,
             "road_tie_count": 0,
             "road_win_count": 2,
             "season_year": 2020,
             "streak_length": 1,
-            "streak_type": "W",
+            "streak_type": "L",
             "tie_count": 0,
             "win_count": 4,
-            "win_percentage": 0.4
+            "win_percentage": 0.364
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 15
     },
     {
         "fields": {
             "city": "Los Angeles",
             "conference": "AFC",
-            "conference_loss_count": 4,
-            "conference_rank": 12,
+            "conference_loss_count": 5,
+            "conference_rank": 13,
             "conference_tie_count": 0,
             "conference_win_count": 3,
             "division": "AFC West",
@@ -631,82 +631,41 @@
             "home_tie_count": 0,
             "home_win_count": 2,
             "league": "NFL",
-            "loss_count": 7,
+            "loss_count": 8,
             "name": "Chargers",
             "non_conference_loss_count": 3,
             "non_conference_tie_count": 0,
             "non_conference_win_count": 0,
-            "non_division_loss_count": 4,
+            "non_division_loss_count": 5,
             "non_division_tie_count": 0,
             "non_division_win_count": 3,
-            "points_against": 273,
-            "points_differential": -13,
-            "points_for": 260,
-            "road_loss_count": 4,
+            "points_against": 300,
+            "points_differential": -23,
+            "points_for": 277,
+            "road_loss_count": 5,
             "road_tie_count": 0,
             "road_win_count": 1,
             "season_year": 2020,
             "streak_length": 1,
-            "streak_type": "W",
+            "streak_type": "L",
             "tie_count": 0,
             "win_count": 3,
-            "win_percentage": 0.3
+            "win_percentage": 0.273
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 16
-    },
-    {
-        "fields": {
-            "city": "Philadelphia",
-            "conference": "NFC",
-            "conference_loss_count": 3,
-            "conference_rank": 4,
-            "conference_tie_count": 0,
-            "conference_win_count": 3,
-            "division": "NFC East",
-            "division_loss_count": 2,
-            "division_rank": 1,
-            "division_tie_count": 0,
-            "division_win_count": 2,
-            "home_loss_count": 2,
-            "home_tie_count": 1,
-            "home_win_count": 2,
-            "league": "NFL",
-            "loss_count": 6,
-            "name": "Eagles",
-            "non_conference_loss_count": 3,
-            "non_conference_tie_count": 1,
-            "non_conference_win_count": 0,
-            "non_division_loss_count": 4,
-            "non_division_tie_count": 1,
-            "non_division_win_count": 1,
-            "points_against": 254,
-            "points_differential": -34,
-            "points_for": 220,
-            "road_loss_count": 4,
-            "road_tie_count": 0,
-            "road_win_count": 1,
-            "season_year": 2020,
-            "streak_length": 2,
-            "streak_type": "L",
-            "tie_count": 1,
-            "win_count": 3,
-            "win_percentage": 0.35
-        },
-        "model": "standings.Standing",
-        "pk": 17
     },
     {
         "fields": {
             "city": "New York",
             "conference": "NFC",
             "conference_loss_count": 6,
-            "conference_rank": 13,
+            "conference_rank": 4,
             "conference_tie_count": 0,
             "conference_win_count": 3,
             "division": "NFC East",
             "division_loss_count": 2,
-            "division_rank": 2,
+            "division_rank": 1,
             "division_tie_count": 0,
             "division_win_count": 3,
             "home_loss_count": 3,
@@ -717,39 +676,39 @@
             "name": "Giants",
             "non_conference_loss_count": 1,
             "non_conference_tie_count": 0,
-            "non_conference_win_count": 0,
+            "non_conference_win_count": 1,
             "non_division_loss_count": 5,
             "non_division_tie_count": 0,
-            "non_division_win_count": 0,
-            "points_against": 236,
-            "points_differential": -41,
-            "points_for": 195,
+            "non_division_win_count": 1,
+            "points_against": 253,
+            "points_differential": -39,
+            "points_for": 214,
             "road_loss_count": 4,
             "road_tie_count": 0,
-            "road_win_count": 1,
+            "road_win_count": 2,
             "season_year": 2020,
-            "streak_length": 2,
+            "streak_length": 3,
             "streak_type": "W",
             "tie_count": 0,
-            "win_count": 3,
-            "win_percentage": 0.3
+            "win_count": 4,
+            "win_percentage": 0.364
         },
-        "model": "standings.Standing",
-        "pk": 18
+        "model": "standings.NflStanding",
+        "pk": 17
     },
     {
         "fields": {
             "city": "Washington",
             "conference": "NFC",
             "conference_loss_count": 5,
-            "conference_rank": 14,
+            "conference_rank": 12,
             "conference_tie_count": 0,
-            "conference_win_count": 2,
+            "conference_win_count": 3,
             "division": "NFC East",
             "division_loss_count": 2,
-            "division_rank": 3,
+            "division_rank": 2,
             "division_tie_count": 0,
-            "division_win_count": 2,
+            "division_win_count": 3,
             "home_loss_count": 3,
             "home_tie_count": 0,
             "home_win_count": 3,
@@ -762,40 +721,81 @@
             "non_division_loss_count": 5,
             "non_division_tie_count": 0,
             "non_division_win_count": 1,
-            "points_against": 227,
-            "points_differential": -27,
-            "points_for": 200,
+            "points_against": 243,
+            "points_differential": -2,
+            "points_for": 241,
             "road_loss_count": 4,
             "road_tie_count": 0,
-            "road_win_count": 0,
+            "road_win_count": 1,
             "season_year": 2020,
-            "streak_length": 1,
+            "streak_length": 2,
             "streak_type": "W",
             "tie_count": 0,
-            "win_count": 3,
-            "win_percentage": 0.3
+            "win_count": 4,
+            "win_percentage": 0.364
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "city": "Philadelphia",
+            "conference": "NFC",
+            "conference_loss_count": 4,
+            "conference_rank": 15,
+            "conference_tie_count": 0,
+            "conference_win_count": 3,
+            "division": "NFC East",
+            "division_loss_count": 2,
+            "division_rank": 3,
+            "division_tie_count": 0,
+            "division_win_count": 2,
+            "home_loss_count": 3,
+            "home_tie_count": 1,
+            "home_win_count": 2,
+            "league": "NFL",
+            "loss_count": 7,
+            "name": "Eagles",
+            "non_conference_loss_count": 3,
+            "non_conference_tie_count": 1,
+            "non_conference_win_count": 0,
+            "non_division_loss_count": 5,
+            "non_division_tie_count": 1,
+            "non_division_win_count": 1,
+            "points_against": 277,
+            "points_differential": -40,
+            "points_for": 237,
+            "road_loss_count": 4,
+            "road_tie_count": 0,
+            "road_win_count": 1,
+            "season_year": 2020,
+            "streak_length": 3,
+            "streak_type": "L",
+            "tie_count": 1,
+            "win_count": 3,
+            "win_percentage": 0.318
+        },
+        "model": "standings.NflStanding",
         "pk": 19
     },
     {
         "fields": {
             "city": "Dallas",
             "conference": "NFC",
-            "conference_loss_count": 5,
-            "conference_rank": 15,
+            "conference_loss_count": 6,
+            "conference_rank": 16,
             "conference_tie_count": 0,
             "conference_win_count": 3,
             "division": "NFC East",
-            "division_loss_count": 2,
+            "division_loss_count": 3,
             "division_rank": 4,
             "division_tie_count": 0,
             "division_win_count": 1,
-            "home_loss_count": 3,
+            "home_loss_count": 4,
             "home_tie_count": 0,
             "home_win_count": 2,
             "league": "NFL",
-            "loss_count": 7,
+            "loss_count": 8,
             "name": "Cowboys",
             "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
@@ -803,20 +803,20 @@
             "non_division_loss_count": 5,
             "non_division_tie_count": 0,
             "non_division_win_count": 2,
-            "points_against": 318,
-            "points_differential": -83,
-            "points_for": 235,
+            "points_against": 359,
+            "points_differential": -108,
+            "points_for": 251,
             "road_loss_count": 4,
             "road_tie_count": 0,
             "road_win_count": 1,
             "season_year": 2020,
             "streak_length": 1,
-            "streak_type": "W",
+            "streak_type": "L",
             "tie_count": 0,
             "win_count": 3,
-            "win_percentage": 0.3
+            "win_percentage": 0.273
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 20
     },
     {
@@ -826,15 +826,15 @@
             "conference_loss_count": 2,
             "conference_rank": 3,
             "conference_tie_count": 0,
-            "conference_win_count": 5,
+            "conference_win_count": 6,
             "division": "NFC North",
             "division_loss_count": 1,
             "division_rank": 1,
             "division_tie_count": 0,
-            "division_win_count": 2,
+            "division_win_count": 3,
             "home_loss_count": 1,
             "home_tie_count": 0,
-            "home_win_count": 3,
+            "home_win_count": 4,
             "league": "NFL",
             "loss_count": 3,
             "name": "Packers",
@@ -844,79 +844,38 @@
             "non_division_loss_count": 2,
             "non_division_tie_count": 0,
             "non_division_win_count": 5,
-            "points_against": 258,
-            "points_differential": 50,
-            "points_for": 308,
+            "points_against": 283,
+            "points_differential": 66,
+            "points_for": 349,
             "road_loss_count": 2,
             "road_tie_count": 0,
             "road_win_count": 4,
             "season_year": 2020,
             "streak_length": 1,
-            "streak_type": "L",
+            "streak_type": "W",
             "tie_count": 0,
-            "win_count": 7,
-            "win_percentage": 0.7
+            "win_count": 8,
+            "win_percentage": 0.727
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 21
-    },
-    {
-        "fields": {
-            "city": "Chicago",
-            "conference": "NFC",
-            "conference_loss_count": 3,
-            "conference_rank": 8,
-            "conference_tie_count": 0,
-            "conference_win_count": 5,
-            "division": "NFC North",
-            "division_loss_count": 1,
-            "division_rank": 2,
-            "division_tie_count": 0,
-            "division_win_count": 1,
-            "home_loss_count": 3,
-            "home_tie_count": 0,
-            "home_win_count": 2,
-            "league": "NFL",
-            "loss_count": 5,
-            "name": "Bears",
-            "non_conference_loss_count": 2,
-            "non_conference_tie_count": 0,
-            "non_conference_win_count": 0,
-            "non_division_loss_count": 4,
-            "non_division_tie_count": 0,
-            "non_division_win_count": 4,
-            "points_against": 209,
-            "points_differential": -18,
-            "points_for": 191,
-            "road_loss_count": 2,
-            "road_tie_count": 0,
-            "road_win_count": 3,
-            "season_year": 2020,
-            "streak_length": 4,
-            "streak_type": "L",
-            "tie_count": 0,
-            "win_count": 5,
-            "win_percentage": 0.5
-        },
-        "model": "standings.Standing",
-        "pk": 22
     },
     {
         "fields": {
             "city": "Minnesota",
             "conference": "NFC",
             "conference_loss_count": 4,
-            "conference_rank": 9,
+            "conference_rank": 8,
             "conference_tie_count": 0,
-            "conference_win_count": 3,
+            "conference_win_count": 4,
             "division": "NFC North",
             "division_loss_count": 1,
-            "division_rank": 3,
+            "division_rank": 2,
             "division_tie_count": 0,
             "division_win_count": 3,
             "home_loss_count": 4,
             "home_tie_count": 0,
-            "home_win_count": 1,
+            "home_win_count": 2,
             "league": "NFL",
             "loss_count": 6,
             "name": "Vikings",
@@ -925,21 +884,62 @@
             "non_conference_win_count": 1,
             "non_division_loss_count": 5,
             "non_division_tie_count": 0,
-            "non_division_win_count": 1,
-            "points_against": 278,
-            "points_differential": -14,
-            "points_for": 264,
+            "non_division_win_count": 2,
+            "points_against": 305,
+            "points_differential": -13,
+            "points_for": 292,
             "road_loss_count": 2,
             "road_tie_count": 0,
             "road_win_count": 3,
             "season_year": 2020,
             "streak_length": 1,
+            "streak_type": "W",
+            "tie_count": 0,
+            "win_count": 5,
+            "win_percentage": 0.455
+        },
+        "model": "standings.NflStanding",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "city": "Chicago",
+            "conference": "NFC",
+            "conference_loss_count": 4,
+            "conference_rank": 9,
+            "conference_tie_count": 0,
+            "conference_win_count": 5,
+            "division": "NFC North",
+            "division_loss_count": 2,
+            "division_rank": 3,
+            "division_tie_count": 0,
+            "division_win_count": 1,
+            "home_loss_count": 3,
+            "home_tie_count": 0,
+            "home_win_count": 2,
+            "league": "NFL",
+            "loss_count": 6,
+            "name": "Bears",
+            "non_conference_loss_count": 2,
+            "non_conference_tie_count": 0,
+            "non_conference_win_count": 0,
+            "non_division_loss_count": 4,
+            "non_division_tie_count": 0,
+            "non_division_win_count": 4,
+            "points_against": 250,
+            "points_differential": -34,
+            "points_for": 216,
+            "road_loss_count": 3,
+            "road_tie_count": 0,
+            "road_win_count": 3,
+            "season_year": 2020,
+            "streak_length": 5,
             "streak_type": "L",
             "tie_count": 0,
-            "win_count": 4,
-            "win_percentage": 0.4
+            "win_count": 5,
+            "win_percentage": 0.455
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 23
     },
     {
@@ -947,7 +947,7 @@
             "city": "Detroit",
             "conference": "NFC",
             "conference_loss_count": 5,
-            "conference_rank": 10,
+            "conference_rank": 11,
             "conference_tie_count": 0,
             "conference_win_count": 3,
             "division": "NFC North",
@@ -955,32 +955,32 @@
             "division_rank": 4,
             "division_tie_count": 0,
             "division_win_count": 0,
-            "home_loss_count": 3,
+            "home_loss_count": 4,
             "home_tie_count": 0,
             "home_win_count": 1,
             "league": "NFL",
-            "loss_count": 6,
+            "loss_count": 7,
             "name": "Lions",
-            "non_conference_loss_count": 1,
+            "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
             "non_conference_win_count": 1,
-            "non_division_loss_count": 3,
+            "non_division_loss_count": 4,
             "non_division_tie_count": 0,
             "non_division_win_count": 4,
-            "points_against": 287,
-            "points_differential": -60,
-            "points_for": 227,
+            "points_against": 328,
+            "points_differential": -76,
+            "points_for": 252,
             "road_loss_count": 3,
             "road_tie_count": 0,
             "road_win_count": 3,
             "season_year": 2020,
-            "streak_length": 1,
+            "streak_length": 2,
             "streak_type": "L",
             "tie_count": 0,
             "win_count": 4,
-            "win_percentage": 0.4
+            "win_percentage": 0.364
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 24
     },
     {
@@ -1004,24 +1004,24 @@
             "name": "Saints",
             "non_conference_loss_count": 1,
             "non_conference_tie_count": 0,
-            "non_conference_win_count": 1,
+            "non_conference_win_count": 2,
             "non_division_loss_count": 2,
             "non_division_tie_count": 0,
-            "non_division_win_count": 4,
-            "points_against": 222,
-            "points_differential": 73,
-            "points_for": 295,
+            "non_division_win_count": 5,
+            "points_against": 225,
+            "points_differential": 101,
+            "points_for": 326,
             "road_loss_count": 1,
             "road_tie_count": 0,
-            "road_win_count": 3,
+            "road_win_count": 4,
             "season_year": 2020,
-            "streak_length": 7,
+            "streak_length": 8,
             "streak_type": "W",
             "tie_count": 0,
-            "win_count": 8,
-            "win_percentage": 0.8
+            "win_count": 9,
+            "win_percentage": 0.818
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 25
     },
     {
@@ -1037,44 +1037,44 @@
             "division_rank": 2,
             "division_tie_count": 0,
             "division_win_count": 2,
-            "home_loss_count": 2,
+            "home_loss_count": 3,
             "home_tie_count": 0,
             "home_win_count": 3,
             "league": "NFL",
-            "loss_count": 4,
+            "loss_count": 5,
             "name": "Buccaneers",
-            "non_conference_loss_count": 0,
+            "non_conference_loss_count": 1,
             "non_conference_tie_count": 0,
             "non_conference_win_count": 3,
-            "non_division_loss_count": 2,
+            "non_division_loss_count": 3,
             "non_division_tie_count": 0,
             "non_division_win_count": 5,
-            "points_against": 253,
-            "points_differential": 67,
-            "points_for": 320,
+            "points_against": 280,
+            "points_differential": 64,
+            "points_for": 344,
             "road_loss_count": 2,
             "road_tie_count": 0,
             "road_win_count": 4,
             "season_year": 2020,
-            "streak_length": 1,
+            "streak_length": 2,
             "streak_type": "L",
             "tie_count": 0,
             "win_count": 7,
-            "win_percentage": 0.636
+            "win_percentage": 0.583
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 26
     },
     {
         "fields": {
-            "city": "Carolina",
+            "city": "Atlanta",
             "conference": "NFC",
-            "conference_loss_count": 5,
-            "conference_rank": 12,
+            "conference_loss_count": 7,
+            "conference_rank": 13,
             "conference_tie_count": 0,
-            "conference_win_count": 3,
+            "conference_win_count": 2,
             "division": "NFC South",
-            "division_loss_count": 4,
+            "division_loss_count": 2,
             "division_rank": 3,
             "division_tie_count": 0,
             "division_win_count": 1,
@@ -1083,16 +1083,16 @@
             "home_win_count": 2,
             "league": "NFL",
             "loss_count": 7,
-            "name": "Panthers",
-            "non_conference_loss_count": 2,
+            "name": "Falcons",
+            "non_conference_loss_count": 0,
             "non_conference_tie_count": 0,
-            "non_conference_win_count": 1,
-            "non_division_loss_count": 3,
+            "non_conference_win_count": 2,
+            "non_division_loss_count": 5,
             "non_division_tie_count": 0,
             "non_division_win_count": 3,
-            "points_against": 272,
-            "points_differential": -19,
-            "points_for": 253,
+            "points_against": 281,
+            "points_differential": 14,
+            "points_for": 295,
             "road_loss_count": 3,
             "road_tie_count": 0,
             "road_win_count": 2,
@@ -1103,102 +1103,61 @@
             "win_count": 4,
             "win_percentage": 0.364
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 27
     },
     {
         "fields": {
-            "city": "Atlanta",
+            "city": "Carolina",
             "conference": "NFC",
-            "conference_loss_count": 7,
-            "conference_rank": 16,
+            "conference_loss_count": 6,
+            "conference_rank": 14,
             "conference_tie_count": 0,
-            "conference_win_count": 2,
+            "conference_win_count": 3,
             "division": "NFC South",
-            "division_loss_count": 2,
+            "division_loss_count": 4,
             "division_rank": 4,
             "division_tie_count": 0,
             "division_win_count": 1,
             "home_loss_count": 4,
             "home_tie_count": 0,
-            "home_win_count": 1,
+            "home_win_count": 2,
             "league": "NFL",
-            "loss_count": 7,
-            "name": "Falcons",
-            "non_conference_loss_count": 0,
+            "loss_count": 8,
+            "name": "Panthers",
+            "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
             "non_conference_win_count": 1,
-            "non_division_loss_count": 5,
+            "non_division_loss_count": 4,
             "non_division_tie_count": 0,
-            "non_division_win_count": 2,
-            "points_against": 275,
-            "points_differential": -23,
-            "points_for": 252,
-            "road_loss_count": 3,
+            "non_division_win_count": 3,
+            "points_against": 300,
+            "points_differential": -20,
+            "points_for": 280,
+            "road_loss_count": 4,
             "road_tie_count": 0,
             "road_win_count": 2,
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "L",
             "tie_count": 0,
-            "win_count": 3,
-            "win_percentage": 0.3
+            "win_count": 4,
+            "win_percentage": 0.333
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 28
-    },
-    {
-        "fields": {
-            "city": "Los Angeles",
-            "conference": "NFC",
-            "conference_loss_count": 1,
-            "conference_rank": 2,
-            "conference_tie_count": 0,
-            "conference_win_count": 7,
-            "division": "NFC West",
-            "division_loss_count": 1,
-            "division_rank": 1,
-            "division_tie_count": 0,
-            "division_win_count": 1,
-            "home_loss_count": 0,
-            "home_tie_count": 0,
-            "home_win_count": 4,
-            "league": "NFL",
-            "loss_count": 3,
-            "name": "Rams",
-            "non_conference_loss_count": 2,
-            "non_conference_tie_count": 0,
-            "non_conference_win_count": 0,
-            "non_division_loss_count": 2,
-            "non_division_tie_count": 0,
-            "non_division_win_count": 6,
-            "points_against": 192,
-            "points_differential": 51,
-            "points_for": 243,
-            "road_loss_count": 3,
-            "road_tie_count": 0,
-            "road_win_count": 3,
-            "season_year": 2020,
-            "streak_length": 2,
-            "streak_type": "W",
-            "tie_count": 0,
-            "win_count": 7,
-            "win_percentage": 0.7
-        },
-        "model": "standings.Standing",
-        "pk": 29
     },
     {
         "fields": {
             "city": "Seattle",
             "conference": "NFC",
             "conference_loss_count": 2,
-            "conference_rank": 5,
+            "conference_rank": 2,
             "conference_tie_count": 0,
-            "conference_win_count": 5,
+            "conference_win_count": 6,
             "division": "NFC West",
             "division_loss_count": 2,
-            "division_rank": 2,
+            "division_rank": 1,
             "division_tie_count": 0,
             "division_win_count": 2,
             "home_loss_count": 0,
@@ -1212,21 +1171,62 @@
             "non_conference_win_count": 2,
             "non_division_loss_count": 1,
             "non_division_tie_count": 0,
-            "non_division_win_count": 5,
-            "points_against": 287,
-            "points_differential": 31,
-            "points_for": 318,
+            "non_division_win_count": 6,
+            "points_against": 304,
+            "points_differential": 37,
+            "points_for": 341,
             "road_loss_count": 3,
             "road_tie_count": 0,
-            "road_win_count": 2,
+            "road_win_count": 3,
             "season_year": 2020,
-            "streak_length": 1,
+            "streak_length": 2,
             "streak_type": "W",
             "tie_count": 0,
-            "win_count": 7,
-            "win_percentage": 0.7
+            "win_count": 8,
+            "win_percentage": 0.727
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "city": "Los Angeles",
+            "conference": "NFC",
+            "conference_loss_count": 2,
+            "conference_rank": 5,
+            "conference_tie_count": 0,
+            "conference_win_count": 7,
+            "division": "NFC West",
+            "division_loss_count": 2,
+            "division_rank": 2,
+            "division_tie_count": 0,
+            "division_win_count": 1,
+            "home_loss_count": 1,
+            "home_tie_count": 0,
+            "home_win_count": 4,
+            "league": "NFL",
+            "loss_count": 4,
+            "name": "Rams",
+            "non_conference_loss_count": 2,
+            "non_conference_tie_count": 0,
+            "non_conference_win_count": 0,
+            "non_division_loss_count": 2,
+            "non_division_tie_count": 0,
+            "non_division_win_count": 6,
+            "points_against": 215,
+            "points_differential": 48,
+            "points_for": 263,
+            "road_loss_count": 3,
+            "road_tie_count": 0,
+            "road_win_count": 3,
+            "season_year": 2020,
+            "streak_length": 1,
+            "streak_type": "L",
+            "tie_count": 0,
+            "win_count": 7,
+            "win_percentage": 0.636
+        },
+        "model": "standings.NflStanding",
         "pk": 30
     },
     {
@@ -1246,28 +1246,28 @@
             "home_tie_count": 0,
             "home_win_count": 3,
             "league": "NFL",
-            "loss_count": 4,
+            "loss_count": 5,
             "name": "Cardinals",
-            "non_conference_loss_count": 1,
+            "non_conference_loss_count": 2,
             "non_conference_tie_count": 0,
             "non_conference_win_count": 2,
-            "non_division_loss_count": 3,
+            "non_division_loss_count": 4,
             "non_division_tie_count": 0,
             "non_division_win_count": 4,
-            "points_against": 238,
-            "points_differential": 49,
-            "points_for": 287,
-            "road_loss_count": 2,
+            "points_against": 258,
+            "points_differential": 46,
+            "points_for": 304,
+            "road_loss_count": 3,
             "road_tie_count": 0,
             "road_win_count": 3,
             "season_year": 2020,
-            "streak_length": 1,
+            "streak_length": 2,
             "streak_type": "L",
             "tie_count": 0,
             "win_count": 6,
-            "win_percentage": 0.6
+            "win_percentage": 0.545
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 31
     },
     {
@@ -1275,14 +1275,14 @@
             "city": "San Francisco",
             "conference": "NFC",
             "conference_loss_count": 5,
-            "conference_rank": 11,
+            "conference_rank": 10,
             "conference_tie_count": 0,
-            "conference_win_count": 2,
+            "conference_win_count": 3,
             "division": "NFC West",
             "division_loss_count": 2,
             "division_rank": 4,
             "division_tie_count": 0,
-            "division_win_count": 1,
+            "division_win_count": 2,
             "home_loss_count": 4,
             "home_tie_count": 0,
             "home_win_count": 1,
@@ -1295,20 +1295,20 @@
             "non_division_loss_count": 4,
             "non_division_tie_count": 0,
             "non_division_win_count": 3,
-            "points_against": 234,
-            "points_differential": 4,
-            "points_for": 238,
+            "points_against": 254,
+            "points_differential": 7,
+            "points_for": 261,
             "road_loss_count": 2,
             "road_tie_count": 0,
-            "road_win_count": 3,
+            "road_win_count": 4,
             "season_year": 2020,
-            "streak_length": 3,
-            "streak_type": "L",
+            "streak_length": 1,
+            "streak_type": "W",
             "tie_count": 0,
-            "win_count": 4,
-            "win_percentage": 0.4
+            "win_count": 5,
+            "win_percentage": 0.455
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 32
     },
     {
@@ -1349,7 +1349,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 33
     },
     {
@@ -1390,7 +1390,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 34
     },
     {
@@ -1431,7 +1431,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 35
     },
     {
@@ -1472,7 +1472,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 36
     },
     {
@@ -1513,7 +1513,7 @@
             "win_count": 14,
             "win_percentage": 0.875
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 37
     },
     {
@@ -1554,7 +1554,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 38
     },
     {
@@ -1595,7 +1595,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 39
     },
     {
@@ -1636,7 +1636,7 @@
             "win_count": 2,
             "win_percentage": 0.125
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 40
     },
     {
@@ -1677,7 +1677,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 41
     },
     {
@@ -1718,7 +1718,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 42
     },
     {
@@ -1759,7 +1759,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 43
     },
     {
@@ -1800,7 +1800,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 44
     },
     {
@@ -1841,7 +1841,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 45
     },
     {
@@ -1882,7 +1882,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 46
     },
     {
@@ -1923,7 +1923,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 47
     },
     {
@@ -1964,7 +1964,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 48
     },
     {
@@ -2005,7 +2005,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 49
     },
     {
@@ -2046,7 +2046,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 50
     },
     {
@@ -2087,7 +2087,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 51
     },
     {
@@ -2128,7 +2128,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 52
     },
     {
@@ -2169,7 +2169,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 53
     },
     {
@@ -2210,7 +2210,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 54
     },
     {
@@ -2251,7 +2251,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 55
     },
     {
@@ -2292,7 +2292,7 @@
             "win_count": 3,
             "win_percentage": 0.219
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 56
     },
     {
@@ -2333,7 +2333,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 57
     },
     {
@@ -2374,7 +2374,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 58
     },
     {
@@ -2415,7 +2415,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 59
     },
     {
@@ -2456,7 +2456,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 60
     },
     {
@@ -2497,7 +2497,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 61
     },
     {
@@ -2538,7 +2538,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 62
     },
     {
@@ -2579,7 +2579,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 63
     },
     {
@@ -2620,7 +2620,7 @@
             "win_count": 5,
             "win_percentage": 0.344
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 64
     },
     {
@@ -2661,7 +2661,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 65
     },
     {
@@ -2702,7 +2702,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 66
     },
     {
@@ -2743,7 +2743,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 67
     },
     {
@@ -2784,7 +2784,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 68
     },
     {
@@ -2825,7 +2825,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 69
     },
     {
@@ -2866,7 +2866,7 @@
             "win_count": 9,
             "win_percentage": 0.594
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 70
     },
     {
@@ -2907,7 +2907,7 @@
             "win_count": 7,
             "win_percentage": 0.469
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 71
     },
     {
@@ -2948,7 +2948,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 72
     },
     {
@@ -2989,7 +2989,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 73
     },
     {
@@ -3030,7 +3030,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 74
     },
     {
@@ -3071,7 +3071,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 75
     },
     {
@@ -3112,7 +3112,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 76
     },
     {
@@ -3153,7 +3153,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 77
     },
     {
@@ -3194,7 +3194,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 78
     },
     {
@@ -3235,7 +3235,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 79
     },
     {
@@ -3276,7 +3276,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 80
     },
     {
@@ -3317,7 +3317,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 81
     },
     {
@@ -3358,7 +3358,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 82
     },
     {
@@ -3399,7 +3399,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 83
     },
     {
@@ -3440,7 +3440,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 84
     },
     {
@@ -3481,7 +3481,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 85
     },
     {
@@ -3522,7 +3522,7 @@
             "win_count": 8,
             "win_percentage": 0.531
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 86
     },
     {
@@ -3563,7 +3563,7 @@
             "win_count": 6,
             "win_percentage": 0.406
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 87
     },
     {
@@ -3604,7 +3604,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 88
     },
     {
@@ -3645,7 +3645,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 89
     },
     {
@@ -3686,7 +3686,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 90
     },
     {
@@ -3727,7 +3727,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 91
     },
     {
@@ -3768,7 +3768,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 92
     },
     {
@@ -3809,7 +3809,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 93
     },
     {
@@ -3850,7 +3850,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 94
     },
     {
@@ -3891,7 +3891,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 95
     },
     {
@@ -3932,7 +3932,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 96
     },
     {
@@ -3973,7 +3973,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 97
     },
     {
@@ -4014,7 +4014,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 98
     },
     {
@@ -4055,7 +4055,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 99
     },
     {
@@ -4096,7 +4096,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 100
     },
     {
@@ -4137,7 +4137,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 101
     },
     {
@@ -4178,7 +4178,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 102
     },
     {
@@ -4219,7 +4219,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 103
     },
     {
@@ -4260,7 +4260,7 @@
             "win_count": 0,
             "win_percentage": 0.0
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 104
     },
     {
@@ -4301,7 +4301,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 105
     },
     {
@@ -4342,7 +4342,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 106
     },
     {
@@ -4383,7 +4383,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 107
     },
     {
@@ -4424,7 +4424,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 108
     },
     {
@@ -4465,7 +4465,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 109
     },
     {
@@ -4506,7 +4506,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 110
     },
     {
@@ -4547,7 +4547,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 111
     },
     {
@@ -4588,7 +4588,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 112
     },
     {
@@ -4629,7 +4629,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 113
     },
     {
@@ -4670,7 +4670,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 114
     },
     {
@@ -4711,7 +4711,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 115
     },
     {
@@ -4752,7 +4752,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 116
     },
     {
@@ -4793,7 +4793,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 117
     },
     {
@@ -4834,7 +4834,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 118
     },
     {
@@ -4875,7 +4875,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 119
     },
     {
@@ -4916,7 +4916,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 120
     },
     {
@@ -4957,7 +4957,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 121
     },
     {
@@ -4998,7 +4998,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 122
     },
     {
@@ -5039,7 +5039,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 123
     },
     {
@@ -5080,7 +5080,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 124
     },
     {
@@ -5121,7 +5121,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 125
     },
     {
@@ -5162,7 +5162,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 126
     },
     {
@@ -5203,7 +5203,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 127
     },
     {
@@ -5244,7 +5244,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 128
     },
     {
@@ -5285,7 +5285,7 @@
             "win_count": 14,
             "win_percentage": 0.875
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 129
     },
     {
@@ -5326,7 +5326,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 130
     },
     {
@@ -5367,7 +5367,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 131
     },
     {
@@ -5408,7 +5408,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 132
     },
     {
@@ -5449,7 +5449,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 133
     },
     {
@@ -5490,7 +5490,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 134
     },
     {
@@ -5531,7 +5531,7 @@
             "win_count": 6,
             "win_percentage": 0.406
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 135
     },
     {
@@ -5572,7 +5572,7 @@
             "win_count": 1,
             "win_percentage": 0.063
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 136
     },
     {
@@ -5613,7 +5613,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 137
     },
     {
@@ -5654,7 +5654,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 138
     },
     {
@@ -5695,7 +5695,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 139
     },
     {
@@ -5736,7 +5736,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 140
     },
     {
@@ -5777,7 +5777,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 141
     },
     {
@@ -5818,7 +5818,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 142
     },
     {
@@ -5859,7 +5859,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 143
     },
     {
@@ -5900,7 +5900,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 144
     },
     {
@@ -5941,7 +5941,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 145
     },
     {
@@ -5982,7 +5982,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 146
     },
     {
@@ -6023,7 +6023,7 @@
             "win_count": 8,
             "win_percentage": 0.531
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 147
     },
     {
@@ -6064,7 +6064,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 148
     },
     {
@@ -6105,7 +6105,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 149
     },
     {
@@ -6146,7 +6146,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 150
     },
     {
@@ -6187,7 +6187,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 151
     },
     {
@@ -6228,7 +6228,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 152
     },
     {
@@ -6269,7 +6269,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 153
     },
     {
@@ -6310,7 +6310,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 154
     },
     {
@@ -6351,7 +6351,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 155
     },
     {
@@ -6392,7 +6392,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 156
     },
     {
@@ -6433,7 +6433,7 @@
             "win_count": 10,
             "win_percentage": 0.656
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 157
     },
     {
@@ -6474,7 +6474,7 @@
             "win_count": 7,
             "win_percentage": 0.469
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 158
     },
     {
@@ -6515,7 +6515,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 159
     },
     {
@@ -6556,7 +6556,7 @@
             "win_count": 2,
             "win_percentage": 0.125
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 160
     },
     {
@@ -6597,7 +6597,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 161
     },
     {
@@ -6638,7 +6638,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 162
     },
     {
@@ -6679,7 +6679,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 163
     },
     {
@@ -6720,7 +6720,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 164
     },
     {
@@ -6761,7 +6761,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 165
     },
     {
@@ -6802,7 +6802,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 166
     },
     {
@@ -6843,7 +6843,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 167
     },
     {
@@ -6884,7 +6884,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 168
     },
     {
@@ -6925,7 +6925,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 169
     },
     {
@@ -6966,7 +6966,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 170
     },
     {
@@ -7007,7 +7007,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 171
     },
     {
@@ -7048,7 +7048,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 172
     },
     {
@@ -7089,7 +7089,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 173
     },
     {
@@ -7130,7 +7130,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 174
     },
     {
@@ -7171,7 +7171,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 175
     },
     {
@@ -7212,7 +7212,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 176
     },
     {
@@ -7253,7 +7253,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 177
     },
     {
@@ -7294,7 +7294,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 178
     },
     {
@@ -7335,7 +7335,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 179
     },
     {
@@ -7376,7 +7376,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 180
     },
     {
@@ -7417,7 +7417,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 181
     },
     {
@@ -7458,7 +7458,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 182
     },
     {
@@ -7499,7 +7499,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 183
     },
     {
@@ -7540,7 +7540,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 184
     },
     {
@@ -7581,7 +7581,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 185
     },
     {
@@ -7622,7 +7622,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 186
     },
     {
@@ -7663,7 +7663,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 187
     },
     {
@@ -7704,7 +7704,7 @@
             "win_count": 15,
             "win_percentage": 0.938
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 188
     },
     {
@@ -7745,7 +7745,7 @@
             "win_count": 13,
             "win_percentage": 0.813
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 189
     },
     {
@@ -7786,7 +7786,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 190
     },
     {
@@ -7827,7 +7827,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 191
     },
     {
@@ -7868,7 +7868,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 192
     },
     {
@@ -7909,7 +7909,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 193
     },
     {
@@ -7950,7 +7950,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 194
     },
     {
@@ -7991,7 +7991,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 195
     },
     {
@@ -8032,7 +8032,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 196
     },
     {
@@ -8073,7 +8073,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 197
     },
     {
@@ -8114,7 +8114,7 @@
             "win_count": 10,
             "win_percentage": 0.656
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 198
     },
     {
@@ -8155,7 +8155,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 199
     },
     {
@@ -8196,7 +8196,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 200
     },
     {
@@ -8237,7 +8237,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 201
     },
     {
@@ -8278,7 +8278,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 202
     },
     {
@@ -8319,7 +8319,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 203
     },
     {
@@ -8360,7 +8360,7 @@
             "win_count": 2,
             "win_percentage": 0.125
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 204
     },
     {
@@ -8401,7 +8401,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 205
     },
     {
@@ -8442,7 +8442,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 206
     },
     {
@@ -8483,7 +8483,7 @@
             "win_count": 9,
             "win_percentage": 0.563
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 207
     },
     {
@@ -8524,7 +8524,7 @@
             "win_count": 3,
             "win_percentage": 0.188
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 208
     },
     {
@@ -8565,7 +8565,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 209
     },
     {
@@ -8606,7 +8606,7 @@
             "win_count": 10,
             "win_percentage": 0.625
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 210
     },
     {
@@ -8647,7 +8647,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 211
     },
     {
@@ -8688,7 +8688,7 @@
             "win_count": 4,
             "win_percentage": 0.25
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 212
     },
     {
@@ -8729,7 +8729,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 213
     },
     {
@@ -8770,7 +8770,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 214
     },
     {
@@ -8811,7 +8811,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 215
     },
     {
@@ -8852,7 +8852,7 @@
             "win_count": 5,
             "win_percentage": 0.313
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 216
     },
     {
@@ -8893,7 +8893,7 @@
             "win_count": 7,
             "win_percentage": 0.469
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 217
     },
     {
@@ -8934,7 +8934,7 @@
             "win_count": 7,
             "win_percentage": 0.438
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 218
     },
     {
@@ -8975,7 +8975,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 219
     },
     {
@@ -9016,7 +9016,7 @@
             "win_count": 2,
             "win_percentage": 0.125
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 220
     },
     {
@@ -9057,7 +9057,7 @@
             "win_count": 12,
             "win_percentage": 0.75
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 221
     },
     {
@@ -9098,7 +9098,7 @@
             "win_count": 11,
             "win_percentage": 0.688
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 222
     },
     {
@@ -9139,7 +9139,7 @@
             "win_count": 8,
             "win_percentage": 0.5
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 223
     },
     {
@@ -9180,7 +9180,7 @@
             "win_count": 6,
             "win_percentage": 0.375
         },
-        "model": "standings.Standing",
+        "model": "standings.NflStanding",
         "pk": 224
     }
 ]

@@ -1,5 +1,5 @@
 nfl_schedule_django_model: str = "schedule.NflGame"
-nfl_standings_django_model: str = "standings.Standing"
+nfl_standings_django_model: str = "standings.NflStanding"
 nfl_team_regular_season_record_django_model: str = "stats.NflTeamRegularSeasonRecord"
 
 

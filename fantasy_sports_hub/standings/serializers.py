@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import Standing
+from .models import NflStanding
 
 
-class StandingSerializer(serializers.ModelSerializer):
+class NflStandingSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Standing
+        model = NflStanding
         fields = '__all__'
