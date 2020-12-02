@@ -33,6 +33,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 16,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.727
@@ -74,6 +75,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 15,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.636
@@ -115,6 +117,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 13,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.455
@@ -156,6 +159,7 @@
             "season_year": 2020,
             "streak_length": 11,
             "streak_type": "L",
+            "team_id": 14,
             "tie_count": 0,
             "win_count": 0,
             "win_percentage": 0.0
@@ -197,6 +201,7 @@
             "season_year": 2020,
             "streak_length": 10,
             "streak_type": "W",
+            "team_id": 3,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 1.0
@@ -238,6 +243,7 @@
             "season_year": 2020,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 1,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.727
@@ -279,6 +285,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 2,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.6
@@ -320,6 +327,7 @@
             "season_year": 2020,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 4,
             "tie_count": 1,
             "win_count": 2,
             "win_percentage": 0.227
@@ -361,6 +369,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 9,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.727
@@ -402,6 +411,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 10,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.636
@@ -443,6 +453,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 12,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.364
@@ -484,6 +495,7 @@
             "season_year": 2020,
             "streak_length": 10,
             "streak_type": "L",
+            "team_id": 11,
             "tie_count": 0,
             "win_count": 1,
             "win_percentage": 0.091
@@ -525,6 +537,7 @@
             "season_year": 2020,
             "streak_length": 6,
             "streak_type": "W",
+            "team_id": 5,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.909
@@ -566,6 +579,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": null,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.545
@@ -607,6 +621,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 8,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.364
@@ -648,6 +663,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 7,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.273
@@ -689,6 +705,7 @@
             "season_year": 2020,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 17,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.364
@@ -730,6 +747,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 19,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.364
@@ -771,6 +789,7 @@
             "season_year": 2020,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 20,
             "tie_count": 1,
             "win_count": 3,
             "win_percentage": 0.318
@@ -812,6 +831,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 18,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.273
@@ -853,6 +873,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 26,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.727
@@ -894,6 +915,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 25,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.455
@@ -935,6 +957,7 @@
             "season_year": 2020,
             "streak_length": 5,
             "streak_type": "L",
+            "team_id": 27,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.455
@@ -976,6 +999,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 28,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.364
@@ -1017,6 +1041,7 @@
             "season_year": 2020,
             "streak_length": 8,
             "streak_type": "W",
+            "team_id": 31,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.818
@@ -1058,6 +1083,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 29,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.583
@@ -1099,6 +1125,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 30,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.364
@@ -1140,6 +1167,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 32,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.333
@@ -1181,6 +1209,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 23,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.727
@@ -1222,6 +1251,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 22,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.636
@@ -1263,6 +1293,7 @@
             "season_year": 2020,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 24,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.545
@@ -1304,6 +1335,7 @@
             "season_year": 2020,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 21,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.455
@@ -1345,6 +1377,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 13,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -1386,6 +1419,7 @@
             "season_year": 2019,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 16,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -1427,6 +1461,7 @@
             "season_year": 2019,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 14,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -1468,6 +1503,7 @@
             "season_year": 2019,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 15,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -1509,6 +1545,7 @@
             "season_year": 2019,
             "streak_length": 12,
             "streak_type": "W",
+            "team_id": 2,
             "tie_count": 0,
             "win_count": 14,
             "win_percentage": 0.875
@@ -1550,6 +1587,7 @@
             "season_year": 2019,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 3,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -1591,6 +1629,7 @@
             "season_year": 2019,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 1,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -1632,6 +1671,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 4,
             "tie_count": 0,
             "win_count": 2,
             "win_percentage": 0.125
@@ -1673,6 +1713,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 12,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -1714,6 +1755,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 9,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -1755,6 +1797,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 10,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -1796,6 +1839,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 11,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -1837,6 +1881,7 @@
             "season_year": 2019,
             "streak_length": 6,
             "streak_type": "W",
+            "team_id": 5,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -1878,6 +1923,7 @@
             "season_year": 2019,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 8,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -1919,6 +1965,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 6,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -1960,6 +2007,7 @@
             "season_year": 2019,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 7,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -2001,6 +2049,7 @@
             "season_year": 2019,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 20,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -2042,6 +2091,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 18,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -2083,6 +2133,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 17,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -2124,6 +2175,7 @@
             "season_year": 2019,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 19,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -2165,6 +2217,7 @@
             "season_year": 2019,
             "streak_length": 5,
             "streak_type": "W",
+            "team_id": 26,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -2206,6 +2259,7 @@
             "season_year": 2019,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 25,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -2247,6 +2301,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 27,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -2288,6 +2343,7 @@
             "season_year": 2019,
             "streak_length": 9,
             "streak_type": "L",
+            "team_id": 28,
             "tie_count": 1,
             "win_count": 3,
             "win_percentage": 0.219
@@ -2329,6 +2385,7 @@
             "season_year": 2019,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 31,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -2370,6 +2427,7 @@
             "season_year": 2019,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 30,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -2411,6 +2469,7 @@
             "season_year": 2019,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 29,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -2452,6 +2511,7 @@
             "season_year": 2019,
             "streak_length": 8,
             "streak_type": "L",
+            "team_id": 32,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -2493,6 +2553,7 @@
             "season_year": 2019,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 21,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -2534,6 +2595,7 @@
             "season_year": 2019,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 23,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -2575,6 +2637,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 22,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -2616,6 +2679,7 @@
             "season_year": 2019,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 24,
             "tie_count": 1,
             "win_count": 5,
             "win_percentage": 0.344
@@ -2657,6 +2721,7 @@
             "season_year": 2018,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 13,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -2698,6 +2763,7 @@
             "season_year": 2018,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 15,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -2739,6 +2805,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 16,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -2780,6 +2847,7 @@
             "season_year": 2018,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 14,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -2821,6 +2889,7 @@
             "season_year": 2018,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 2,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -2862,6 +2931,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 3,
             "tie_count": 1,
             "win_count": 9,
             "win_percentage": 0.594
@@ -2903,6 +2973,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 1,
             "tie_count": 1,
             "win_count": 7,
             "win_percentage": 0.469
@@ -2944,6 +3015,7 @@
             "season_year": 2018,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 4,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -2985,6 +3057,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 12,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -3026,6 +3099,7 @@
             "season_year": 2018,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 10,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -3067,6 +3141,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 9,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -3108,6 +3183,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 11,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -3149,6 +3225,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 5,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -3190,6 +3267,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 7,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -3231,6 +3309,7 @@
             "season_year": 2018,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 8,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -3272,6 +3351,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 6,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -3313,6 +3393,7 @@
             "season_year": 2018,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 18,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -3354,6 +3435,7 @@
             "season_year": 2018,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 20,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -3395,6 +3477,7 @@
             "season_year": 2018,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 19,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -3436,6 +3519,7 @@
             "season_year": 2018,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 17,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -3477,6 +3561,7 @@
             "season_year": 2018,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 27,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -3518,6 +3603,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 25,
             "tie_count": 1,
             "win_count": 8,
             "win_percentage": 0.531
@@ -3559,6 +3645,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 26,
             "tie_count": 1,
             "win_count": 6,
             "win_percentage": 0.406
@@ -3600,6 +3687,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 28,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -3641,6 +3729,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 31,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -3682,6 +3771,7 @@
             "season_year": 2018,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 30,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -3723,6 +3813,7 @@
             "season_year": 2018,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 32,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -3764,6 +3855,7 @@
             "season_year": 2018,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 29,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -3805,6 +3897,7 @@
             "season_year": 2018,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 22,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -3846,6 +3939,7 @@
             "season_year": 2018,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 23,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -3887,6 +3981,7 @@
             "season_year": 2018,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 21,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -3928,6 +4023,7 @@
             "season_year": 2018,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 24,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -3969,6 +4065,7 @@
             "season_year": 2017,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 13,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -4010,6 +4107,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 16,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -4051,6 +4149,7 @@
             "season_year": 2017,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 15,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -4092,6 +4191,7 @@
             "season_year": 2017,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 14,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -4133,6 +4233,7 @@
             "season_year": 2017,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 3,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -4174,6 +4275,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 2,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -4215,6 +4317,7 @@
             "season_year": 2017,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 4,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -4256,6 +4359,7 @@
             "season_year": 2017,
             "streak_length": 16,
             "streak_type": "L",
+            "team_id": 1,
             "tie_count": 0,
             "win_count": 0,
             "win_percentage": 0.0
@@ -4297,6 +4401,7 @@
             "season_year": 2017,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 11,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -4338,6 +4443,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 9,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -4379,6 +4485,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 10,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -4420,6 +4527,7 @@
             "season_year": 2017,
             "streak_length": 6,
             "streak_type": "L",
+            "team_id": 12,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -4461,6 +4569,7 @@
             "season_year": 2017,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 5,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -4502,6 +4611,7 @@
             "season_year": 2017,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 7,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -4543,6 +4653,7 @@
             "season_year": 2017,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 6,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -4584,6 +4695,7 @@
             "season_year": 2017,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 8,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -4625,6 +4737,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 20,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -4666,6 +4779,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 18,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -4707,6 +4821,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 19,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -4748,6 +4863,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 17,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -4789,6 +4905,7 @@
             "season_year": 2017,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 25,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -4830,6 +4947,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 28,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -4871,6 +4989,7 @@
             "season_year": 2017,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 26,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -4912,6 +5031,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 27,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -4953,6 +5073,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 31,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -4994,6 +5115,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 32,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -5035,6 +5157,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 30,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -5076,6 +5199,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 29,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -5117,6 +5241,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 22,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -5158,6 +5283,7 @@
             "season_year": 2017,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 23,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -5199,6 +5325,7 @@
             "season_year": 2017,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 24,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -5240,6 +5367,7 @@
             "season_year": 2017,
             "streak_length": 5,
             "streak_type": "W",
+            "team_id": 21,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -5281,6 +5409,7 @@
             "season_year": 2016,
             "streak_length": 7,
             "streak_type": "W",
+            "team_id": 13,
             "tie_count": 0,
             "win_count": 14,
             "win_percentage": 0.875
@@ -5322,6 +5451,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 15,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -5363,6 +5493,7 @@
             "season_year": 2016,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 16,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -5404,6 +5535,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 14,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -5445,6 +5577,7 @@
             "season_year": 2016,
             "streak_length": 7,
             "streak_type": "W",
+            "team_id": 3,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -5486,6 +5619,7 @@
             "season_year": 2016,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 2,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -5527,6 +5661,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 4,
             "tie_count": 1,
             "win_count": 6,
             "win_percentage": 0.406
@@ -5568,6 +5703,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 1,
             "tie_count": 0,
             "win_count": 1,
             "win_percentage": 0.063
@@ -5609,6 +5745,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 12,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -5650,6 +5787,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 9,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -5691,6 +5829,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 10,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -5732,6 +5871,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 11,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -5773,6 +5913,7 @@
             "season_year": 2016,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 5,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -5814,6 +5955,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 6,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -5855,6 +5997,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 8,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -5896,6 +6039,7 @@
             "season_year": 2016,
             "streak_length": 5,
             "streak_type": "L",
+            "team_id": null,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -5937,6 +6081,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 18,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -5978,6 +6123,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 17,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -6019,6 +6165,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 19,
             "tie_count": 1,
             "win_count": 8,
             "win_percentage": 0.531
@@ -6060,6 +6207,7 @@
             "season_year": 2016,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 20,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -6101,6 +6249,7 @@
             "season_year": 2016,
             "streak_length": 6,
             "streak_type": "W",
+            "team_id": 26,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -6142,6 +6291,7 @@
             "season_year": 2016,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 28,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -6183,6 +6333,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 25,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -6224,6 +6375,7 @@
             "season_year": 2016,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 27,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -6265,6 +6417,7 @@
             "season_year": 2016,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 30,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -6306,6 +6459,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 29,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -6347,6 +6501,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 31,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -6388,6 +6543,7 @@
             "season_year": 2016,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 32,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -6429,6 +6585,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 23,
             "tie_count": 1,
             "win_count": 10,
             "win_percentage": 0.656
@@ -6470,6 +6627,7 @@
             "season_year": 2016,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 24,
             "tie_count": 1,
             "win_count": 7,
             "win_percentage": 0.469
@@ -6511,6 +6669,7 @@
             "season_year": 2016,
             "streak_length": 7,
             "streak_type": "L",
+            "team_id": 22,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -6552,6 +6711,7 @@
             "season_year": 2016,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 21,
             "tie_count": 0,
             "win_count": 2,
             "win_percentage": 0.125
@@ -6593,6 +6753,7 @@
             "season_year": 2015,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 13,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -6634,6 +6795,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 15,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -6675,6 +6837,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 14,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -6716,6 +6879,7 @@
             "season_year": 2015,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 16,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -6757,6 +6921,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 3,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -6798,6 +6963,7 @@
             "season_year": 2015,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 1,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -6839,6 +7005,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 4,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -6880,6 +7047,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 2,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -6921,6 +7089,7 @@
             "season_year": 2015,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 12,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -6962,6 +7131,7 @@
             "season_year": 2015,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 9,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -7003,6 +7173,7 @@
             "season_year": 2015,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 11,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -7044,6 +7215,7 @@
             "season_year": 2015,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 10,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -7085,6 +7257,7 @@
             "season_year": 2015,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": null,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -7126,6 +7299,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 6,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -7167,6 +7341,7 @@
             "season_year": 2015,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 8,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -7208,6 +7383,7 @@
             "season_year": 2015,
             "streak_length": 10,
             "streak_type": "W",
+            "team_id": 5,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -7249,6 +7425,7 @@
             "season_year": 2015,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 19,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -7290,6 +7467,7 @@
             "season_year": 2015,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": 17,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -7331,6 +7509,7 @@
             "season_year": 2015,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 18,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -7372,6 +7551,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 20,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -7413,6 +7593,7 @@
             "season_year": 2015,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 28,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -7454,6 +7635,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 27,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -7495,6 +7677,7 @@
             "season_year": 2015,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 26,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -7536,6 +7719,7 @@
             "season_year": 2015,
             "streak_length": 3,
             "streak_type": "W",
+            "team_id": 25,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -7577,6 +7761,7 @@
             "season_year": 2015,
             "streak_length": 4,
             "streak_type": "L",
+            "team_id": 29,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -7618,6 +7803,7 @@
             "season_year": 2015,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 31,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -7659,6 +7845,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 30,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -7700,6 +7887,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 32,
             "tie_count": 0,
             "win_count": 15,
             "win_percentage": 0.938
@@ -7741,6 +7929,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 24,
             "tie_count": 0,
             "win_count": 13,
             "win_percentage": 0.813
@@ -7782,6 +7971,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 23,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -7823,6 +8013,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 21,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -7864,6 +8055,7 @@
             "season_year": 2015,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": null,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -7905,6 +8097,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 13,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -7946,6 +8139,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 16,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -7987,6 +8181,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 15,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -8028,6 +8223,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 14,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -8069,6 +8265,7 @@
             "season_year": 2014,
             "streak_length": 6,
             "streak_type": "W",
+            "team_id": 3,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -8110,6 +8307,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 4,
             "tie_count": 1,
             "win_count": 10,
             "win_percentage": 0.656
@@ -8151,6 +8349,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 2,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -8192,6 +8391,7 @@
             "season_year": 2014,
             "streak_length": 5,
             "streak_type": "L",
+            "team_id": 1,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -8233,6 +8433,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 10,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -8274,6 +8475,7 @@
             "season_year": 2014,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 12,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -8315,6 +8517,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 11,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -8356,6 +8559,7 @@
             "season_year": 2014,
             "streak_length": 10,
             "streak_type": "L",
+            "team_id": 9,
             "tie_count": 0,
             "win_count": 2,
             "win_percentage": 0.125
@@ -8397,6 +8601,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 8,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -8438,6 +8643,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 5,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -8479,6 +8685,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": null,
             "tie_count": 0,
             "win_count": 9,
             "win_percentage": 0.563
@@ -8520,6 +8727,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 6,
             "tie_count": 0,
             "win_count": 3,
             "win_percentage": 0.188
@@ -8561,6 +8769,7 @@
             "season_year": 2014,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 18,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -8602,6 +8811,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 20,
             "tie_count": 0,
             "win_count": 10,
             "win_percentage": 0.625
@@ -8643,6 +8853,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 17,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -8684,6 +8895,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 19,
             "tie_count": 0,
             "win_count": 4,
             "win_percentage": 0.25
@@ -8725,6 +8937,7 @@
             "season_year": 2014,
             "streak_length": 2,
             "streak_type": "W",
+            "team_id": 26,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -8766,6 +8979,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 28,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -8807,6 +9021,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 25,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -8848,6 +9063,7 @@
             "season_year": 2014,
             "streak_length": 5,
             "streak_type": "L",
+            "team_id": 27,
             "tie_count": 0,
             "win_count": 5,
             "win_percentage": 0.313
@@ -8889,6 +9105,7 @@
             "season_year": 2014,
             "streak_length": 4,
             "streak_type": "W",
+            "team_id": 32,
             "tie_count": 1,
             "win_count": 7,
             "win_percentage": 0.469
@@ -8930,6 +9147,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 31,
             "tie_count": 0,
             "win_count": 7,
             "win_percentage": 0.438
@@ -8971,6 +9189,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "L",
+            "team_id": 30,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375
@@ -9012,6 +9231,7 @@
             "season_year": 2014,
             "streak_length": 6,
             "streak_type": "L",
+            "team_id": 29,
             "tie_count": 0,
             "win_count": 2,
             "win_percentage": 0.125
@@ -9053,6 +9273,7 @@
             "season_year": 2014,
             "streak_length": 6,
             "streak_type": "W",
+            "team_id": 23,
             "tie_count": 0,
             "win_count": 12,
             "win_percentage": 0.75
@@ -9094,6 +9315,7 @@
             "season_year": 2014,
             "streak_length": 2,
             "streak_type": "L",
+            "team_id": 24,
             "tie_count": 0,
             "win_count": 11,
             "win_percentage": 0.688
@@ -9135,6 +9357,7 @@
             "season_year": 2014,
             "streak_length": 1,
             "streak_type": "W",
+            "team_id": 21,
             "tie_count": 0,
             "win_count": 8,
             "win_percentage": 0.5
@@ -9176,6 +9399,7 @@
             "season_year": 2014,
             "streak_length": 3,
             "streak_type": "L",
+            "team_id": null,
             "tie_count": 0,
             "win_count": 6,
             "win_percentage": 0.375

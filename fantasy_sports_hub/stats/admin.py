@@ -3,8 +3,7 @@ from .models import NflTeamRegularSeasonRecord
 
 
 class NflTeamRegularSeasonRecordAdmin(admin.ModelAdmin):
-    list_display = ('id', 'season_year', 'season_type', 'team_id',
-                    'win_count', 'loss_count', 'tie_count')
+    list_display = ('id', 'season_year', 'city', 'name', 'standing_id')
 
 
 admin.site.register(NflTeamRegularSeasonRecord,

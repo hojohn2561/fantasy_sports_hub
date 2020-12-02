@@ -5,7 +5,7 @@ import json
 import time
 from configuration import get_sport_radar_api_key
 from api_configration import get_nfl_standings_url_path
-from db_configuration import get_nfl_standings_years, nfl_standings_django_model
+from db_configuration import get_nfl_standings_years, nfl_standings_django_model, get_db_team_id_by_api_team_id
 
 
 # Make external API call to get standings
@@ -34,6 +34,7 @@ def createNflStandingsFixture(standings_years):
                 cur_division = division["name"]
                 for team in division["teams"]:
                     # Parse to get only needed data
+                    team_id = get_db_team_id_by_api_team_id(team["id"])["id"]
                     name = team["name"]
                     city = team["market"]
                     win_count = team["wins"]
@@ -89,8 +90,8 @@ def createNflStandingsFixture(standings_years):
                                 non_conference_tie_count = cur_record_section["ties"]
                     # Append data to JSON response for our API
                     standingsFixture.append(
-                        {"model": django_model, "pk": pk, "fields": {"season_year": season_year, "league": "NFL", "conference": cur_conference, "division": cur_division, "name": name, "city": city,
-                                                                     "win_count": win_count, "loss_count": loss_count, "tie_count": tie_count, "win_percentage": win_percentage,
+                        {"model": django_model, "pk": pk, "fields": {"season_year": season_year, "league": "NFL", "conference": cur_conference, "division": cur_division, "name": name,
+                                                                     "team_id": team_id, "city": city, "win_count": win_count, "loss_count": loss_count, "tie_count": tie_count, "win_percentage": win_percentage,
                                                                      "points_for": points_for, "points_against": points_against, "points_differential": points_differential,
                                                                      "division_rank": division_rank, "conference_rank": conference_rank, "streak_type": streak_type, "streak_length": streak_length,
                                                                      "conference_win_count": conference_win_count, "conference_loss_count": conference_loss_count, "conference_tie_count": conference_tie_count,

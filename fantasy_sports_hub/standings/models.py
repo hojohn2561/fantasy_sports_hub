@@ -1,10 +1,13 @@
 from django.db import models
 from django.core.validators import MaxValueValidator
+from teams.models import NflTeam
 
 
 class NflStanding(models.Model):
     season_year = models.PositiveIntegerField()
     league = models.CharField(max_length=50)
+    team_id = models.ForeignKey(
+        NflTeam, on_delete=models.CASCADE, related_name="team", blank=True, null=True)
     city = models.CharField(max_length=50, default="")
     name = models.CharField(max_length=50, default="")
     conference = models.CharField(max_length=50)
@@ -39,3 +42,6 @@ class NflStanding(models.Model):
     road_loss_count = models.PositiveIntegerField(default=0)
     road_tie_count = models.PositiveIntegerField(default=0)
     #team = models.ForeignKey(Team, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return "%s %s standing in %s (%d)" % (self.city, self.name, self.season_year, self.id)

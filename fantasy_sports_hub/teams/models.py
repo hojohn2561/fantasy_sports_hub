@@ -5,8 +5,8 @@ from colorfield.fields import ColorField
 
 
 class NflTeam(models.Model):
-    name = models.CharField(max_length=50)
     city = models.CharField(max_length=50)
+    name = models.CharField(max_length=50)
     abr = models.CharField(max_length=10)
     conference = models.CharField(max_length=20)
     division = models.CharField(max_length=20)
@@ -17,4 +17,4 @@ class NflTeam(models.Model):
     logo = models.ImageField(upload_to='nfl/logos')
 
     def __str__(self):
-        return "%s %s" % (self.city, self.name)
+        return "%s %s (%d)" % (self.city, self.name, self.id)
