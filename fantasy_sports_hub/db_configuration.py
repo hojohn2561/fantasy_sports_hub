@@ -1,38 +1,8 @@
+from api_configration import get_team_id_by_team
+
 nfl_schedule_django_model: str = "schedule.NflGame"
 nfl_standings_django_model: str = "standings.NflStanding"
 nfl_team_regular_season_record_django_model: str = "stats.NflTeamRegularSeasonRecord"
-browns_api_id = "d5a2eb42-8065-4174-ab79-0a6fa820e35e"
-ravens_api_id = "ebd87119-b331-4469-9ea6-d51fe3ce2f1c"
-steelers_api_id = "cb2f9f1f-ac67-424e-9e72-1475cb0ed398"
-bengals_api_id = "ad4ae08f-d808-42d5-a1e6-e9bc4e34d123"
-chiefs_api_id = "6680d28d-d4d2-49f6-aace-5292d3ec02c2"
-raiders_api_id = "1c1cec48-6352-4556-b789-35304c1a6ae1"
-chargers_api_id = "1f6dcffb-9823-43cd-9ff4-e7a8466749b5"
-broncos_api_id = "ce92bd47-93d5-4fe9-ada4-0fc681e6caa0"
-titans_api_id = "d26a1ca5-722d-4274-8f97-c92e49c96315"
-colts_api_id = "82cf9565-6eb9-4f01-bdbd-5aa0d472fcd9"
-jaguars_api_id = "f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de"
-texans_api_id = "82d2d380-3834-4938-835f-aec541e5ece7"
-patriots_api_id = "97354895-8c77-4fd4-a860-32e62ea7382a"
-jets_api_id = "5fee86ae-74ab-4bdd-8416-42a9dd9964f3"
-dolphins_api_id = "4809ecb0-abd3-451d-9c4a-92a90b83ca06"
-bills_api_id = "768c92aa-75ff-4a43-bcc0-f2798c2e1724"
-giants_api_id = "04aa1c9d-66da-489d-b16a-1dee3f2eec4d"
-cowboys_api_id = "e627eec7-bbae-4fa4-8e73-8e1d6bc5c060"
-football_team_api_id = "22052ff7-c065-42ee-bc8f-c4691c50e624"
-eagles_api_id = "386bdbf9-9eea-4869-bb9a-274b0bc66e80"
-fourty_niners_api_id = "f0e724b0-4cbf-495a-be47-013907608da9"
-rams_api_id = "2eff2a03-54d4-46ba-890e-2bc3925548f3"
-seahawks_api_id = "3d08af9e-c767-4f88-a7dc-b920c6d2b4a8"
-cardinals_api_id = "de760528-1dc0-416a-a978-b510d20692ff"
-vikings_api_id = "33405046-04ee-4058-a950-d606f8c30852"
-packers_api_id = "a20471b4-a8d9-40c7-95ad-90cc30e46932"
-bears_api_id = "7b112545-38e6-483c-a55c-96cf6ee49cb8"
-lions_api_id = "c5a59daa-53a7-4de0-851f-fb12be893e9e"
-buccaneers_api_id = "4254d319-1bc7-4f81-b4ab-b5e6f3402b69"
-falcons_api_id = "e6aa13a4-0055-48a9-bc41-be28dc106929"
-saints_api_id = "0d855753-ea21-4953-89f9-0e20aff9eb73"
-panthers_api_id = "f14bf5cc-9a82-4a38-bc15-d39f75ed5314"
 
 
 # The years to get standings data for NFL
@@ -47,71 +17,71 @@ def get_nfl_schedules_years():
 
 # Should be a better way to handle this. Currently multiple sources of truth for the db id.
 def get_db_team_id_by_api_team_id(api_team_id: str):
-    if (api_team_id == browns_api_id):
-        return {"id": 1, "name": "Browns"}
-    elif (api_team_id == ravens_api_id):
-        return {"id": 2, "name": "Ravens"}
-    elif (api_team_id == steelers_api_id):
-        return {"id": 3, "name": "Steelers"}
-    elif (api_team_id == bengals_api_id):
-        return {"id": 4, "name": "Bengals"}
-    elif (api_team_id == chiefs_api_id):
-        return {"id": 5, "name": "Chiefs"}
-    elif (api_team_id == raiders_api_id):
-        return {"id": 6, "name": "Raiders"}
-    elif (api_team_id == chargers_api_id):
-        return {"id": 7, "name": "Chargers"}
-    elif (api_team_id == broncos_api_id):
-        return {"id": 8, "name": "Broncos"}
-    elif (api_team_id == titans_api_id):
-        return {"id": 9, "name": "Titans"}
-    elif (api_team_id == colts_api_id):
-        return {"id": 10, "name": "Colts"}
-    elif (api_team_id == jaguars_api_id):
-        return {"id": 11, "name": "Jaguars"}
-    elif (api_team_id == texans_api_id):
-        return {"id": 12, "name": "Texans"}
-    elif (api_team_id == patriots_api_id):
-        return {"id": 13, "name": "Patriots"}
-    elif (api_team_id == jets_api_id):
-        return {"id": 14, "name": "Jets"}
-    elif (api_team_id == dolphins_api_id):
-        return {"id": 15, "name": "Dolphins"}
-    elif (api_team_id == bills_api_id):
-        return {"id": 16, "name": "Bills"}
-    elif (api_team_id == giants_api_id):
-        return {"id": 17, "name": "Giants"}
-    elif (api_team_id == cowboys_api_id):
-        return {"id": 18, "name": "Cowboys"}
-    elif (api_team_id == football_team_api_id):
-        return {"id": 19, "name": "Football Team"}
-    elif (api_team_id == eagles_api_id):
-        return {"id": 20, "name": "Eagles"}
-    elif (api_team_id == fourty_niners_api_id):
-        return {"id": 21, "name": "49ers"}
-    elif (api_team_id == rams_api_id):
-        return {"id": 22, "name": "Rams"}
-    elif (api_team_id == seahawks_api_id):
-        return {"id": 23, "name": "Seahawks"}
-    elif (api_team_id == cardinals_api_id):
-        return {"id": 24, "name": "Cardinals"}
-    elif (api_team_id == vikings_api_id):
-        return {"id": 25, "name": "Vikings"}
-    elif (api_team_id == packers_api_id):
-        return {"id": 26, "name": "Packers"}
-    elif (api_team_id == bears_api_id):
-        return {"id": 27, "name": "Bears"}
-    elif (api_team_id == lions_api_id):
-        return {"id": 28, "name": "Lions"}
-    elif (api_team_id == buccaneers_api_id):
-        return {"id": 29, "name": "Buccaneers"}
-    elif (api_team_id == falcons_api_id):
-        return {"id": 30, "name": "Falcons"}
-    elif (api_team_id == saints_api_id):
-        return {"id": 31, "name": "Saints"}
-    elif (api_team_id == panthers_api_id):
-        return {"id": 32, "name": "Panthers"}
-    elif (api_team_id == "9dbb9060-ba0f-4920-829e-16d4d9246b5d"):
-        return {"id": None, "name": "Chargers", "city": "San Diego"}
+    if (api_team_id == get_team_id_by_team("Cleveland Browns")):
+        return 1
+    elif (api_team_id == get_team_id_by_team("Baltimore Ravens")):
+        return 2
+    elif (api_team_id == get_team_id_by_team("Pittsburgh Steelers")):
+        return 3
+    elif (api_team_id == get_team_id_by_team("Cincinnati Bengals")):
+        return 4
+    elif (api_team_id == get_team_id_by_team("Kansas City Chiefs")):
+        return 5
+    elif (api_team_id == get_team_id_by_team("Oakland Raiders")):
+        return 6
+    elif (api_team_id == get_team_id_by_team("Los Angeles Chargers")):
+        return 7
+    elif (api_team_id == get_team_id_by_team("Denver Broncos")):
+        return 8
+    elif (api_team_id == get_team_id_by_team("Tennessee Titans")):
+        return 9
+    elif (api_team_id == get_team_id_by_team("Indianapolis Colts")):
+        return 10
+    elif (api_team_id == get_team_id_by_team("Jacksonville Jaguars")):
+        return 11
+    elif (api_team_id == get_team_id_by_team("Houston Texans")):
+        return 12
+    elif (api_team_id == get_team_id_by_team("New England Patriots")):
+        return 13
+    elif (api_team_id == get_team_id_by_team("New York Jets")):
+        return 14
+    elif (api_team_id == get_team_id_by_team("Miami Dolphins")):
+        return 15
+    elif (api_team_id == get_team_id_by_team("Buffalo Bills")):
+        return 16
+    elif (api_team_id == get_team_id_by_team("New York Giants")):
+        return 17
+    elif (api_team_id == get_team_id_by_team("Dallas Cowboys")):
+        return 18
+    elif (api_team_id == get_team_id_by_team("Washington Football Team")):
+        return 19
+    elif (api_team_id == get_team_id_by_team("Philadelphia Eagles")):
+        return 20
+    elif (api_team_id == get_team_id_by_team("San Fransisco 49ers")):
+        return 21
+    elif (api_team_id == get_team_id_by_team("Los Angeles Rams")):
+        return 22
+    elif (api_team_id == get_team_id_by_team("Seattle Seahawks")):
+        return 23
+    elif (api_team_id == get_team_id_by_team("Arizona Cardinals")):
+        return 24
+    elif (api_team_id == get_team_id_by_team("Minnesota Vikings")):
+        return 25
+    elif (api_team_id == get_team_id_by_team("Green Bay Packers")):
+        return 26
+    elif (api_team_id == get_team_id_by_team("Chicago Bears")):
+        return 27
+    elif (api_team_id == get_team_id_by_team("Detroit Browns")):
+        return 28
+    elif (api_team_id == get_team_id_by_team("Tampa Bay Buccaneers")):
+        return 29
+    elif (api_team_id == get_team_id_by_team("Atlanta Falcons")):
+        return 30
+    elif (api_team_id == get_team_id_by_team("New Orleans Saints")):
+        return 31
+    elif (api_team_id == get_team_id_by_team("Carolina Panthers")):
+        return 32
+    elif (api_team_id == get_team_id_by_team("San Diego Chargers")):
+        return None
     else:
-        return {"id": None, "name": None}
+        return None

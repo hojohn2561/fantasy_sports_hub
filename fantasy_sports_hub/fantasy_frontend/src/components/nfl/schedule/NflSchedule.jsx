@@ -7,7 +7,7 @@ class NflSchedule extends Component {
   state = {
     yearSelect: this.props.schedulesData[0][0]["season_year"],
     weekSelectOptions: Array.from({ length: 17 }, (_, i) => "Week " + (i + 1)), // Array with numbers 1 to 17
-    weekSelect: "Week 12",
+    weekSelect: "Week 13",
   };
 
   daysInWeek = [

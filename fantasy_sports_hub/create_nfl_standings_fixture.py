@@ -34,7 +34,7 @@ def createNflStandingsFixture(standings_years):
                 cur_division = division["name"]
                 for team in division["teams"]:
                     # Parse to get only needed data
-                    team_id = get_db_team_id_by_api_team_id(team["id"])["id"]
+                    team_id = get_db_team_id_by_api_team_id(team["id"])
                     name = team["name"]
                     city = team["market"]
                     win_count = team["wins"]

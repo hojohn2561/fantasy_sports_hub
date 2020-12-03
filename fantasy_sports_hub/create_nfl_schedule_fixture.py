@@ -90,14 +90,12 @@ def createNflScheduleFixture(schedule_years):
                 roof_type = venue_obj["roof_type"]
 
                 home_obj = game["home"]
-                home_team_id = get_db_team_id_by_api_team_id(home_obj["id"])[
-                    "id"]
+                home_team_id = get_db_team_id_by_api_team_id(home_obj["id"])
                 home_team_name = home_obj["name"]
                 home_team_alias = home_obj["alias"]
 
                 away_obj = game["away"]
-                away_team_id = get_db_team_id_by_api_team_id(away_obj["id"])[
-                    "id"]
+                away_team_id = get_db_team_id_by_api_team_id(away_obj["id"])
                 away_team_name = away_obj["name"]
                 away_team_alias = away_obj["alias"]
 
