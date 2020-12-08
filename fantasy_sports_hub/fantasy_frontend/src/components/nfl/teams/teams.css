@@ -43,5 +43,19 @@
 }
 
 .teamPageBanner {
-  height: 20%;
+  padding-left: 1%;
+  display: block;
+  overflow: auto;
+}
+
+.teamPageLogo {
+  overflow: hidden;
+  height: 100%;
+  width: 14%;
+  position: relative;
+}
+
+.teamPageLogoImage {
+  margin: 0;
+  width: 100%;
 }

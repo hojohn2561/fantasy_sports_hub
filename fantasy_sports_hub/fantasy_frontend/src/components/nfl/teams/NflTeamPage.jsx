@@ -17,7 +17,16 @@ class NflTeamPage extends Component {
     return (
       <React.Fragment>
         <div className="jumbotron jumbotron-fluid teamPageBanner">
-          <h1 class="display-4">{selectedTeam.name}</h1>
+          <div className="teamPageLogo float-left">
+            <img
+              className="teamPageLogoImage"
+              src={selectedTeam.logo}
+              alt={selectedTeam.name}
+            />
+          </div>
+          <h1>
+            {selectedTeam.city} {selectedTeam.name}
+          </h1>
         </div>
       </React.Fragment>
     );

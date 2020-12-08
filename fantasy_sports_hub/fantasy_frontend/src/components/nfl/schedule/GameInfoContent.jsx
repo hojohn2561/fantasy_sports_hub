@@ -106,6 +106,7 @@ class GameInfoContent extends Component {
             </div>
           </div>
         );
+      case "halftime":
       case "inprogress":
         // Make another API to get live stats. Schedule API doesn't get live points.
         return (
@@ -167,6 +168,7 @@ class GameInfoContent extends Component {
             </div>
           </div>
         );
+      case "created":
       case "scheduled":
         return (
           <div className="card gameInfoCard">
@@ -208,6 +210,7 @@ class GameInfoContent extends Component {
           </div>
         );
       default:
+        //console.log(`${awayTeamFullName} @ ${homeTeamFullName}... default`);
         return (
           <div className="row gameInfoRow">
             <div className="col-8">
