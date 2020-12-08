@@ -6,7 +6,6 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('players', '__first__'),
         ('schedule', '0022_auto_20201130_1316'),
         ('stats', '0002_auto_20201128_1847'),
         ('teams', '0004_auto_20200912_2205'),

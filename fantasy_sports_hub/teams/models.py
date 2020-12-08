@@ -1,8 +1,6 @@
 from django.db import models
 from colorfield.fields import ColorField
 
-# Create your models here.
-
 
 class NflTeam(models.Model):
     city = models.CharField(max_length=50)

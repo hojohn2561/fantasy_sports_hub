@@ -27,7 +27,7 @@ function App() {
         <Route path="/ufc" component={Ufc}></Route>
         {/* Not working because Django pages, instead of React components, are served when URLs are entered manually.
         Root cause seems to be the same as not initially starting on the / page on first use */}
-        <Route path="" component={NotFound}></Route>
+        {/* <Route component={NotFound}></Route> */}
       </Switch>
       <Footer />
     </div>

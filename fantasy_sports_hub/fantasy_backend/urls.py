@@ -25,9 +25,9 @@ urlpatterns = [
     path('api/standings/', include('standings.urls')),
     path('api/schedules/', include('schedule.urls')),
     path('api/stats/', include('stats.urls')),
+    path('api/players/', include('players.urls')),
     path('', TemplateView.as_view(template_name='index.html')),
-    re_path(r'/*', TemplateView.as_view(template_name='index.html')),
-    #path('api/players/', include('players.urls'))
+    re_path(r'nfl/.*', TemplateView.as_view(template_name='index.html')),
 ]
 
 if settings.DEBUG:
