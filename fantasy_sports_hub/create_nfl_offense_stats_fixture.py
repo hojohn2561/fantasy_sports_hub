@@ -3,7 +3,7 @@ import os
 import json
 import pprint
 from configuration import get_sport_radar_api_key
-from api_configration import get_nfl_2019_season_url_path, get_nfl_2020_season_stats_base_path
+from api_configuration import get_nfl_2019_season_url_path, get_nfl_2020_season_stats_base_path
 
 # Get external API configurations from config file
 nfl_2019_season_url_path: str = get_nfl_2019_season_url_path()

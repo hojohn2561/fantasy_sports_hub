@@ -6,7 +6,7 @@ import json
 import time
 from datetime import datetime
 from configuration import get_sport_radar_api_key
-from api_configration import get_nfl_reg_schedule_url_path
+from api_configuration import get_nfl_reg_schedule_url_path
 from db_configuration import get_nfl_schedules_years, nfl_schedule_django_model, get_db_team_id_by_api_team_id
 
 

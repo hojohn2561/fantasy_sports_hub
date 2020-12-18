@@ -3,7 +3,7 @@ import requests
 import os
 import json
 import time
-from api_configration import get_nfl_game_statistics
+from api_configuration import get_nfl_game_statistics
 
 
 def getNflGameStatistics():

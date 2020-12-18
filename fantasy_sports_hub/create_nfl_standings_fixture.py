@@ -4,7 +4,7 @@ import os
 import json
 import time
 from configuration import get_sport_radar_api_key
-from api_configration import get_nfl_standings_url_path
+from api_configuration import get_nfl_standings_url_path
 from db_configuration import get_nfl_standings_years, nfl_standings_django_model, get_db_team_id_by_api_team_id
 
 

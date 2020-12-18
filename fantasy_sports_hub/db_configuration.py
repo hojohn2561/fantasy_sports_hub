@@ -1,9 +1,10 @@
 import json
-from api_configration import get_team_id_by_team
+from api_configuration import get_team_id_by_team
 
 nfl_schedule_django_model: str = "schedule.NflGame"
 nfl_standings_django_model: str = "standings.NflStanding"
 nfl_team_regular_season_record_django_model: str = "stats.NflTeamRegularSeasonRecord"
+nfl_players_django_model: str = "players.NflPlayer"
 nfl_teams_fixture_file_path: str = "./teams/fixtures/nfl_teams_fixture.json"
 
 

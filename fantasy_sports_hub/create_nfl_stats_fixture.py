@@ -4,7 +4,7 @@ import os
 import json
 import pprint
 from configuration import get_sport_radar_api_key
-from api_configration import get_nfl_reg_schedule_url_path
+from api_configuration import get_nfl_reg_schedule_url_path
 from db_configuration import nfl_team_regular_season_record_django_model
 
 
