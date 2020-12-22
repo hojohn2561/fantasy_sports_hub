@@ -47,7 +47,7 @@ class NflHome extends Component {
           <div class="col-4">
             <HeadlinesCard
               title={"Headlines"}
-              headlines={this.headlineLinks}
+              headlineLinks={this.headlineLinks}
             ></HeadlinesCard>
           </div>
         </div>

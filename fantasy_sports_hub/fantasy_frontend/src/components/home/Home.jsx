@@ -23,7 +23,7 @@ class Home extends Component {
       title: "Quarterback Controversy Looming?",
       description:
         "With the Eagles' division title aspirations diminishing, is it time to take a closer look at what Jalen Hurts can do?",
-      imageLink: "",
+      image: HeadlineCardImage,
     },
   ];
 
@@ -53,7 +53,7 @@ class Home extends Component {
           <div className="col-4">
             <HeadlinesCard
               title={"Top Headlines"}
-              headlines={this.headlineLinks}
+              headlineLinks={this.headlineLinks}
             ></HeadlinesCard>
           </div>
         </div>
