@@ -1,8 +1,29 @@
 import React, { Component } from "react";
+import HeadlinesCard from "../common/card/HeadlinesCard";
 import HeadlineCardImage from "../common/images/jalen-hurts.png";
 
 class NflHome extends Component {
   state = {};
+
+  headlineLinks = [
+    {
+      headline: "Playoff clinching scenarios for Week 13",
+      to: "/nfl",
+    },
+    {
+      headline: "Updated draft order: Top five unchanged",
+      to: "/nfl",
+    },
+    {
+      headline: "Power Rankings: Steelers remain at #1",
+      to: "/nfl",
+    },
+    {
+      headline: "What should the Eagles do with Wentz?",
+      to: "/nfl",
+    },
+  ];
+
   render() {
     return (
       <div>
@@ -23,7 +44,12 @@ class NflHome extends Component {
               </div>
             </div>
           </div>
-          <div class="col-4">col-4</div>
+          <div class="col-4">
+            <HeadlinesCard
+              title={"Headlines"}
+              headlines={this.headlineLinks}
+            ></HeadlinesCard>
+          </div>
         </div>
       </div>
     );

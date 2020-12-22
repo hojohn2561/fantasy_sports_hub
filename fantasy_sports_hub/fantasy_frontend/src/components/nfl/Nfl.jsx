@@ -10,6 +10,7 @@ import NflStandings from "./standings/NflStandings";
 import NflSchedule from "./schedule/NflSchedule";
 import NflTeams from "./teams/NflTeams";
 import NflTeamPage from "./teams/NflTeamPage";
+import DfsLineupOptimizer from "./dfsLineupOptimizer/DfsLineupOptimizer";
 import NflStats from "./stats/NflStats";
 
 class Nfl extends Component {
@@ -160,6 +161,10 @@ class Nfl extends Component {
               render={(props) => <NflTeams teamsData={teamsData} {...props} />}
             />
             <Route path="/nfl/stats" component={NflStats} />
+            <Route
+              path="/nfl/dfs-lineup-optimizer"
+              component={DfsLineupOptimizer}
+            />
             <Route path="/nfl" component={NflHome} />
           </Switch>
         </div>
