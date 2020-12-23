@@ -77,3 +77,7 @@
 .headline-card-body {
   height: 125px;
 }
+
+.headlines-panel-card {
+  height: 100%;
+}

@@ -29,12 +29,7 @@ class HeadlinesCarousel extends Component {
     const { headlineSlides } = this.props;
 
     return (
-      <Carousel
-        responsive={this.responsive}
-        showDots={true}
-        draggable={false}
-        autoPlaySpeed={2000}
-      >
+      <Carousel responsive={this.responsive} showDots={true} draggable={false}>
         {headlineSlides.map((headline) => (
           <div className="card">
             <img
