@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import HeadlineCardImage from "../common/images/jalen-hurts.png";
 import HeadlinesCard from "../common/card/HeadlinesCard";
+import HeadlinesCarousel from "../common/card/HeadlinesCarousel";
+import HeadlineCardImage1 from "../common/images/steelers-vs-football_team.jpg";
+import HeadlineCardImage2 from "../common/images/jalen-hurts.png";
+import HeadlineCardImage3 from "../common/images/nba-stars.jpg";
 
 class Home extends Component {
   headlineLinks = [
@@ -20,10 +23,21 @@ class Home extends Component {
 
   headlineSlides = [
     {
+      title: "Washington Football Team at Pittsburgh Steelers",
+      description:
+        "Can the Steelers keep their undefeated season alive as the Washington Football Team comes to visit?",
+      image: HeadlineCardImage1,
+    },
+    {
       title: "Quarterback Controversy Looming?",
       description:
         "With the Eagles' division title aspirations diminishing, is it time to take a closer look at what Jalen Hurts can do?",
-      image: HeadlineCardImage,
+      image: HeadlineCardImage2,
+    },
+    {
+      title: "The NBA is Back!",
+      description: "The NBA Season is set to begin on 12/22.",
+      image: HeadlineCardImage3,
     },
   ];
 
@@ -35,20 +49,9 @@ class Home extends Component {
         <h1>Main Home Page</h1>
         <div className="row">
           <div className="col-8">
-            <div className="card">
-              <img
-                className="card-img-top headline-card-image"
-                src={HeadlineCardImage}
-                alt="Headline Card Image"
-              />
-              <div className="card-body">
-                <h5 className="card-title">Quarterback Controversy Looming?</h5>
-                <p className="card-text">
-                  With the Eagles' division title aspirations diminishing, is it
-                  time to take a closer look at what Jalen Hurts can do?
-                </p>
-              </div>
-            </div>
+            <HeadlinesCarousel
+              headlineSlides={this.headlineSlides}
+            ></HeadlinesCarousel>
           </div>
           <div className="col-4">
             <HeadlinesCard

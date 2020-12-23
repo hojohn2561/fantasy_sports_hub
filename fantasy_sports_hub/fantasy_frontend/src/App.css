@@ -73,3 +73,7 @@
 .headline-card-image {
   height: 375px;
 }
+
+.headline-card-body {
+  height: 125px;
+}

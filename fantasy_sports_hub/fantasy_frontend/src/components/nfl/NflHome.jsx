@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import HeadlinesCard from "../common/card/HeadlinesCard";
-import HeadlineCardImage from "../common/images/jalen-hurts.png";
+import HeadlinesCarousel from "../common/card/HeadlinesCarousel";
+import HeadlineCardImage1 from "../common/images/steelers-vs-football_team.jpg";
+import HeadlineCardImage2 from "../common/images/jalen-hurts.png";
 
 class NflHome extends Component {
   state = {};
@@ -24,25 +26,29 @@ class NflHome extends Component {
     },
   ];
 
+  headlineSlides = [
+    {
+      title: "Washington Football Team at Pittsburgh Steelers",
+      description:
+        "Can the Steelers keep their undefeated season alive as the Washington Football Team comes to visit?",
+      image: HeadlineCardImage1,
+    },
+    {
+      title: "Quarterback Controversy Looming?",
+      description:
+        "With the Eagles' division title aspirations diminishing, is it time to take a closer look at what Jalen Hurts can do?",
+      image: HeadlineCardImage2,
+    },
+  ];
+
   render() {
     return (
       <div>
         <div class="row">
           <div class="col-8">
-            <div class="card">
-              <img
-                class="card-img-top headline-card-image"
-                src={HeadlineCardImage}
-                alt="Headline Card Image"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Quarterback Controversy Looming?</h5>
-                <p class="card-text">
-                  With the Eagles' division title aspirations diminishing, is it
-                  time to take a closer look at what Jalen Hurts can do?
-                </p>
-              </div>
-            </div>
+            <HeadlinesCarousel
+              headlineSlides={this.headlineSlides}
+            ></HeadlinesCarousel>
           </div>
           <div class="col-4">
             <HeadlinesCard
