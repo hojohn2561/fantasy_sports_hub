@@ -2,7 +2,6 @@ from django.db import models
 from teams.models import NflTeam
 
 
-# Create your models here.
 class NflGame(models.Model):
     season_year = models.PositiveIntegerField()
     season_type = models.CharField(max_length=50)

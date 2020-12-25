@@ -4,6 +4,13 @@ import "./teams.css";
 class NflTeamPage extends Component {
   state = {};
 
+  backgroundImage = {
+    backgroundImage: "url(/media/nfl/stadiums/eagles.png)",
+    backgroundBlendMode: "normal",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "80%",
+  };
+
   render() {
     const { teamsData } = this.props;
     const { teamName: selectedTeamName } = this.props.match.params; // Get selected team name from URL
@@ -16,7 +23,10 @@ class NflTeamPage extends Component {
 
     return (
       <React.Fragment>
-        <div className="jumbotron jumbotron-fluid teamPageBanner">
+        <div
+          className="jumbotron jumbotron-fluid teamPageBanner"
+          style={this.backgroundImage}
+        >
           <div className="teamPageLogo float-left">
             <img
               className="teamPageLogoImage"

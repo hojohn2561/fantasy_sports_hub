@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
+import NbaHome from "./NbaHome";
+import NbaDfsLineupOptimizer from "./dfsLineupOptimizer/NbaDfsLineupOptimizer";
 
 class Nba extends Component {
   state = {};
@@ -6,7 +9,13 @@ class Nba extends Component {
     return (
       <main>
         <div className="container content">
-          <h1>NBA Page</h1>
+          <Switch>
+            <Route
+              path="/nba/dfs-lineup-optimizer"
+              component={NbaDfsLineupOptimizer}
+            />
+            <Route path="/nba" component={NbaHome} />
+          </Switch>
         </div>
       </main>
     );

@@ -10,7 +10,7 @@ import NflStandings from "./standings/NflStandings";
 import NflSchedule from "./schedule/NflSchedule";
 import NflTeams from "./teams/NflTeams";
 import NflTeamPage from "./teams/NflTeamPage";
-import DfsLineupOptimizer from "./dfsLineupOptimizer/DfsLineupOptimizer";
+import NflDfsLineupOptimizer from "./dfsLineupOptimizer/NflDfsLineupOptimizer";
 import NflStats from "./stats/NflStats";
 
 class Nfl extends Component {
@@ -124,7 +124,7 @@ class Nfl extends Component {
 
     return (
       <main>
-        <NflTicker league="nfl" />
+        <NflTicker />
         <div className="container content">
           <Switch>
             <Route path="/nfl/scores" component={NflScores} />
@@ -163,7 +163,7 @@ class Nfl extends Component {
             <Route path="/nfl/stats" component={NflStats} />
             <Route
               path="/nfl/dfs-lineup-optimizer"
-              component={DfsLineupOptimizer}
+              component={NflDfsLineupOptimizer}
             />
             <Route path="/nfl" component={NflHome} />
           </Switch>

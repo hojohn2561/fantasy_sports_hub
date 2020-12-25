@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import NavBarLogo from "./NavBarLogo";
 import NavBarBody from "./NavBarBody";
 import NflDropdownMenu from "../../nfl/NflDropdownMenu";
+import NbaDropdownMenu from "../../nba/NbaDropdownMenu";
 import "./navBar.css";
 
 // To add another NavBar element, add the object to this.state.navBarItems
-
 class NavBar extends Component {
   state = {
     navBarItems: [
@@ -15,7 +15,12 @@ class NavBar extends Component {
         isDropdownOpen: false,
         dropdownMenu: <NflDropdownMenu />,
       },
-      { label: "NBA", to: "/nba", isDropdownOpen: false },
+      {
+        label: "NBA",
+        to: "/nba",
+        isDropdownOpen: false,
+        dropdownMenu: <NbaDropdownMenu />,
+      },
       { label: "NHL", to: "/nba", isDropdownOpen: false },
       { label: "NHL", to: "/nhl", isDropdownOpen: false },
       { label: "MLB", to: "/mlb", isDropdownOpen: false },

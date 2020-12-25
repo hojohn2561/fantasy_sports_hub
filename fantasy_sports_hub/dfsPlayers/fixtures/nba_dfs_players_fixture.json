@@ -1,0 +1,3251 @@
+[
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 52.6,
+            "first_name": "Giannis",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Antetokounmpo",
+            "name": "Giannis Antetokounmpo",
+            "nickname": "Giannis Antetokounmpo",
+            "opponent_team_alias": "GS",
+            "position": "PF",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 48.1,
+            "first_name": "Luka",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Doncic",
+            "name": "Luka Doncic",
+            "nickname": "Luka Doncic",
+            "opponent_team_alias": "LAL",
+            "position": "PG",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 31.5,
+            "first_name": "LeBron",
+            "games_played": 1,
+            "injury_details": "Ankle",
+            "injury_indicator": "GTD",
+            "last_name": "James",
+            "name": "LeBron James",
+            "nickname": "LeBron James",
+            "opponent_team_alias": "DAL",
+            "position": "SF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 25.4,
+            "first_name": "Anthony",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Davis",
+            "name": "Anthony Davis",
+            "nickname": "Anthony Davis",
+            "opponent_team_alias": "DAL",
+            "position": "PF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 48.4,
+            "first_name": "Jayson",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Tatum",
+            "name": "Jayson Tatum",
+            "nickname": "Jayson Tatum",
+            "opponent_team_alias": "BKN",
+            "position": "PF",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 71.0,
+            "first_name": "Nikola",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Jokic",
+            "name": "Nikola Jokic",
+            "nickname": "Nikola Jokic",
+            "opponent_team_alias": "LAC",
+            "position": "C",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 35.9,
+            "first_name": "Kawhi",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Leonard",
+            "name": "Kawhi Leonard",
+            "nickname": "Kawhi Leonard",
+            "opponent_team_alias": "DEN",
+            "position": "SF",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 35.8,
+            "first_name": "Kyrie",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Irving",
+            "name": "Kyrie Irving",
+            "nickname": "Kyrie Irving",
+            "opponent_team_alias": "BOS",
+            "position": "PG",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 42.8,
+            "first_name": "Stephen",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Curry",
+            "name": "Stephen Curry",
+            "nickname": "Stephen Curry",
+            "opponent_team_alias": "MIL",
+            "position": "PG",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 43.5,
+            "first_name": "Kevin",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Durant",
+            "name": "Kevin Durant",
+            "nickname": "Kevin Durant",
+            "opponent_team_alias": "BOS",
+            "position": "PF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 40.2,
+            "first_name": "Bam",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Adebayo",
+            "name": "Bam Adebayo",
+            "nickname": "Bam Adebayo",
+            "opponent_team_alias": "NO",
+            "position": "C",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 48.1,
+            "first_name": "Jimmy",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Butler",
+            "name": "Jimmy Butler",
+            "nickname": "Jimmy Butler",
+            "opponent_team_alias": "NO",
+            "position": "SG",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 41.07,
+            "first_name": "Kristaps",
+            "games_played": 57,
+            "injury_details": "Knee",
+            "injury_indicator": "O",
+            "last_name": "Porzingis",
+            "name": "Kristaps Porzingis",
+            "nickname": "Kristaps Porzingis",
+            "opponent_team_alias": "LAL",
+            "position": "PF",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 19.3,
+            "first_name": "Jamal",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Murray",
+            "name": "Jamal Murray",
+            "nickname": "Jamal Murray",
+            "opponent_team_alias": "LAC",
+            "position": "PG",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 31.5,
+            "first_name": "Zion",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Williamson",
+            "name": "Zion Williamson",
+            "nickname": "Zion Williamson",
+            "opponent_team_alias": "MIA",
+            "position": "PF",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 42.7,
+            "first_name": "Paul",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "George",
+            "name": "Paul George",
+            "nickname": "Paul George",
+            "opponent_team_alias": "DEN",
+            "position": "SG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 54.0,
+            "first_name": "Jaylen",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Brown",
+            "name": "Jaylen Brown",
+            "nickname": "Jaylen Brown",
+            "opponent_team_alias": "BKN",
+            "position": "SF",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 53.8,
+            "first_name": "Khris",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Middleton",
+            "name": "Khris Middleton",
+            "nickname": "Khris Middleton",
+            "opponent_team_alias": "GS",
+            "position": "SG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 60.3,
+            "first_name": "Brandon",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Ingram",
+            "name": "Brandon Ingram",
+            "nickname": "Brandon Ingram",
+            "opponent_team_alias": "MIA",
+            "position": "SF",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 42.7,
+            "first_name": "Jrue",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Holiday",
+            "name": "Jrue Holiday",
+            "nickname": "Jrue Holiday",
+            "opponent_team_alias": "GS",
+            "position": "PG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 29.0,
+            "first_name": "Lonzo",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Ball",
+            "name": "Lonzo Ball",
+            "nickname": "Lonzo Ball",
+            "opponent_team_alias": "MIA",
+            "position": "PG",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 15.9,
+            "first_name": "Andrew",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Wiggins",
+            "name": "Andrew Wiggins",
+            "nickname": "Andrew Wiggins",
+            "opponent_team_alias": "MIL",
+            "position": "SG",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 23.4,
+            "first_name": "Kelly",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Oubre",
+            "name": "Kelly Oubre",
+            "nickname": "Kelly Oubre",
+            "opponent_team_alias": "MIL",
+            "position": "SF",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 18.7,
+            "first_name": "Marcus",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Smart",
+            "name": "Marcus Smart",
+            "nickname": "Marcus Smart",
+            "opponent_team_alias": "BKN",
+            "position": "SG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 37.3,
+            "first_name": "Goran",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Dragic",
+            "name": "Goran Dragic",
+            "nickname": "Goran Dragic",
+            "opponent_team_alias": "NO",
+            "position": "PG",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 28.87,
+            "first_name": "Draymond",
+            "games_played": 43,
+            "injury_details": "Foot",
+            "injury_indicator": "O",
+            "last_name": "Green",
+            "name": "Draymond Green",
+            "nickname": "Draymond Green",
+            "opponent_team_alias": "MIL",
+            "position": "PF",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 34.2,
+            "first_name": "Kemba",
+            "games_played": 57,
+            "injury_details": "Knee",
+            "injury_indicator": "O",
+            "last_name": "Walker",
+            "name": "Kemba Walker",
+            "nickname": "Kemba Walker",
+            "opponent_team_alias": "BKN",
+            "position": "PG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 37.6,
+            "first_name": "Jeff",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Teague",
+            "name": "Jeff Teague",
+            "nickname": "Jeff Teague",
+            "opponent_team_alias": "BKN",
+            "position": "PG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 45.3,
+            "first_name": "Caris",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "LeVert",
+            "name": "Caris LeVert",
+            "nickname": "Caris LeVert",
+            "opponent_team_alias": "BOS",
+            "position": "SF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 31.4,
+            "first_name": "Eric",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Bledsoe",
+            "name": "Eric Bledsoe",
+            "nickname": "Eric Bledsoe",
+            "opponent_team_alias": "MIA",
+            "position": "SG",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 40.1,
+            "first_name": "Steven",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Adams",
+            "name": "Steven Adams",
+            "nickname": "Steven Adams",
+            "opponent_team_alias": "MIA",
+            "position": "C",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 31
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 24.2,
+            "first_name": "Serge",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Ibaka",
+            "name": "Serge Ibaka",
+            "nickname": "Serge Ibaka",
+            "opponent_team_alias": "DEN",
+            "position": "C",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 16.6,
+            "first_name": "Brook",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Lopez",
+            "name": "Brook Lopez",
+            "nickname": "Brook Lopez",
+            "opponent_team_alias": "GS",
+            "position": "C",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 46.0,
+            "first_name": "Michael",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Porter",
+            "name": "Michael Porter",
+            "nickname": "Michael Porter",
+            "opponent_team_alias": "LAC",
+            "position": "SF",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 34
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 19.8,
+            "first_name": "Tim",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Hardaway",
+            "name": "Tim Hardaway",
+            "nickname": "Tim Hardaway",
+            "opponent_team_alias": "LAL",
+            "position": "SF",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 35
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 22.9,
+            "first_name": "Josh",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Richardson",
+            "name": "Josh Richardson",
+            "nickname": "Josh Richardson",
+            "opponent_team_alias": "LAL",
+            "position": "SG",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 16.9,
+            "first_name": "Lou",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Williams",
+            "name": "Lou Williams",
+            "nickname": "Lou Williams",
+            "opponent_team_alias": "DEN",
+            "position": "PG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 14.1,
+            "first_name": "Maxi",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Kleber",
+            "name": "Maxi Kleber",
+            "nickname": "Maxi Kleber",
+            "opponent_team_alias": "LAL",
+            "position": "PF",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 33.4,
+            "first_name": "Will",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Barton",
+            "name": "Will Barton",
+            "nickname": "Will Barton",
+            "opponent_team_alias": "LAC",
+            "position": "SF",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 39
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 18.0,
+            "first_name": "Spencer",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Dinwiddie",
+            "name": "Spencer Dinwiddie",
+            "nickname": "Spencer Dinwiddie",
+            "opponent_team_alias": "BOS",
+            "position": "SG",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 35.5,
+            "first_name": "Montrezl",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Harrell",
+            "name": "Montrezl Harrell",
+            "nickname": "Montrezl Harrell",
+            "opponent_team_alias": "DAL",
+            "position": "C",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 39.4,
+            "first_name": "Dennis",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Schroder",
+            "name": "Dennis Schroder",
+            "nickname": "Dennis Schroder",
+            "opponent_team_alias": "DAL",
+            "position": "SG",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 22.2,
+            "first_name": "Tyler",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Herro",
+            "name": "Tyler Herro",
+            "nickname": "Tyler Herro",
+            "opponent_team_alias": "NO",
+            "position": "SF",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 27.9,
+            "first_name": "Paul",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Millsap",
+            "name": "Paul Millsap",
+            "nickname": "Paul Millsap",
+            "opponent_team_alias": "LAC",
+            "position": "PF",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 10.2,
+            "first_name": "Eric",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Paschall",
+            "name": "Eric Paschall",
+            "nickname": "Eric Paschall",
+            "opponent_team_alias": "MIL",
+            "position": "PF",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 45
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 26.4,
+            "first_name": "Jarrett",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Allen",
+            "name": "Jarrett Allen",
+            "nickname": "Jarrett Allen",
+            "opponent_team_alias": "BOS",
+            "position": "C",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 46
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 6.9,
+            "first_name": "Dwight",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Powell",
+            "name": "Dwight Powell",
+            "nickname": "Dwight Powell",
+            "opponent_team_alias": "LAL",
+            "position": "C",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 47
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 24.7,
+            "first_name": "Ivica",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Zubac",
+            "name": "Ivica Zubac",
+            "nickname": "Ivica Zubac",
+            "opponent_team_alias": "DEN",
+            "position": "C",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 48
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 23.1,
+            "first_name": "Tristan",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Thompson",
+            "name": "Tristan Thompson",
+            "nickname": "Tristan Thompson",
+            "opponent_team_alias": "BKN",
+            "position": "C",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 49
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 21.7,
+            "first_name": "DeAndre",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Jordan",
+            "name": "DeAndre Jordan",
+            "nickname": "DeAndre Jordan",
+            "opponent_team_alias": "BOS",
+            "position": "C",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 50
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 27.1,
+            "first_name": "JJ",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Redick",
+            "name": "JJ Redick",
+            "nickname": "JJ Redick",
+            "opponent_team_alias": "MIA",
+            "position": "SG",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 51
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 30.5,
+            "first_name": "Donte",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "DiVincenzo",
+            "name": "Donte DiVincenzo",
+            "nickname": "Donte DiVincenzo",
+            "opponent_team_alias": "GS",
+            "position": "SG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 52
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 20.1,
+            "first_name": "Marquese",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Chriss",
+            "name": "Marquese Chriss",
+            "nickname": "Marquese Chriss",
+            "opponent_team_alias": "MIL",
+            "position": "PF",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 53
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 20.5,
+            "first_name": "Duncan",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Robinson",
+            "name": "Duncan Robinson",
+            "nickname": "Duncan Robinson",
+            "opponent_team_alias": "NO",
+            "position": "SG",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 54
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 18.4,
+            "first_name": "Gary",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Harris",
+            "name": "Gary Harris",
+            "nickname": "Gary Harris",
+            "opponent_team_alias": "LAC",
+            "position": "SG",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 55
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 22.4,
+            "first_name": "Joe",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Harris",
+            "name": "Joe Harris",
+            "nickname": "Joe Harris",
+            "opponent_team_alias": "BOS",
+            "position": "SF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 56
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 14.2,
+            "first_name": "Kyle",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Kuzma",
+            "name": "Kyle Kuzma",
+            "nickname": "Kyle Kuzma",
+            "opponent_team_alias": "DAL",
+            "position": "PF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 57
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 18.1,
+            "first_name": "Daniel",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Theis",
+            "name": "Daniel Theis",
+            "nickname": "Daniel Theis",
+            "opponent_team_alias": "BKN",
+            "position": "C",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 58
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 26.92,
+            "first_name": "Marcus",
+            "games_played": 62,
+            "injury_details": "Knee",
+            "injury_indicator": "GTD",
+            "last_name": "Morris",
+            "name": "Marcus Morris",
+            "nickname": "Marcus Morris",
+            "opponent_team_alias": "DEN",
+            "position": "PF",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 59
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 19.7,
+            "first_name": "Patrick",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Beverley",
+            "name": "Patrick Beverley",
+            "nickname": "Patrick Beverley",
+            "opponent_team_alias": "DEN",
+            "position": "PG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 60
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 1.2,
+            "first_name": "Reggie",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Jackson",
+            "name": "Reggie Jackson",
+            "nickname": "Reggie Jackson",
+            "opponent_team_alias": "DEN",
+            "position": "SG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 61
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 31.2,
+            "first_name": "James",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Wiseman",
+            "name": "James Wiseman",
+            "nickname": "James Wiseman",
+            "opponent_team_alias": "MIL",
+            "position": "C",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 62
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 31.1,
+            "first_name": "Dorian",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Finney-Smith",
+            "name": "Dorian Finney-Smith",
+            "nickname": "Dorian Finney-Smith",
+            "opponent_team_alias": "LAL",
+            "position": "SF",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 63
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 3.4,
+            "first_name": "Monte",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Morris",
+            "name": "Monte Morris",
+            "nickname": "Monte Morris",
+            "opponent_team_alias": "LAC",
+            "position": "PG",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 64
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 4.4,
+            "first_name": "Kevon",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Looney",
+            "name": "Kevon Looney",
+            "nickname": "Kevon Looney",
+            "opponent_team_alias": "MIL",
+            "position": "C",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 65
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 2.4,
+            "first_name": "Kendrick",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Nunn",
+            "name": "Kendrick Nunn",
+            "nickname": "Kendrick Nunn",
+            "opponent_team_alias": "NO",
+            "position": "PG",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 66
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 17.5,
+            "first_name": "Josh",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Hart",
+            "name": "Josh Hart",
+            "nickname": "Josh Hart",
+            "opponent_team_alias": "MIA",
+            "position": "SG",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 67
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 10.8,
+            "first_name": "Robert",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Williams",
+            "name": "Robert Williams",
+            "nickname": "Robert Williams",
+            "opponent_team_alias": "BKN",
+            "position": "C",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 68
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 17.4,
+            "first_name": "Luke",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Kennard",
+            "name": "Luke Kennard",
+            "nickname": "Luke Kennard",
+            "opponent_team_alias": "DEN",
+            "position": "SG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 69
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 5.9,
+            "first_name": "Willie",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Cauley-Stein",
+            "name": "Willie Cauley-Stein",
+            "nickname": "Willie Cauley-Stein",
+            "opponent_team_alias": "LAL",
+            "position": "C",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 70
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 8.2,
+            "first_name": "Taurean",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Prince",
+            "name": "Taurean Prince",
+            "nickname": "Taurean Prince",
+            "opponent_team_alias": "BOS",
+            "position": "SF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 71
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 3.9,
+            "first_name": "Alex",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Caruso",
+            "name": "Alex Caruso",
+            "nickname": "Alex Caruso",
+            "opponent_team_alias": "DAL",
+            "position": "PG",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 72
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.8,
+            "first_name": "Andre",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Iguodala",
+            "name": "Andre Iguodala",
+            "nickname": "Andre Iguodala",
+            "opponent_team_alias": "NO",
+            "position": "SG",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 73
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 14.4,
+            "first_name": "Damion",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Lee",
+            "name": "Damion Lee",
+            "nickname": "Damion Lee",
+            "opponent_team_alias": "MIL",
+            "position": "SG",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 74
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 6.0,
+            "first_name": "Trey",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Burke",
+            "name": "Trey Burke",
+            "nickname": "Trey Burke",
+            "opponent_team_alias": "LAL",
+            "position": "PG",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 75
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 8.2,
+            "first_name": "Landry",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Shamet",
+            "name": "Landry Shamet",
+            "nickname": "Landry Shamet",
+            "opponent_team_alias": "BOS",
+            "position": "SG",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 76
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 20.31,
+            "first_name": "D.J.",
+            "games_played": 57,
+            "injury_details": "Calf",
+            "injury_indicator": "GTD",
+            "last_name": "Augustin",
+            "name": "D.J. Augustin",
+            "nickname": "D.J. Augustin",
+            "opponent_team_alias": "GS",
+            "position": "PG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 77
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 16.1,
+            "first_name": "Kelly",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Olynyk",
+            "name": "Kelly Olynyk",
+            "nickname": "Kelly Olynyk",
+            "opponent_team_alias": "NO",
+            "position": "C",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 78
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 17.05,
+            "first_name": "JaMychal",
+            "games_played": 63,
+            "injury_details": "Calf",
+            "injury_indicator": "GTD",
+            "last_name": "Green",
+            "name": "JaMychal Green",
+            "nickname": "JaMychal Green",
+            "opponent_team_alias": "LAC",
+            "position": "PF",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 79
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 17.08,
+            "first_name": "Ky",
+            "games_played": 45,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Bowman",
+            "name": "Ky Bowman",
+            "nickname": "Ky Bowman",
+            "opponent_team_alias": "DEN",
+            "position": "PG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 80
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 1.7,
+            "first_name": "Marc",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Gasol",
+            "name": "Marc Gasol",
+            "nickname": "Marc Gasol",
+            "opponent_team_alias": "DAL",
+            "position": "C",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 81
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.7,
+            "first_name": "Pat",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Connaughton",
+            "name": "Pat Connaughton",
+            "nickname": "Pat Connaughton",
+            "opponent_team_alias": "GS",
+            "position": "SG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 82
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 8.3,
+            "first_name": "Bobby",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Portis",
+            "name": "Bobby Portis",
+            "nickname": "Bobby Portis",
+            "opponent_team_alias": "GS",
+            "position": "C",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 83
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 6.9,
+            "first_name": "Jordan",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Poole",
+            "name": "Jordan Poole",
+            "nickname": "Jordan Poole",
+            "opponent_team_alias": "MIL",
+            "position": "PG",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 84
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 19.9,
+            "first_name": "Kentavious",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Caldwell-Pope",
+            "name": "Kentavious Caldwell-Pope",
+            "nickname": "Kentavious Caldwell-Pope",
+            "opponent_team_alias": "DAL",
+            "position": "SG",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 85
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 6.9,
+            "first_name": "Maurice",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Harkless",
+            "name": "Maurice Harkless",
+            "nickname": "Maurice Harkless",
+            "opponent_team_alias": "NO",
+            "position": "SF",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 86
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 13.18,
+            "first_name": "Torrey",
+            "games_played": 58,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Craig",
+            "name": "Torrey Craig",
+            "nickname": "Torrey Craig",
+            "opponent_team_alias": "GS",
+            "position": "SG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 87
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.7,
+            "first_name": "Brad",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Wanamaker",
+            "name": "Brad Wanamaker",
+            "nickname": "Brad Wanamaker",
+            "opponent_team_alias": "MIL",
+            "position": "PG",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 88
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 11.3,
+            "first_name": "Markieff",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Morris",
+            "name": "Markieff Morris",
+            "nickname": "Markieff Morris",
+            "opponent_team_alias": "DAL",
+            "position": "PF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 89
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 17.4,
+            "first_name": "Jalen",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Brunson",
+            "name": "Jalen Brunson",
+            "nickname": "Jalen Brunson",
+            "opponent_team_alias": "LAL",
+            "position": "PG",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 90
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 2.7,
+            "first_name": "Bruce",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Brown",
+            "name": "Bruce Brown",
+            "nickname": "Bruce Brown",
+            "opponent_team_alias": "BOS",
+            "position": "SG",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 91
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 12.26,
+            "first_name": "Bol",
+            "games_played": 7,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Bol",
+            "name": "Bol Bol",
+            "nickname": "Bol Bol",
+            "opponent_team_alias": "LAC",
+            "position": "C",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 92
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 12.22,
+            "first_name": "Wes",
+            "games_played": 52,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Iwundu",
+            "name": "Wes Iwundu",
+            "nickname": "Wes Iwundu",
+            "opponent_team_alias": "LAL",
+            "position": "SG",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 93
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 8.4,
+            "first_name": "Kent",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Bazemore",
+            "name": "Kent Bazemore",
+            "nickname": "Kent Bazemore",
+            "opponent_team_alias": "MIL",
+            "position": "SF",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 94
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 3.0,
+            "first_name": "Wesley",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Matthews",
+            "name": "Wesley Matthews",
+            "nickname": "Wesley Matthews",
+            "opponent_team_alias": "DAL",
+            "position": "SF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 95
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Jaylen",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Adams",
+            "name": "Jaylen Adams",
+            "nickname": "Jaylen Adams",
+            "opponent_team_alias": "GS",
+            "position": "PG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 96
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 13.17,
+            "first_name": "Boban",
+            "games_played": 44,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Marjanovic",
+            "name": "Boban Marjanovic",
+            "nickname": "Boban Marjanovic",
+            "opponent_team_alias": "LAL",
+            "position": "C",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 97
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 21.0,
+            "first_name": "PJ",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Dozier",
+            "name": "PJ Dozier",
+            "nickname": "PJ Dozier",
+            "opponent_team_alias": "LAC",
+            "position": "SG",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 98
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 13.4,
+            "first_name": "Willy",
+            "games_played": 31,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Hernangomez",
+            "name": "Willy Hernangomez",
+            "nickname": "Willy Hernangomez",
+            "opponent_team_alias": "MIA",
+            "position": "C",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 99
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 6.4,
+            "first_name": "Timothe",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Luwawu-Cabarrot",
+            "name": "Timothe Luwawu-Cabarrot",
+            "nickname": "Timothe Luwawu-Cabarrot",
+            "opponent_team_alias": "BOS",
+            "position": "SG",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 100
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 11.3,
+            "first_name": "Semi",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Ojeleye",
+            "name": "Semi Ojeleye",
+            "nickname": "Semi Ojeleye",
+            "opponent_team_alias": "BKN",
+            "position": "SF",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 101
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.1,
+            "first_name": "James",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Johnson",
+            "name": "James Johnson",
+            "nickname": "James Johnson",
+            "opponent_team_alias": "LAL",
+            "position": "PF",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 102
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.7,
+            "first_name": "Grant",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Williams",
+            "name": "Grant Williams",
+            "nickname": "Grant Williams",
+            "opponent_team_alias": "BKN",
+            "position": "PF",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 103
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 9.2,
+            "first_name": "Talen",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Horton-Tucker",
+            "name": "Talen Horton-Tucker",
+            "nickname": "Talen Horton-Tucker",
+            "opponent_team_alias": "DAL",
+            "position": "SG",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 104
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 10.14,
+            "first_name": "Alfonzo",
+            "games_played": 40,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "McKinnie",
+            "name": "Alfonzo McKinnie",
+            "nickname": "Alfonzo McKinnie",
+            "opponent_team_alias": "DAL",
+            "position": "SF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 105
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0.5,
+            "first_name": "Jaxson",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Hayes",
+            "name": "Jaxson Hayes",
+            "nickname": "Jaxson Hayes",
+            "opponent_team_alias": "MIA",
+            "position": "C",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 106
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 5.67,
+            "first_name": "Gabe",
+            "games_played": 9,
+            "injury_details": "Knee",
+            "injury_indicator": "GTD",
+            "last_name": "Vincent",
+            "name": "Gabe Vincent",
+            "nickname": "Gabe Vincent",
+            "opponent_team_alias": "NO",
+            "position": "PG",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 107
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 6.07,
+            "first_name": "Thanasis",
+            "games_played": 20,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Antetokounmpo",
+            "name": "Thanasis Antetokounmpo",
+            "nickname": "Thanasis Antetokounmpo",
+            "opponent_team_alias": "GS",
+            "position": "SF",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 108
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0.0,
+            "first_name": "Mfiondu",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Kabengele",
+            "name": "Mfiondu Kabengele",
+            "nickname": "Mfiondu Kabengele",
+            "opponent_team_alias": "DEN",
+            "position": "SF",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 109
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 10.72,
+            "first_name": "Nicolas",
+            "games_played": 15,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Claxton",
+            "name": "Nicolas Claxton",
+            "nickname": "Nicolas Claxton",
+            "opponent_team_alias": "BOS",
+            "position": "PF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 110
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 3.2,
+            "first_name": "Nickeil",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Alexander-Walker",
+            "name": "Nickeil Alexander-Walker",
+            "nickname": "Nickeil Alexander-Walker",
+            "opponent_team_alias": "MIA",
+            "position": "SG",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 111
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 9.2,
+            "first_name": "Mychal",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Mulder",
+            "name": "Mychal Mulder",
+            "nickname": "Mychal Mulder",
+            "opponent_team_alias": "MIL",
+            "position": "SF",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 112
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 14.0,
+            "first_name": "Jeremiah",
+            "games_played": 9,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Martin",
+            "name": "Jeremiah Martin",
+            "nickname": "Jeremiah Martin",
+            "opponent_team_alias": "BOS",
+            "position": "PG",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 113
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 8.56,
+            "first_name": "Chris",
+            "games_played": 44,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Silva",
+            "name": "Chris Silva",
+            "nickname": "Chris Silva",
+            "opponent_team_alias": "NO",
+            "position": "PF",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 114
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 8.64,
+            "first_name": "Alen",
+            "games_played": 14,
+            "injury_details": "Knee",
+            "injury_indicator": "GTD",
+            "last_name": "Smailagic",
+            "name": "Alen Smailagic",
+            "nickname": "Alen Smailagic",
+            "opponent_team_alias": "MIL",
+            "position": "PF",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 115
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 2.61,
+            "first_name": "Vlatko",
+            "games_played": 14,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Cancar",
+            "name": "Vlatko Cancar",
+            "nickname": "Vlatko Cancar",
+            "opponent_team_alias": "LAC",
+            "position": "SF",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 116
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 15.36,
+            "first_name": "Avery",
+            "games_played": 49,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Bradley",
+            "name": "Avery Bradley",
+            "nickname": "Avery Bradley",
+            "opponent_team_alias": "NO",
+            "position": "SG",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 117
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 13.1,
+            "first_name": "Patrick",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Patterson",
+            "name": "Patrick Patterson",
+            "nickname": "Patrick Patterson",
+            "opponent_team_alias": "DEN",
+            "position": "PF",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 118
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 13.5,
+            "first_name": "Devontae",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Cacok",
+            "name": "Devontae Cacok",
+            "nickname": "Devontae Cacok",
+            "opponent_team_alias": "DAL",
+            "position": "PF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 119
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 14.74,
+            "first_name": "Meyers",
+            "games_played": 51,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Leonard",
+            "name": "Meyers Leonard",
+            "nickname": "Meyers Leonard",
+            "opponent_team_alias": "NO",
+            "position": "C",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 120
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 8.05,
+            "first_name": "Javonte",
+            "games_played": 48,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Green",
+            "name": "Javonte Green",
+            "nickname": "Javonte Green",
+            "opponent_team_alias": "BKN",
+            "position": "SG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 121
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 3.1,
+            "first_name": "Max",
+            "games_played": 2,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Strus",
+            "name": "Max Strus",
+            "nickname": "Max Strus",
+            "opponent_team_alias": "NO",
+            "position": "SF",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 122
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.79,
+            "first_name": "Tacko",
+            "games_played": 7,
+            "injury_details": "Eye",
+            "injury_indicator": "O",
+            "last_name": "Fall",
+            "name": "Tacko Fall",
+            "nickname": "Tacko Fall",
+            "opponent_team_alias": "BKN",
+            "position": "C",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 123
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Nate",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Hinton",
+            "name": "Nate Hinton",
+            "nickname": "Nate Hinton",
+            "opponent_team_alias": "LAL",
+            "position": "SG",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 124
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 24.2,
+            "first_name": "Nicolas",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Batum",
+            "name": "Nicolas Batum",
+            "nickname": "Nicolas Batum",
+            "opponent_team_alias": "DEN",
+            "position": "SF",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 125
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Will",
+            "games_played": 0,
+            "injury_details": "Not injury related",
+            "injury_indicator": "O",
+            "last_name": "Magnay",
+            "name": "Will Magnay",
+            "nickname": "Will Magnay",
+            "opponent_team_alias": "MIA",
+            "position": "C",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 126
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.4,
+            "first_name": "Nicolo",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Melli",
+            "name": "Nicolo Melli",
+            "nickname": "Nicolo Melli",
+            "opponent_team_alias": "MIA",
+            "position": "PF",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 127
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.93,
+            "first_name": "Udonis",
+            "games_played": 4,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Haslem",
+            "name": "Udonis Haslem",
+            "nickname": "Udonis Haslem",
+            "opponent_team_alias": "NO",
+            "position": "PF",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 128
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 15.4,
+            "first_name": "Sindarius",
+            "games_played": 2,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Thornwell",
+            "name": "Sindarius Thornwell",
+            "nickname": "Sindarius Thornwell",
+            "opponent_team_alias": "MIA",
+            "position": "SG",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 129
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Jay",
+            "games_played": 0,
+            "injury_details": "Foot",
+            "injury_indicator": "O",
+            "last_name": "Scrubb",
+            "name": "Jay Scrubb",
+            "nickname": "Jay Scrubb",
+            "opponent_team_alias": "DEN",
+            "position": "SG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 130
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Yam",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Madar",
+            "name": "Yam Madar",
+            "nickname": "Yam Madar",
+            "opponent_team_alias": "BKN",
+            "position": "PG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 131
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0.0,
+            "first_name": "Amir",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Coffey",
+            "name": "Amir Coffey",
+            "nickname": "Amir Coffey",
+            "opponent_team_alias": "DEN",
+            "position": "PF",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 132
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "R.J.",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Hampton",
+            "name": "R.J. Hampton",
+            "nickname": "R.J. Hampton",
+            "opponent_team_alias": "LAC",
+            "position": "PG",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 133
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 3.0,
+            "first_name": "Facundo",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Campazzo",
+            "name": "Facundo Campazzo",
+            "nickname": "Facundo Campazzo",
+            "opponent_team_alias": "LAC",
+            "position": "PG",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 134
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Naji",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Marshall",
+            "name": "Naji Marshall",
+            "nickname": "Naji Marshall",
+            "opponent_team_alias": "MIA",
+            "position": "SF",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 135
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Zeke",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Nnaji",
+            "name": "Zeke Nnaji",
+            "nickname": "Zeke Nnaji",
+            "opponent_team_alias": "LAC",
+            "position": "PF",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 136
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 11.6,
+            "first_name": "Precious",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Achiuwa",
+            "name": "Precious Achiuwa",
+            "nickname": "Precious Achiuwa",
+            "opponent_team_alias": "NO",
+            "position": "SF",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 137
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Jordan",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Ford",
+            "name": "Jordan Ford",
+            "nickname": "Jordan Ford",
+            "opponent_team_alias": "DEN",
+            "position": "PG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 138
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Jordan",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Nwora",
+            "name": "Jordan Nwora",
+            "nickname": "Jordan Nwora",
+            "opponent_team_alias": "GS",
+            "position": "PF",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 139
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Malik",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Fitts",
+            "name": "Malik Fitts",
+            "nickname": "Malik Fitts",
+            "opponent_team_alias": "DEN",
+            "position": "PF",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 140
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 13.93,
+            "first_name": "Wilson",
+            "games_played": 35,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Chandler",
+            "name": "Wilson Chandler",
+            "nickname": "Wilson Chandler",
+            "opponent_team_alias": "BOS",
+            "position": "SF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 141
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Kira",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Lewis",
+            "name": "Kira Lewis",
+            "nickname": "Kira Lewis",
+            "opponent_team_alias": "MIA",
+            "position": "PG",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 142
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0.0,
+            "first_name": "Sam",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Merrill",
+            "name": "Sam Merrill",
+            "nickname": "Sam Merrill",
+            "opponent_team_alias": "GS",
+            "position": "PG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 143
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 4.2,
+            "first_name": "Tyler",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Johnson",
+            "name": "Tyler Johnson",
+            "nickname": "Tyler Johnson",
+            "opponent_team_alias": "BOS",
+            "position": "PG",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 144
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Daniel",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Oturu",
+            "name": "Daniel Oturu",
+            "nickname": "Daniel Oturu",
+            "opponent_team_alias": "DEN",
+            "position": "C",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 145
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Tyrell",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Terry",
+            "name": "Tyrell Terry",
+            "nickname": "Tyrell Terry",
+            "opponent_team_alias": "LAL",
+            "position": "PG",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 146
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Klay",
+            "games_played": 0,
+            "injury_details": "Achilles",
+            "injury_indicator": "O",
+            "last_name": "Thompson",
+            "name": "Klay Thompson",
+            "nickname": "Klay Thompson",
+            "opponent_team_alias": "MIL",
+            "position": "SG",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 147
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 2.0,
+            "first_name": "Josh",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Green",
+            "name": "Josh Green",
+            "nickname": "Josh Green",
+            "opponent_team_alias": "LAL",
+            "position": "SG",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 148
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 10.5,
+            "first_name": "Jeff",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Green",
+            "name": "Jeff Green",
+            "nickname": "Jeff Green",
+            "opponent_team_alias": "BOS",
+            "position": "PF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 149
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 7.2,
+            "first_name": "Payton",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Pritchard",
+            "name": "Payton Pritchard",
+            "nickname": "Payton Pritchard",
+            "opponent_team_alias": "BKN",
+            "position": "PG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 150
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Tyler",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Bey",
+            "name": "Tyler Bey",
+            "nickname": "Tyler Bey",
+            "opponent_team_alias": "LAL",
+            "position": "SF",
+            "team_alias": "DAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 151
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 9.5,
+            "first_name": "D.J.",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Wilson",
+            "name": "D.J. Wilson",
+            "nickname": "D.J. Wilson",
+            "opponent_team_alias": "GS",
+            "position": "PF",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 152
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Aaron",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Nesmith",
+            "name": "Aaron Nesmith",
+            "nickname": "Aaron Nesmith",
+            "opponent_team_alias": "BKN",
+            "position": "SG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 153
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 13.6,
+            "first_name": "Isaiah",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Hartenstein",
+            "name": "Isaiah Hartenstein",
+            "nickname": "Isaiah Hartenstein",
+            "opponent_team_alias": "LAC",
+            "position": "PF",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 154
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 5.9,
+            "first_name": "Reggie",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Perry",
+            "name": "Reggie Perry",
+            "nickname": "Reggie Perry",
+            "opponent_team_alias": "BOS",
+            "position": "PF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 155
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Justinian",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Jessup",
+            "name": "Justinian Jessup",
+            "nickname": "Justinian Jessup",
+            "opponent_team_alias": "MIL",
+            "position": "SG",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 156
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Nico",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Mannion",
+            "name": "Nico Mannion",
+            "nickname": "Nico Mannion",
+            "opponent_team_alias": "MIL",
+            "position": "PG",
+            "team_alias": "GS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 157
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Markus",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Howard",
+            "name": "Markus Howard",
+            "nickname": "Markus Howard",
+            "opponent_team_alias": "LAC",
+            "position": "PG",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 158
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 4.85,
+            "first_name": "Jared",
+            "games_played": 45,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Dudley",
+            "name": "Jared Dudley",
+            "nickname": "Jared Dudley",
+            "opponent_team_alias": "DAL",
+            "position": "SF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 159
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Mamadi",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Diakite",
+            "name": "Mamadi Diakite",
+            "nickname": "Mamadi Diakite",
+            "opponent_team_alias": "GS",
+            "position": "PF",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 160
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 5.85,
+            "first_name": "Wenyen",
+            "games_played": 30,
+            "injury_details": "Knee",
+            "injury_indicator": "O",
+            "last_name": "Gabriel",
+            "name": "Wenyen Gabriel",
+            "nickname": "Wenyen Gabriel",
+            "opponent_team_alias": "MIA",
+            "position": "PF",
+            "team_alias": "NO",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 161
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 4.2,
+            "first_name": "Rodions",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Kurucs",
+            "name": "Rodions Kurucs",
+            "nickname": "Rodions Kurucs",
+            "opponent_team_alias": "BOS",
+            "position": "PF",
+            "team_alias": "BKN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 162
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0,
+            "first_name": "Greg",
+            "games_played": 0,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Whittington",
+            "name": "Greg Whittington",
+            "nickname": "Greg Whittington",
+            "opponent_team_alias": "LAC",
+            "position": "SF",
+            "team_alias": "DEN",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 163
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0.0,
+            "first_name": "Quinn",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Cook",
+            "name": "Quinn Cook",
+            "nickname": "Quinn Cook",
+            "opponent_team_alias": "DAL",
+            "position": "PG",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 164
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 4.5,
+            "first_name": "KZ",
+            "games_played": 5,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Okpala",
+            "name": "KZ Okpala",
+            "nickname": "KZ Okpala",
+            "opponent_team_alias": "NO",
+            "position": "SF",
+            "team_alias": "MIA",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 165
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 0.0,
+            "first_name": "Terance",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Mann",
+            "name": "Terance Mann",
+            "nickname": "Terance Mann",
+            "opponent_team_alias": "DEN",
+            "position": "SG",
+            "team_alias": "LAC",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 166
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 4.2,
+            "first_name": "Bryn",
+            "games_played": 1,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Forbes",
+            "name": "Bryn Forbes",
+            "nickname": "Bryn Forbes",
+            "opponent_team_alias": "GS",
+            "position": "SG",
+            "team_alias": "MIL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 167
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 9.04,
+            "first_name": "Tremont",
+            "games_played": 11,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Waters",
+            "name": "Tremont Waters",
+            "nickname": "Tremont Waters",
+            "opponent_team_alias": "BKN",
+            "position": "PG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 168
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 5.77,
+            "first_name": "Romeo",
+            "games_played": 32,
+            "injury_details": "Wrist",
+            "injury_indicator": "O",
+            "last_name": "Langford",
+            "name": "Romeo Langford",
+            "nickname": "Romeo Langford",
+            "opponent_team_alias": "BKN",
+            "position": "SG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 169
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 2.52,
+            "first_name": "Kostas",
+            "games_played": 5,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Antetokounmpo",
+            "name": "Kostas Antetokounmpo",
+            "nickname": "Kostas Antetokounmpo",
+            "opponent_team_alias": "DAL",
+            "position": "PF",
+            "team_alias": "LAL",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 170
+    },
+    {
+        "fields": {
+            "dfs_date": "2020-12-25T00:00:00",
+            "fantasy_points_per_game": 6.66,
+            "first_name": "Carsen",
+            "games_played": 37,
+            "injury_details": "",
+            "injury_indicator": "",
+            "last_name": "Edwards",
+            "name": "Carsen Edwards",
+            "nickname": "Carsen Edwards",
+            "opponent_team_alias": "BKN",
+            "position": "PG",
+            "team_alias": "BOS",
+            "tier": ""
+        },
+        "model": "dfsPlayers.NbaDfsPlayer",
+        "pk": 171
+    }
+]

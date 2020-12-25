@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'players.apps.PlayersConfig',
     'schedule.apps.ScheduleConfig',
     'stats.apps.StatsConfig',
+    'dfsPlayers.apps.DfsPlayersConfig',
 ]
 
 MIDDLEWARE = [
