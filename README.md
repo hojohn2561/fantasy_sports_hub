@@ -27,7 +27,7 @@ This web app utilizes a [React](https://reactjs.org/) front-end and [Django-Rest
 - [pip](https://github.com/pypa/pip)
 - The [venv](https://docs.python.org/3/library/venv.html) Python module.
 - To get sports data, you need a SportRadar API key. Paste yours into the required location in configuration.py.
-Currently, to run the application, use the command ```python manage.py runserver``` and then navigate to ```localhost:8000```.
+- To activate the virtual environment, use: ```pipenv shell```. To run the web app in dev, use ```python manage.py runserver```, then navigate to ```localhost:8000``` in your web browser.
 
 ## Contributors
 - [John Ho](https://github.com/hojohn2561)
